@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="DebitType" extends="default">        
+        <action name="catalogApParamsDebit" class="com.viettel.im.database.DAO.CatalogApParamsDebitDAO" method="prepare">
+            <interceptor-ref name="fkInterceptor">
+                <param name="tokenSession.includeMethods">
+                    insert, update, delete
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="prepare">catalogApParamsDebitMain.page</result>
+            <result type="tiles" name="listResult">catalogApParamsDebitListResult.page</result>
+            <result type="tiles" name="query">catalogApParamsDebitQuery.page</result>
+        </action>
+        <action name="debitDayTypeAction" class="com.viettel.im.database.DAO.DebitDayTypeDAO" method="preparePage">
+            <interceptor-ref name="fkInterceptor">
+                <param name="tokenSession.includeMethods">
+                    addNewDebitDayType,editDebitDayType,deleteDebitDayType
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="addDebitDayType">debitDayType.page</result>
+            <result type="tiles" name="pageNavigator">addNewDebitDayTypeResult.page</result>
+            <result type="stream" name="download">
+                <param name="inputName">inputStream</param>
+                <param name="contentDisposition">filename=%{filename}</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+        
+        <action name="debitTypeAction" class="com.viettel.im.database.DAO.DebitTypeDAO" method="preparePage">
+            <interceptor-ref name="fkInterceptor">
+                <param name="tokenSession.includeMethods">
+                    addNewDebitType,editDebitType,deleteDebitType
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="addDebitType">stockConfigurationLimits.page</result>
+            <result type="tiles" name="pageNavigator">addNewDebitTypeResult.page</result>
+        </action>
+    </package>
+</struts>

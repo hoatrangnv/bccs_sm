@@ -1,0 +1,437 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/code/!svn/ver/2743/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale
+END
+saleCollToRetailDetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/saleCollToRetailDetail.jsp
+END
+saleCollToRetailGoodsList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/saleCollToRetailGoodsList.jsp
+END
+ListCollaboratorModelResultOrder.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/code/!svn/ver/2420/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/ListCollaboratorModelResultOrder.jsp
+END
+createInvoiceSaleTrans.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/createInvoiceSaleTrans.jsp
+END
+SaleToPromotion.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/SaleToPromotion.jsp
+END
+createInvoiceNotSaleInputGood.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/createInvoiceNotSaleInputGood.jsp
+END
+saleCollToRetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/saleCollToRetail.jsp
+END
+searchRequestBorrowCashList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/2639/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/searchRequestBorrowCashList.jsp
+END
+saleBankManagmentResultDocument.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/2425/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/saleBankManagmentResultDocument.jsp
+END
+borrowCashReportDebitByUser.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/2612/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/borrowCashReportDebitByUser.jsp
+END
+saleTransManagmentDetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/saleTransManagmentDetail.jsp
+END
+saleFromExpCommandDetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/saleFromExpCommandDetail.jsp
+END
+printInvoiceResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/printInvoiceResult.jsp
+END
+invoiceManagementDetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/invoiceManagementDetail.jsp
+END
+saleToPromotionInputUpdateGoods.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/saleToPromotionInputUpdateGoods.jsp
+END
+approveInvoiceCreditManagementList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/code/!svn/ver/146/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/approveInvoiceCreditManagementList.jsp
+END
+saleToCollaboratorDetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/1511/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/saleToCollaboratorDetail.jsp
+END
+saleTransManagmentOrder.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/2612/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/saleTransManagmentOrder.jsp
+END
+borrowCashReportDebitByTrans.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/2612/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/borrowCashReportDebitByTrans.jsp
+END
+createInvoice.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/createInvoice.jsp
+END
+saleTransManagment.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/saleTransManagment.jsp
+END
+saleFromExpCommand.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/saleFromExpCommand.jsp
+END
+invoiceCreditManagement.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/2002/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/invoiceCreditManagement.jsp
+END
+retailSale.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/retailSale.jsp
+END
+invoiceManagementList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/invoiceManagementList.jsp
+END
+saleCollToRetailInputGood.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/saleCollToRetailInputGood.jsp
+END
+printRequestBorrowCashResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/2612/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/printRequestBorrowCashResult.jsp
+END
+prepareRevertTrans.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/2719/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/prepareRevertTrans.jsp
+END
+ListCollaboratorModelResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/2002/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/ListCollaboratorModelResult.jsp
+END
+createInvoiceNoSaleDetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/createInvoiceNoSaleDetail.jsp
+END
+saleBankManagmentDocument.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/2418/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/saleBankManagmentDocument.jsp
+END
+invoiceSaleTrans.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/146/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/invoiceSaleTrans.jsp
+END
+destroySaleInvoice.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/destroySaleInvoice.jsp
+END
+invoiceManagementDetailSaleTransDetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/invoiceManagementDetailSaleTransDetail.jsp
+END
+createInvoiceNoSale.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/createInvoiceNoSale.jsp
+END
+saleTransManagmentSerial.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/saleTransManagmentSerial.jsp
+END
+invoiceManagementDetailSaleTransList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/invoiceManagementDetailSaleTransList.jsp
+END
+creditInvoiceResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/146/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/creditInvoiceResult.jsp
+END
+returnMsg.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/code/!svn/ver/146/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/returnMsg.jsp
+END
+declareSaleToPromotionGood.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/declareSaleToPromotionGood.jsp
+END
+saleToPromotionGoodsResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/saleToPromotionGoodsResult.jsp
+END
+prepareGetReportDebitByUser.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/2612/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/prepareGetReportDebitByUser.jsp
+END
+invoiceSaleTransSearchResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/invoiceSaleTransSearchResult.jsp
+END
+invoiceCreditSaleTransList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/146/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/invoiceCreditSaleTransList.jsp
+END
+destroySaleInvoiceSearchResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/destroySaleInvoiceSearchResult.jsp
+END
+invoiceUsedDetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/invoiceUsedDetail.jsp
+END
+searchRequestBorrowCash.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/2639/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/searchRequestBorrowCash.jsp
+END
+requestBorrowCashList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/2639/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/requestBorrowCashList.jsp
+END
+saleTransManagmentResultOrder.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/2743/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/saleTransManagmentResultOrder.jsp
+END
+invoiceCreditManagementList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/146/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/invoiceCreditManagementList.jsp
+END
+approveInvoiceCreditManagement.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/2002/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/approveInvoiceCreditManagement.jsp
+END
+StockGoodsCollaborator.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/StockGoodsCollaborator.jsp
+END
+changeDamagedGoods.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/changeDamagedGoods.jsp
+END
+createInvoiceNotSaleDetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/createInvoiceNotSaleDetail.jsp
+END
+invoiceManagement.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/invoiceManagement.jsp
+END
+saleToCollaborator.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/2002/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/saleToCollaborator.jsp
+END
+invoiceSaleTransDetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/invoiceSaleTransDetail.jsp
+END
+approveInvoiceCreditSaleTransList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/code/!svn/ver/146/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/approveInvoiceCreditSaleTransList.jsp
+END
+createInvoiceNotSaleGoodsList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/createInvoiceNotSaleGoodsList.jsp
+END
+saleTransManagmentDetailOrder.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/2612/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/saleTransManagmentDetailOrder.jsp
+END
+invoiceToWholeSale.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/invoiceToWholeSale.jsp
+END
+createInvoiceNoSaleDetailInputItem.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/createInvoiceNoSaleDetailInputItem.jsp
+END
+prepareGetReportDebitByTrans.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/2612/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/prepareGetReportDebitByTrans.jsp
+END
+invoiceSaleTransList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/invoiceSaleTransList.jsp
+END
+invoiceDestroySaleTransDetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/invoiceDestroySaleTransDetail.jsp
+END
+createInvoiceNotSale.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/createInvoiceNotSale.jsp
+END
+createInvoiceSerialNo.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/createInvoiceSerialNo.jsp
+END
+revertTrans.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/code/!svn/ver/2719/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/revertTrans.jsp
+END
+createInvoiceNoSaleDetailItemList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/createInvoiceNoSaleDetailItemList.jsp
+END
+CancelUsedBillsSearchResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/CancelUsedBillsSearchResult.jsp
+END
+TotalResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/TotalResult.jsp
+END
+saleTransManagmentResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/2002/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Sale/saleTransManagmentResult.jsp
+END

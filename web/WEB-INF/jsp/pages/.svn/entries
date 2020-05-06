@@ -1,0 +1,208 @@
+10
+
+dir
+2764
+https://10.229.40.57/svn/code/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages
+https://10.229.40.57/svn/code
+
+
+
+2020-04-17T06:22:01.102117Z
+2743
+manhnv
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c0c163ac-96ab-e343-86b4-268b6b7d3656
+
+BillManagement
+dir
+
+Infrastructure
+dir
+
+goodsMgr
+dir
+
+Fees
+dir
+
+ExportStockToMasterAgent
+dir
+
+saleChannelMgr
+dir
+
+error.jsp
+file
+
+
+
+
+2020-01-22T07:21:06.913836Z
+716e6ceebaa14d65bcad114e1c4c0d30
+2016-07-11T14:46:41.777000Z
+93
+dinhdc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+988
+
+Sale
+dir
+
+ManagementCTVAndPoint
+dir
+
+Debit
+dir
+
+common
+dir
+
+DebitType
+dir
+
+SimSo
+dir
+
+IsdnManagement
+dir
+
+BookType
+dir
+
+Simtoolkit
+dir
+
+CardNotSale
+dir
+
+index.jsp
+file
+
+
+
+
+2020-01-22T07:21:06.917823Z
+da1e6aa5b7523ce4fa5c5f6cea84abee
+2015-08-31T22:41:56.414400Z
+6
+dinhdc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1335
+
+Facility
+dir
+
+resultExportSuccess.jsp
+file
+
+
+
+
+2020-01-22T07:21:06.915831Z
+fcd73ec488642ad3aa2b3fecb5962b77
+2016-07-11T14:46:41.777000Z
+93
+dinhdc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2029
+
+CollAccount
+dir
+
+ReqCardNotSale
+dir
+
+Channel
+dir
+
+login
+dir
+
+Report
+dir
+
+Goods
+dir
+
+StockManagment
+dir
+
+List
+dir
+
+layout
+dir
+

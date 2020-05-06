@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.viettel.im.database.BO.PackageGoodsReplace" table="PACKAGE_GOODS_REPLACE">
+        <id name="packageGoodsReplaceId" type="java.lang.Long">
+            <column name="PACKAGE_GOODS_REPLACE_ID" not-null="true" precision="10" scale="0"/>
+            <generator class="assigned"/>
+        </id>
+        <property name="packageGoodsDetailId" type="java.lang.Long">
+            <column name="PACKAGE_GOODS_DETAIL_ID" not-null="true" precision="10" scale="0"/>
+        </property>
+        <property name="stockModelId" type="java.lang.Long">
+            <column name="STOCK_MODEL_ID" not-null="true" precision="10" scale="0"/>
+        </property>
+        <property name="status" type="java.lang.Long">
+            <column name="STATUS" not-null="true" precision="1" scale="0"/>
+        </property>
+        <property name="note" type="java.lang.String">
+            <column length="200" name="NOTE"/>
+        </property>
+        <property name="createdDate" type="java.util.Date">
+            <column length="7" name="CREATED_DATE"/>
+        </property>
+        <property name="createdBy" type="java.lang.String">
+            <column length="50" name="CREATED_BY"/>
+        </property>
+        <property name="lastUpdatedDate" type="java.util.Date">
+            <column length="7" name="LAST_UPDATED_DATE"/>
+        </property>
+        <property name="lastUpdatedBy" type="java.lang.String">
+            <column length="50" name="LAST_UPDATED_BY"/>
+        </property>
+    </class>
+</hibernate-mapping>

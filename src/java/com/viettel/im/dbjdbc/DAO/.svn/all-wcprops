@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/dbjdbc/DAO
+END
+StockTransDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/dbjdbc/DAO/StockTransDAO.java
+END
+StockTransSerialDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/dbjdbc/DAO/StockTransSerialDAO.java
+END
+StockCommonDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/dbjdbc/DAO/StockCommonDAO.java
+END
+JdbcBaseDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/dbjdbc/DAO/JdbcBaseDAO.java
+END
+BaseStockDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/dbjdbc/DAO/BaseStockDAO.java
+END
+StockTransDetailDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/dbjdbc/DAO/StockTransDetailDAO.java
+END
+CallJobRunSysTransAnyPay.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/dbjdbc/DAO/CallJobRunSysTransAnyPay.java
+END
+CancelRevokeCollJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/dbjdbc/DAO/CancelRevokeCollJob.java
+END
+AccountBalanceDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/dbjdbc/DAO/AccountBalanceDAO.java
+END
+StockModelDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/dbjdbc/DAO/StockModelDAO.java
+END
+CancelRevokeCollAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/dbjdbc/DAO/CancelRevokeCollAction.java
+END
+JdbcConnectionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/dbjdbc/DAO/JdbcConnectionFactory.java
+END
+AccountBookDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/dbjdbc/DAO/AccountBookDAO.java
+END

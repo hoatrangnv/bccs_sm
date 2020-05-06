@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/146/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Export/FromShopToStaff
+END
+ListSearchExpNote.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Export/FromShopToStaff/ListSearchExpNote.jsp
+END
+CreateExpNote.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Export/FromShopToStaff/CreateExpNote.jsp
+END
+CreateExpCmdToStaff.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/code/!svn/ver/146/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Export/FromShopToStaff/CreateExpCmdToStaff.jsp
+END
+ExportStockToStaff.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Export/FromShopToStaff/ExportStockToStaff.jsp
+END
+CreateExpNoteToStaff.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Export/FromShopToStaff/CreateExpNoteToStaff.jsp
+END
+ExpStock.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Export/FromShopToStaff/ExpStock.jsp
+END
+ListSearchExpCmd.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Export/FromShopToStaff/ListSearchExpCmd.jsp
+END

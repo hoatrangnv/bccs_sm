@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/common
+END
+listPoupSearchAgent.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/common/listPoupSearchAgent.jsp
+END
+listPoupSearch.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/common/listPoupSearch.jsp
+END
+imFileUploadList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/common/imFileUploadList.jsp
+END
+imSearchList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/common/imSearchList.jsp
+END
+error.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/common/error.jsp
+END
+imFileUpload.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/common/imFileUpload.jsp
+END
+updateAndClose.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/common/updateAndClose.jsp
+END
+imFileUploadPopup.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/common/imFileUploadPopup.jsp
+END
+imSearchPopup.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/common/imSearchPopup.jsp
+END
+listPoupSearchNoAgent.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/common/listPoupSearchNoAgent.jsp
+END

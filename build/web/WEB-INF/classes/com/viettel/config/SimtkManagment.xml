@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="SimtkManagment" extends="default">
+        <action name="simtkManagmentAction" class="com.viettel.im.database.DAO.SimtkManagementDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    activeSimtk,inActiveSimtk,reActiveSimtk,activeAccountBalance,
+                    inActiveAccountBalance,reActiveAccountBalance,
+                    createReceiveDeposit,resetReceiveDeposit,createPayDeposit,resetPayDeposit,
+                    activeAccountAnypay,inActiveAccountAnypay,reActiveAccountAnypay,
+                    activeAccountPayment,
+                    inActiveAccountPayment,reActiveAccountPayment,changePassword,
+                    updateSimtk,refreshParent,updateAccountBalance,
+                    updateAccountAnypay,updateAccountPayment,
+                    unlockSimtk,updateLinkStk,changeISDN
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="simtkManagment">simtkManagment.page</result>
+            <result type="tiles" name="lstSimtk">lstSimtk.page</result>
+            <result type="tiles" name="simtk">simtk.page</result>
+            <result type="tiles" name="accountBalance">accountBalance.page</result>
+            <result type="tiles" name="receiveDepositAccountBalance">receiveDepositAccountBalance.page</result>
+            <result type="tiles" name="payDepositAccountBalance">payDepositAccountBalance.page</result>
+            <result type="tiles" name="ViewAccountBook">ViewAccountBook.page</result>
+            <result type="tiles" name="changePassword">changePassword.page</result>
+            <result type="tiles" name="changeISDN">changeISDN.page</result>
+            <result type="json" name="autoSelectIsdn">
+                <param name="root">listSerial</param>
+            </result>
+            <result type="tiles" name="showLogAccountAgent">showLogChangeAccountFPT.page</result>
+            <result type="tiles" name="showLogAccountAgentDetail">ShowLogDetail.page</result>
+            
+        </action>
+        <!-- Phan Quyen cho Shop DKTT tren USSD 156-->
+        <action name="authenShopDKTTAction" class="com.viettel.im.database.DAO.AuthenShopDKTTDAO" method="preparePage">
+            <result type="tiles" name="shopTreeOverview">shopTreeOverview.page</result>
+            <result type="tiles" name="shopDKTTDetail">shopDKTTDetail.page</result>
+            <result type="tiles" name="shopDKTT">shopDKTT.page</result>
+            <result type="tiles" name="listShopDKTT">listShopDKTT.page</result>
+            <result type="tiles" name="shopDKTTResult">shopDKTTResult.page</result>
+            <result type="json" name="getShopTreeDKTT">
+                <param name="root">listItems</param>
+            </result>
+        </action>
+        <!-- Phan Quyen cho Shop DKTT tren USSD 156-->
+        
+        <!-- Phan Quyen cho SIM TK DKTT tren USSD 156-->
+        <action name="simtkDKTTAction" class="com.viettel.im.database.DAO.AuthenSimtkDKTTDAO" method="preparePage">
+            <result type="tiles" name="preparePageSimtkDKTT">preparePageSimtkDKTT.page</result>
+            <result type="tiles" name="listSimtkDKTT">listSimtkDKTT.page</result>
+        </action>
+        <!-- Phan Quyen cho SIM TK DKTT tren USSD 156-->
+                    
+    </package>
+</struts>

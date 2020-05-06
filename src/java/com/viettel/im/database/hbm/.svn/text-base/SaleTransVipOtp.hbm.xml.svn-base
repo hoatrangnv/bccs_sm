@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 23, 2015 9:36:16 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="com.viettel.im.database.BO.SaleTransVipOtp" table="SALE_TRANS_VIP_OTP">
+        <id name="msisdn" type="string">
+            <column name="MSISDN" length="25" />
+            <generator class="assigned" />
+        </id>
+        <property name="otp" type="string">
+            <column name="OTP" length="200" />
+        </property>
+        <property name="createDateOtp" type="timestamp">
+            <column name="CREATE_DATE_OTP" length="7" />
+        </property>
+    </class>
+</hibernate-mapping>

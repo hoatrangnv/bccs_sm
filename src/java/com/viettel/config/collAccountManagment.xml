@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <package name="CollAccountManagment" extends="default">
+
+        <!-- Quan ly tai khoan CTV -->
+        <action name="CollAccountManagmentAction" class="com.viettel.im.database.DAO.CollAccountManagmentDAO" method="prepareCollAccountManagment">
+            <!--           CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    activeAccountAnyPayFPT,
+                    activeAccountColl,
+                    activeAnyPay,
+                    addAccountAnyPay,
+                    addAccountColl,
+                    addBorrowCredit,
+                    addMoneyToAccountBalance,
+                    cancel,
+                    cancelReactive,
+                    cancelReset,
+                    createAccountAgent,
+                    changePassword,
+                    changeStatus,
+                    changInfomation,
+                    deleteAccountAgent,
+                    deleteAccountAnyPay,
+                    destroyAccountColl,
+                    destroyAccountFPT,
+                    doPaymentCredit,
+                    editAccountAnyPay,
+                    editAccountColl,
+                    queryAnyPayAgent,
+                    reActiveAnyPay,
+                    repairSim,
+                    reset,
+                    resetgetAmount,
+                    saleToAccountAnyPay,
+                    save,
+                    sumAmount,
+                    unlockAccount,
+                    updateAccountAgent,
+                    updateInfo,
+                    updateStatusFPT,
+                    clickAccountColl,
+                    clickStaff
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="collAccountManagment">collAccountManagment.page</result>
+            <result type="tiles" name="listCollManagment">listCollManagment.page</result>
+            <result type="tiles" name="showViewStaffAndAccount">showViewStaffAndAccount.page</result>
+            <result type="tiles" name="ViewAccountBook">ViewAccountBook.page</result>
+            <result type="tiles" name="addMoneyToAccountBalance">addMoneyToAccountBalance.page</result>
+            <result type="tiles" name="paymentCredit">paymentCredit.page</result>
+            <result type="tiles" name="addCreditBorrow">addCreditBorrow.page</result>
+            <result type="tiles" name="getMoneyToAccountBalance">getMoneyToAccountBalance.page</result>
+            <result type="tiles" name="AddAccountColl">AddAccountColl.page</result>
+            <result type="tiles" name="searchAreaColl">searchAreaColl.page</result>
+            <result type="tiles" name="addAccountAgent">addAccountAgent.page</result>
+            <result type="tiles" name="ShowAccountBalance">ShowAccountBalance.page</result>
+            <result type="tiles" name="pageNoInfo">pageNoInfo.page</result>
+            <result type="tiles" name="resetLimitActiveSub">resetLimitActiveSub.page</result>
+            <result type="tiles" name="listStaffAccount">listStaffAccount.page</result>
+
+
+            <result type="json" name="getCollManager">
+                <param name="root">listCollManager</param>
+            </result>
+            <result type="json" name="autoSelectIsdn">
+                <param name="root">listSerial</param>
+            </result>
+            <result type="tiles" name="AccountAnyPayFPTManagement">AccountAnyPayFPTManagement.page</result>
+            <result type="tiles" name="showLogAccount">showLogChangeAccountFPT.page</result>
+            <result type="tiles" name="showLogDetail">ShowLogDetail.page</result>
+
+            <!--TrongLV-->
+            <result type="tiles" name="accountAnyPayManagement">accountAnyPayManagement.page</result>
+            <result type="tiles" name="accountAnyPayInfo">accountAnyPayInfo.page</result>
+            <result type="tiles" name="anyPayAgentInfo">anyPayAgentInfo.page</result>
+            <result type="tiles" name="anyPayTransManagement">anyPayTransManagement.page</result>
+            <result type="tiles" name="anyPayTransList">anyPayTransList.page</result>
+        </action>
+
+
+        <action name="AccountAnyPayFPTManagementAction" class="com.viettel.im.database.DAO.AccountAnyPayFPTManagementDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    activceAnyPay,
+                    changeStatus,
+                    changePassword,
+                    changInfomation,
+                    repairSim,
+                    cancel,
+                    save
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="activeAccountAnyPayFPT">activeAccountAnyPayFPT.page</result>
+            <result type="tiles" name="editAccountAnyPayFPT">editAccountAnyPayFPT.page</result>
+            <result type="tiles" name="showLogAccount">showLogChangeAccountFPT.page</result>
+        </action>
+        <!-- haint41 7/11/2011 Cong anypay don le -->
+        <action name="addSingleAnyPay" class="com.viettel.im.database.DAO.AddSingleAnyPayDAO" method="preparePage">
+            <!--           CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    importSingleAnyPay
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="addSingleAnyPay">addSingleAnyPay.page</result>
+            <result type="tiles" name="addSingleAnyPayList">addSingleAnyPayList.page</result>
+        </action>
+        <!-- end haint41 -->
+        <!-- haint41 10/11/2011 Quan ly cong anypay don le -->
+        <!--action name="addSingleAnyPayManagement" class="com.viettel.im.database.DAO.AddSingleAnyPayManagementDAO" method="preparePage">
+            <result type="tiles" name="addSingleAnyPayManagement">addSingleAnyPayManagement.page</result>
+            <result type="tiles" name="addSingleAnyPayManagementList">addSingleAnyPayManagementList.page</result>
+            <result type="tiles" name="addSingleAnyPayManagementDetail">addSingleAnyPayManagementDetail.page</result>
+        </action-->
+        <!-- end haint41 -->
+        
+        <!-- LeVT start - Cong/tru tien Anypay cho kenh phan phoi -->
+        <action name="addSubAnyPayAction" class="com.viettel.im.database.DAO.AddSubAnyPayDAO" method="preparePage">
+ 
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    importSingleAnyPay
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="addSubAnyPay">addSubAnyPay.page</result>
+            <result type="tiles" name="addSubAnyPayList">addSubAnyPayList.page</result>
+        </action>
+        <!-- LeVT --> 
+    </package>
+</struts>
+

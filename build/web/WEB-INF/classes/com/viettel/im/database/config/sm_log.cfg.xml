@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="dialect">org.hibernate.dialect.Oracle10gDialect</property>
+        <property name="myeclipse.connection.profile">Oracle</property>
+        <property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+        <property name="show_sql">true</property>
+        <property name="c3p0.acquire_increment">1</property>
+        <property name="c3p0.idle_test_period">60</property>
+        <property name="c3p0.max_size">50</property>
+        <property name="c3p0.max_statements">0</property>
+        <property name="c3p0.min_size">1</property>
+        <property name="c3p0.timeout">0</property>
+        <mapping resource="com/viettel/lib/sm/database/hbm/AppParams.hbm.xml"/>
+        <mapping resource="com/viettel/lib/sm/database/hbm/Price.hbm.xml"/>
+        <mapping resource="com/viettel/lib/sm/database/hbm/Shop.hbm.xml"/>
+        <mapping resource="com/viettel/lib/sm/database/hbm/Staff.hbm.xml"/>
+        <mapping resource="com/viettel/lib/sm/database/hbm/StockModel.hbm.xml"/>
+        <mapping resource="com/viettel/lib/sm/database/hbm/StockType.hbm.xml"/>
+        <mapping resource="com/viettel/lib/sm/database/hbm/DiscountGroup.hbm.xml"/>
+        <mapping resource="com/viettel/lib/sm/database/hbm/DiscountModelMap.hbm.xml"/>
+        <mapping resource="com/viettel/lib/sm/database/hbm/Discount.hbm.xml"/>
+        <mapping resource="com/viettel/lib/sm/database/hbm/StockTotal.hbm.xml"/>
+        <mapping resource="com/viettel/lib/sm/database/hbm/SaleTransSerial.hbm.xml"/>
+        <mapping resource="com/viettel/lib/sm/database/hbm/SaleTransDetail.hbm.xml"/>
+        <mapping resource="com/viettel/lib/sm/database/hbm/SaleTrans.hbm.xml"/>
+        <mapping resource="com/viettel/lib/sm/database/hbm/VcRequest.hbm.xml"/>
+        <mapping resource="com/viettel/lib/sm/database/hbm/StockKit.hbm.xml"/>
+        <mapping resource="com/viettel/lib/sm/database/hbm/ChannelType.hbm.xml"/>
+        <mapping resource="com/viettel/lib/sm/database/hbm/AccountAgent.hbm.xml"/>
+        <mapping resource="com/viettel/lib/sm/database/hbm/AccountBalance.hbm.xml"/>
+        <mapping resource="com/viettel/lib/sm/database/hbm/AccountBook.hbm.xml"/>
+    
+        <mapping resource="com/viettel/im/database/hbm/SaleTransOrder.hbm.xml"/>
+        <mapping resource="com/viettel/im/database/hbm/SaleTransDetailOrder.hbm.xml"/>
+        <mapping resource="com/viettel/im/database/hbm/SaleTransSerialOrder.hbm.xml"/>
+    </session-factory>
+</hibernate-configuration>

@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/code/!svn/ver/2743/BCCS_IM/Source_Web/src/java
+END
+cm_config.properties
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/cm_config.properties
+END
+provisioning.properties
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/code/!svn/ver/147/BCCS_IM/Source_Web/src/java/provisioning.properties
+END
+messages_anypay.properties
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/messages_anypay.properties
+END
+lib_config.properties
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/lib_config.properties
+END
+config_en_US.properties
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/code/!svn/ver/145/BCCS_IM/Source_Web/src/java/config_en_US.properties
+END
+cm_encryption_config.properties
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/cm_encryption_config.properties
+END
+cas_en_US.properties
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/code/!svn/ver/145/BCCS_IM/Source_Web/src/java/cas_en_US.properties
+END
+template_file_config.properties
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/template_file_config.properties
+END
+displaytag.properties
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/displaytag.properties
+END
+report_server.properties
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/src/java/report_server.properties
+END
+pm_config.properties
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/pm_config.properties
+END
+displaytag_vi_VN.properties
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/displaytag_vi_VN.properties
+END
+database.properties
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/database.properties
+END
+struts.properties
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/struts.properties
+END
+config.properties
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/code/!svn/ver/2611/BCCS_IM/Source_Web/src/java/config.properties
+END
+config_vi_VN.properties
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/code/!svn/ver/145/BCCS_IM/Source_Web/src/java/config_vi_VN.properties
+END
+tctlib_config.properties
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/tctlib_config.properties
+END
+cas.properties
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/cas.properties
+END
+struts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/code/!svn/ver/48/BCCS_IM/Source_Web/src/java/struts.xml
+END
+log4j.conf
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/code/!svn/ver/2002/BCCS_IM/Source_Web/src/java/log4j.conf
+END
+provisioning_en_US.properties
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/code/!svn/ver/147/BCCS_IM/Source_Web/src/java/provisioning_en_US.properties
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/log4j.properties
+END
+config_fr_FR.properties
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/code/!svn/ver/145/BCCS_IM/Source_Web/src/java/config_fr_FR.properties
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/log4j.xml
+END

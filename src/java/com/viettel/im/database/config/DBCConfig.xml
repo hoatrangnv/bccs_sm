@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : DBCConfig.xml
+    Created on : November 3, 2008, 2:56 PM
+    Author     : caotuan
+    Description:
+        Purpose of the document follows.
+-->
+<ConfigDBC>
+    <Session-factory>
+        <name>default session</name>
+        <url>/com/viettel/im/database/config/sm.cfg.xml</url>
+    </Session-factory>
+    
+
+    <Session-factory>
+        <name>cm_pre</name>
+        <url>/com/viettel/im/database/config/cm_pre.cfg.xml</url>
+    </Session-factory>
+
+    <Session-factory>
+        <name>sm_lib</name>
+        <url>/com/viettel/lib/database/config/sm_lib.cfg.xml</url>
+    </Session-factory>
+    
+    <Session-factory>
+        <name>sm_log</name>
+        <url>/com/viettel/lib/database/config/sm_log.cfg.xml</url>
+    </Session-factory>
+    
+    <Session-factory>
+        <name>anypay</name>
+        <url>/com/viettel/lib/database/config/anypay.cfg.xml</url>
+    </Session-factory>
+    
+
+    
+    <Session-factory>
+        <name>vsa</name>
+        <url>/com/viettel/im/database/config/vsa.cfg.xml</url>
+    </Session-factory>
+    
+</ConfigDBC>

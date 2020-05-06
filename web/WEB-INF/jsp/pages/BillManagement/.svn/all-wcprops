@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement
+END
+CancelNotUsedBillsReason.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/CancelNotUsedBillsReason.jsp
+END
+ReportBillsSearchResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/ReportBillsSearchResult.jsp
+END
+retrieveInvoiceCoupon.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/retrieveInvoiceCoupon.jsp
+END
+RetrieveBillsInfo.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/RetrieveBillsInfo.jsp
+END
+ConfirmReceivedBills.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/ConfirmReceivedBills.jsp
+END
+assignInvoiceListResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/assignInvoiceListResult.jsp
+END
+retrieveInvoiceListResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/retrieveInvoiceListResult.jsp
+END
+ConfirmDestroyBills.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/ConfirmDestroyBills.jsp
+END
+SplitBill.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/SplitBill.jsp
+END
+CreateNewBills.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/CreateNewBills.jsp
+END
+listLookupInvoiceCoupon.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/listLookupInvoiceCoupon.jsp
+END
+lookUpInvoiceHistory.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/lookUpInvoiceHistory.jsp
+END
+lookupInvoiceCoupon.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/lookupInvoiceCoupon.jsp
+END
+AssignBills.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/AssignBills.jsp
+END
+RetrieveBills.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/RetrieveBills.jsp
+END
+CancelNotUsedBills.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/CancelNotUsedBills.jsp
+END
+ConfirmReceivedBillsSearchResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/ConfirmReceivedBillsSearchResult.jsp
+END
+ConfirmDestroyBillsSearchResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/ConfirmDestroyBillsSearchResult.jsp
+END
+ReportBillsSearchList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/ReportBillsSearchList.jsp
+END
+SplitBillSearchResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/SplitBillSearchResult.jsp
+END
+CreateNewBillsSearchResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/CreateNewBillsSearchResult.jsp
+END
+RecoverBills.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/RecoverBills.jsp
+END
+assignInvoiceList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/assignInvoiceList.jsp
+END
+retrieveInvoiceList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/retrieveInvoiceList.jsp
+END
+reportBillExcel.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/reportBillExcel.jsp
+END
+AssignBillsSearchResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/AssignBillsSearchResult.jsp
+END
+RetrieveBillsSearchResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/RetrieveBillsSearchResult.jsp
+END
+ReportBills.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/ReportBills.jsp
+END
+CancelNotUsedBillsSearchResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/CancelNotUsedBillsSearchResult.jsp
+END
+SplitBillInfo.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/SplitBillInfo.jsp
+END
+RecoverBillsSearchResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/RecoverBillsSearchResult.jsp
+END
+listRetrieveInvoiceCoupon.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BillManagement/listRetrieveInvoiceCoupon.jsp
+END

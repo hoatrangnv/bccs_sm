@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class  name="com.viettel.im.database.BO.Mapping" table="MAPPING">
+        <id name="itemCode" type="java.lang.String">
+            <column length="100" name="ITEM_CODE" not-null="true"/>
+            <generator class="assigned"/>
+        </id>
+        <property name="itemName" type="java.lang.String">
+            <column  length="500" name="ITEM_NAME" />
+        </property>
+        
+    </class>
+</hibernate-mapping>

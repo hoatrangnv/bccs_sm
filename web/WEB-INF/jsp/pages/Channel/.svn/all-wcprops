@@ -1,0 +1,311 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/code/!svn/ver/2743/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel
+END
+searchAgent.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/searchAgent.jsp
+END
+prepareReportConfigHandset.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/2743/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/prepareReportConfigHandset.jsp
+END
+AddStaffCodeAP.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/AddStaffCodeAP.jsp
+END
+listShops.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/listShops.jsp
+END
+prepareAssignPermisisonSaleHandset.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/code/!svn/ver/2743/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/prepareAssignPermisisonSaleHandset.jsp
+END
+SearchStaff.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/SearchStaff.jsp
+END
+ChangeParentShop.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/ChangeParentShop.jsp
+END
+ListInformationUserVsa.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/ListInformationUserVsa.jsp
+END
+OnOffShopByFile.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/549/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/OnOffShopByFile.jsp
+END
+detailsdebit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/detailsdebit.jsp
+END
+AddCollByFile.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/AddCollByFile.jsp
+END
+OffStaff.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/OffStaff.jsp
+END
+InformationUserVsa.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/InformationUserVsa.jsp
+END
+ChangeInformationStaffAP.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/ChangeInformationStaffAP.jsp
+END
+ListShopImport.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/ListShopImport.jsp
+END
+shopOverview.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/shopOverview.jsp
+END
+OnStaff.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/code/!svn/ver/335/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/OnStaff.jsp
+END
+ListChangeInfoStaffAP.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/ListChangeInfoStaffAP.jsp
+END
+ListChannelConvert.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/2501/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/ListChannelConvert.jsp
+END
+getReportChannelConfigSaleHandset.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/code/!svn/ver/2743/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/getReportChannelConfigSaleHandset.jsp
+END
+editLimitStaff.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/2632/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/editLimitStaff.jsp
+END
+addNewStaffCTVDB.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/2743/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/addNewStaffCTVDB.jsp
+END
+shop.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/code/!svn/ver/2365/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/shop.jsp
+END
+changeInformationAgent.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/changeInformationAgent.jsp
+END
+ListStaffImportAP.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/ListStaffImportAP.jsp
+END
+listChangeInfoAgent.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/listChangeInfoAgent.jsp
+END
+ChangeInformationStaff.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/ChangeInformationStaff.jsp
+END
+ListChangeInfoStaff.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/2743/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/ListChangeInfoStaff.jsp
+END
+listStaffs.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/code/!svn/ver/2632/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/listStaffs.jsp
+END
+listAgentImport.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/listAgentImport.jsp
+END
+prepareReportChannelConfigSaleHandset.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/code/!svn/ver/2743/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/prepareReportChannelConfigSaleHandset.jsp
+END
+OnOffStaffByFile.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/OnOffStaffByFile.jsp
+END
+ListStaffOnOff.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/ListStaffOnOff.jsp
+END
+ChangeCTVDBInShop.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/ChangeCTVDBInShop.jsp
+END
+addStaffCodeCTVDB.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/addStaffCodeCTVDB.jsp
+END
+ListStaffImport.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/ListStaffImport.jsp
+END
+prepareRemovePermisisonSaleHandset.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/code/!svn/ver/2743/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/prepareRemovePermisisonSaleHandset.jsp
+END
+addAgentByFile.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/addAgentByFile.jsp
+END
+listCollaborators.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/listCollaborators.jsp
+END
+staff.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/code/!svn/ver/2632/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/staff.jsp
+END
+addStaffSuccess.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/addStaffSuccess.jsp
+END
+ChangeStaffManageMent.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/ChangeStaffManageMent.jsp
+END
+AddStaffByFile.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/AddStaffByFile.jsp
+END
+shopResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/code/!svn/ver/2365/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/shopResult.jsp
+END
+prepareChangeStaffInShop.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/prepareChangeStaffInShop.jsp
+END
+SearchStaffAP.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/SearchStaffAP.jsp
+END
+returnDataForUnitCode.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/returnDataForUnitCode.jsp
+END
+AddShopByFile.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/AddShopByFile.jsp
+END
+ListChannelAssignPermisison.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/2743/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/ListChannelAssignPermisison.jsp
+END
+prepareConvertChannelByFile.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/2501/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/prepareConvertChannelByFile.jsp
+END
+collaborator.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Channel/collaborator.jsp
+END

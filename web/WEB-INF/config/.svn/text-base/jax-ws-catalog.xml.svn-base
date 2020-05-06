@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://192.168.174.211:8895/iexssoap?wsdl" uri="wsdl/192.168.174.211_8895/iexssoap.wsdl"/>
+    <system systemId="http://192.168.174.211:8895/iexssoap?wsdl=1" uri="wsdl/192.168.174.211_8895/iexssoap.wsdl_1.wsdl"/>
+    <system systemId="http://192.168.174.211:8895/iexssoap?xsd=1" uri="wsdl/192.168.174.211_8895/iexssoap.xsd_1.xsd"/>
+</catalog>
+
+
+
+

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/code/!svn/ver/146/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BookType
+END
+ListBookType.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/146/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BookType/ListBookType.jsp
+END
+ListParamBookType.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BookType/ListParamBookType.jsp
+END
+GetBookType.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BookType/GetBookType.jsp
+END
+listPrinterUser.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BookType/listPrinterUser.jsp
+END
+PrinterUser.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/BookType/PrinterUser.jsp
+END

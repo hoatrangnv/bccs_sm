@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <package name="infrastructure" extends="default">
+        
+        <!--Quan ly tram BTS-->
+        <action name="manageBTSAction" class="com.viettel.im.database.DAO.ManageBTSDAO" method="preparePage">
+            <interceptor-ref name="fkInterceptor">
+                <param name="tokenSession.includeMethods">
+                    addNewBTS, editBTS, searchBTS, getListBTS
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="manageBTS-preparePage">manageBTS-preparePage.page</result>
+            <result type="tiles" name="changeTypeFileDownload">changeTypeFileDownload.page</result>
+            <result type="tiles" name="manageBTS-listLog-BTS">manageBTS-listBTSLog.page</result>
+            <result type="tiles" name="pageNavigator">listBTSModel.page</result>
+            <result type="tiles" name="showLogDetail">showLogDetail.page</result>
+            <result type="json" name="updateAddress">
+                <param name="root">hashMapResult</param>
+            </result>
+        </action>
+        
+        <action name="PSTNExchangeAction" class="com.viettel.im.database.DAO.AssignPstnToExchange" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addPSTN,updatePSTN,deletePSTN
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="pstnExchangePrepare">pstnExchangePrepare.page</result>
+            <result type="tiles" name="pstnExchangeList">listPSTNToExchange.page</result>
+            <result type="json" name="success">
+                <param name="root">listItemsSelectBox</param>
+            </result>
+        </action>
+        <action name="getPSTNExchange" class="com.viettel.im.database.DAO.AssignPstnToExchange" method="getPSTNExchange">
+            <result type="json" name="success">
+                <param name="root">listArea</param>
+            </result>
+        </action>
+        <action name="dslamAction" class="com.viettel.im.database.DAO.DslamDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    actionDeleteDslam,editDslam,addNewDslam
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="pageOverview">pageDslamOverview.page</result>
+            <result type="tiles" name="pageListDslam">pageDslamListDslam.page</result>
+            <result type="tiles" name="pageListBoard">pageDslamListBoard.page</result>
+            <result type="tiles" name="pageListCableBox">pageDslamListCableBox.page</result>
+            <result type="tiles" name="pageListCableNo">pageDslamListCableNo.page</result>
+
+            <result type="tiles" name="addDslam">addDslam.page</result>
+            <result type="tiles" name="pageNavigator">listDslam.page</result>
+            <result type="json" name="success">
+                <param name="root">listItems</param>
+            </result>
+
+            <result type="json" name="updateDistrictList">
+                <param name="root">listItems</param>
+            </result>
+            <result type="json" name="updatePrecinctList">
+                <param name="root">listItems</param>
+            </result>
+
+            <result type="tiles" name="pageDslamCableOverview">pageDslamCableOverview.page</result>
+            <result type="tiles" name="pageListDslamCable">pageDslamListDslamCable.page</result>
+            <result type="tiles" name="pageNavigatorDslamCable">listDslamCable.page</result>
+            <result type="tiles" name="pageListCableBoxOfDslam">pageDslamListCableBoxOfDslam.page</result>
+
+        </action>
+
+        <action name="equipmentVendorAction" class="com.viettel.im.database.DAO.EquipmentVendorDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addEquipmentVendor,editEquipmentVendor,deleteEquipment
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="addEquipmentVendor">addEquipmentVendor.page</result>
+            <result type="tiles" name="pageNavigator">listEquipmentVendor.page</result>
+        </action>
+        <action name="equipmentAction" class="com.viettel.im.database.DAO.EquipmentDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    editEquipment,addEquipment,deleteEquipment
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="addEquipment">addEquipment.page</result>
+            <result type="tiles" name="pageNavigator">listEquipment.page</result>
+        </action>
+        <action name="portAction" class="com.viettel.im.database.DAO.PortDAO" method="preparePage">
+            <param name="tokenSession.includeMethods">
+                    savePort,editPort,deletePort
+                </param>
+            <result type="tiles" name="addPort">addPort.page</result>
+            <result type="tiles" name="portResult">portResult.page</result>
+            <result type="tiles" name="pageNavigator">portResult.page</result>
+        </action>
+        <action name="getSlotAuto" class="com.viettel.im.database.DAO.PortDAO" method="getSlotAuto">
+            <result type="json" name="success">
+                <param name="root">listSlot</param>
+            </result>
+        </action>
+        <action name="chassicAction" class="com.viettel.im.database.DAO.ChassicDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    saveChassic,deleteChassic,copyChassic,updateListChassic,updateListSlot,updateListPort
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="chassic">chassic.page</result>
+            <result type="tiles" name="chassicOverview">chassicOverview.page</result>
+            <result type="tiles" name="chassicResult">chassicResult.page</result>
+            <result type="tiles" name="listProvince">listProvince.page</result>
+            <result type="tiles" name="dslamResult">dslamResult.page</result>
+
+            <result type="json" name="success">
+                <param name="root">listItems</param>
+            </result>
+
+            <result type="json" name="listSwitchBoxSuccess">
+                <param name="root">listSwitchBox</param>
+            </result>
+
+            <result type="json" name="nmsVlan">
+                <param name="root">listElement</param>
+            </result>
+
+        </action>
+        <action name="slotAction" class="com.viettel.im.database.DAO.SlotDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    updateListCard,saveSlot,deleteSlot
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="addSlot">slot.page</result>
+            <result type="tiles" name="slotResult">slotResult.page</result>
+            <result type="tiles" name="pageNavigator">slotResult.page</result>
+
+            <result type="json" name="maxPort">
+                <param name="root">listElement</param>
+            </result>
+
+            <result type="json" name="listCard">
+                <param name="root">listElement</param>
+            </result>
+
+            
+        </action>
+        <action name="getChassicCode" class="com.viettel.im.database.DAO.SlotDAO" method="getListChassicCode">
+            <result type="json" name="success">
+                <param name="root">lstChassicCode</param>
+            </result>
+        </action>
+        <action name="getDslamCode" class="com.viettel.im.database.DAO.ChassicDAO" method="getListDslamCode">
+            <result type="json" name="success">
+                <param name="root">lstDslamCode</param>
+            </result>
+        </action>
+        <action name="getSwitchCode" class="com.viettel.im.database.DAO.ChassicDAO" method="getListSwitchCode">
+            <result type="json" name="success">
+                <param name="root">lstSwitchCode</param>
+            </result>
+        </action>
+        <action name="cardAction" class="com.viettel.im.database.DAO.CardDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addNewCard,editCard,deleteCard
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="addCard">card.page</result>
+            <result type="tiles" name="cardResult">cardResult.page</result>
+        </action>
+        <action name="switchAction" class="com.viettel.im.database.DAO.SwitchDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addSwitch,editSwitch,deleteSwitch
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="switch">switch.page</result>
+            <result type="tiles" name="switchResult">switchResult.page</result>
+        </action>
+        <action name="getBrasAuto" class="com.viettel.im.database.DAO.SwitchDAO" method="getBrasAuto">
+            <result type="json" name="success">
+                <param name="root">lstBras</param>
+            </result>
+        </action>
+        <action name="brasAction" class="com.viettel.im.database.DAO.BrasDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addNewBras,editBras,deleteBras
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="bras">bras.page</result>
+            <result type="tiles" name="pageNavigator">listBras.page</result>
+        </action>
+        <action name="BoardsAction" class="com.viettel.im.database.DAO.BoardsDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addBoards,editBoards,deleteBoards
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="addNewBoards">addNewBoards.page</result>
+            <result type="tiles" name="pageNavigator">listBoards.page</result>
+        </action>
+        <action name="cableboxAction" class="com.viettel.im.database.DAO.CableBoxDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    deleteCableBox,addNewCableBox,editCableBox,deleteCableBoxOfDslam
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="addCableBox">addCableBox.page</result>
+            <result type="tiles" name="pageNavigator">listCableBox.page</result>
+            <result type="tiles" name="addCableBoxOfDslam">pageDslamListCableBoxOfDslam.page</result>
+            <result type="tiles" name="pageNavigatorOfDslam">listCableBoxOfDslam.page</result>
+
+        </action>
+
+        <action name="getListDslamcode" class="com.viettel.im.database.DAO.BoardsDAO" method="getListDslamcode">
+            <result type="json" name="success">
+                <param name="root">ListDslamcodeCombo</param>
+            </result>
+        </action>
+
+        <action name="getListProvince" class="com.viettel.im.database.DAO.BoardsDAO" method="getListProvince">
+            <result type="json" name="success">
+                <param name="root">ListProvinceNoCombo</param>
+            </result>
+        </action>
+        <action name="getListProvince_Pstn" class="com.viettel.im.database.DAO.AssignPstnToExchange" method="getListProvince_Pstn">
+            <result type="json" name="success">
+                <param name="root">ListProvinceNoCombo</param>
+            </result>
+        </action>
+        <!--action name="getListDSLName" class="com.viettel.im.database.DAO.BoardsDAO" method="getListDSLName">
+            <result type="json" name="success">
+                <param name="root">ListDSLNameCombo</param>
+            </result>
+        </action-->
+
+        <action name="getListBoardId" class="com.viettel.im.database.DAO.CableBoxDAO" method="getListBoardId">
+            <result type="json" name="success">
+                <param name="root">ListBoardIdCombo</param>
+            </result>
+        </action>
+
+        <action name="getListDslamId" class="com.viettel.im.database.DAO.CableBoxDAO" method="getListDslamId">
+            <result type="json" name="success">
+                <param name="root">ListDslamIdCombo</param>
+            </result>
+        </action>
+        <action name="getListboardscode" class="com.viettel.im.database.DAO.CableBoxDAO" method="getListboardscode">
+            <result type="json" name="success">
+                <param name="root">ListboardscodeCombo</param>
+            </result>
+        </action>
+
+        <action name="getListProvinceDslam" class="com.viettel.im.database.DAO.DslamDAO" method="getListProvince">
+            <result type="json" name="success">
+                <param name="root">ListProvinceDslamNoCombo</param>
+            </result>
+        </action>
+        <action name="getlistDslamcode" class="com.viettel.im.database.DAO.CableBoxDAO" method="ds">
+            <result type="json" name="success">
+                <param name="root">ListdslamcodeCombo</param>
+            </result>
+        </action>
+        <action name="getListTechShop" class="com.viettel.im.database.DAO.DslamDAO" method="getListTechShop">
+            <result type="json" name="success">
+                <param name="root">ListTechShopCombo</param>
+            </result>
+        </action>
+
+
+        <action name="assignDslamAreaAction" class="com.viettel.im.database.DAO.AssignDslamAreaDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    deleteDslamArea,addDslamArea
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="pageListArea">pageAssignDslamAreaListArea.page</result>
+            <result type="tiles" name="pageOverview">pageAssignDslamAreaOverview.page</result>
+            <result type="tiles" name="pageAddDslamArea">pageAddDslamArea.page</result>
+
+            <result type="json" name="success">
+                <param name="root">listItems</param>
+            </result>
+        </action>
+
+        <action name="assignShopDslamAction" class="com.viettel.im.database.DAO.AssignShopDslamDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    deleteShopDslam,addShopDslam
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="pageListDslam">pageAssignShopDslamListDslam.page</result>
+            <result type="tiles" name="pageOverview">pageAssignShopDslamOverview.page</result>
+            <result type="tiles" name="pageAddShopDslam">pageAddShopDslam.page</result>
+
+            <result type="json" name="success">
+                <param name="root">listItems</param>
+            </result>
+        </action>
+
+        <action name="brasIppoolAction" class="com.viettel.im.database.DAO.BrasIppoolDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    editBrasIppool,addBrasIppool,deleteBras
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="pageBrasIpPool">pageBrasIpPool.page</result>
+            <result type="tiles" name="pageListBrasIpPool">pageListBrasIpPool.page</result>
+
+            <result type="json" name="success">
+                <param name="root">listItems</param>
+            </result>
+        </action>
+        
+
+        <action name="portFormatAction" class="com.viettel.im.database.DAO.PortFormatDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    deletePortFormat,addPortFormat,editPortFormat
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="pagePortFormat">pagePortFormat.page</result>
+            <result type="tiles" name="pageListPortFormat">pageListPortFormat.page</result>
+
+            <result type="json" name="success">
+                <param name="root">listItems</param>
+            </result>
+        </action>
+        
+        <action name="mdfAction" class="com.viettel.im.database.DAO.MdfDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    deleteMdf
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="addMdf">pageAddMdf.page</result>
+            <result type="tiles" name="listMdf">pageListMdf.page</result>
+
+            <result type="json" name="success">
+                <param name="root">listItems</param>
+            </result>
+        </action>
+        
+        
+        <action name="cableNoAction" class="com.viettel.im.database.DAO.CableNoDAO" method="preparePage">
+            <result type="tiles" name="preparePage">preparePageCableNoManagement.page</result>
+            <result type="tiles" name="listCableNoPage">listCableNoManagement.page</result>
+            
+            <result type="json" name="success">
+                <param name="root">listItems</param>
+            </result>
+        </action>
+
+
+
+        <!--Giao chi tieu-->
+        <action name="manageBTSGroupAction" class="com.viettel.im.database.DAO.TargetStaffBtsDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addTargetToStaff, updateTargetToStaff, addTargetByFile, searchListStaff, searchBTSGroup
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="targetPreparePage">targetPreparePage.page</result>
+            <result type="tiles" name="pageNavigatorListStaff">listSearchStaff.page</result>
+            <result type="tiles" name="addTarget">addTarget.page</result>
+            <result type="tiles" name="editTarget">editTarget.page</result>
+            <result type="tiles" name="addTargetByFile">addTargetByFile.page</result>
+        </action>
+
+    </package>
+</struts>
+

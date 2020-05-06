@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : facility.xml
+    Created on : June 21, 2009, 9:57 AM
+    Author     : tamdt1
+    Description:
+        Khai bao cac action lien quan den muc Tien ich
+-->
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <package name="Facility" extends="default">
+        <!-- tamdt1, 21/06/2009 - start -->
+
+        <action name="lookupSerialAction" class="com.viettel.im.database.DAO.LookupSerialDAO" method="preparePage">
+            <result type="tiles" name="lookupSerial">lookupSerial.page</result>
+            <result type="tiles" name="lookupSerialExact">lookupSerialExact.page</result>
+            <result type="tiles" name="listLookupSerial">listLookupSerial.page</result>
+            <result type="tiles" name="viewLookupSerialHistory">viewLookupSerialHistory.page</result>
+            <result type="json" name="getShopCode">
+                <param name="root">listItem</param>
+            </result>
+            <result type="json" name="getShopName">
+                <param name="root">listItem</param>
+            </result>
+            <result type="json" name="changeOwnerType">
+                <param name="root">listItem</param>
+            </result>
+            <result type="json" name="changeStockType">
+                <param name="root">listItem</param>
+            </result>
+        </action>
+        <action name="lookupSerialHistoryAction" class="com.viettel.im.database.DAO.LookupSerialHistoryDAO" method="preparePage">
+            <result type="tiles" name="lookupSerialHistory">lookupSerialHistory.page</result>
+            <result type="tiles" name="listLookupSerialHistory">listLookupSerialHistory.page</result>
+            <result type="json" name="changeStockType">
+                <param name="root">listItem</param>
+            </result>
+        </action>
+        <action name="lookupIsdnAction" class="com.viettel.im.database.DAO.LookupIsdnDAO" method="preparePage">
+            <result type="tiles" name="lookupIsdn">lookupIsdn.page</result>
+            <result type="tiles" name="listLookupIsdn">listLookupIsdn.page</result>
+            <result type="tiles" name="lookupIsdnExtend">lookupIsdnExtend.page</result>
+            <result type="tiles" name="viewPledgeInfo">viewPledgeInfo.page</result>
+            <result type="json" name="getShopCode">
+                <param name="root">listItem</param>
+            </result>
+            <result type="json" name="getShopName">
+                <param name="root">listItem</param>
+            </result>
+            <result type="json" name="changeStockType">
+                <param name="root">listItem</param>
+            </result>
+            <result type="json" name="changeGroupFilterRuleCode">
+                <param name="root">listItem</param>
+            </result>
+            <result type="json" name="changeFilterType">
+                <param name="root">listItem</param>
+            </result>
+        </action>
+        <!--<action name="lookupIsdnAction" class="com.viettel.im.database.DAO.LookupIsdnDAO" method="preparePage">
+            <result type="tiles" name="lookupIsdn">lookupIsdn.page</result>
+            <result type="tiles" name="listLookupIsdn">listLookupIsdn.page</result>
+        </action>-->
+        <!-- tamdt1, 21/06/2009 - end -->
+
+        <!-- NamNX, 11/09/2009 - Khai bao chinh sach gia -->
+        <action name="pricePolicyAction" class="com.viettel.im.database.DAO.PricePolicyDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    savePricePolicy,deletePricePolicy
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="pricePolicy">pricePolicy.page</result>
+            <result type="tiles" name="listPricePolicy">listPricePolicy.page</result>
+            <result type="tiles" name="pageNavigator">listPricePolicy.page</result>
+        </action>
+
+        <!--AnDV 25/9/2009 - Gan chinh sach gia va chinh sach chiet khau cho kenh ban hang-->
+        <action name="assignPricePolicyAndDiscountPolicyAction" class="com.viettel.im.database.DAO.AssignPricePolicyAndDiscountPolicyDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    assignPolicy
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="assignPolicy">assignPolicy.page</result>
+        </action>
+        <!--end andv-->
+        <action name="lookupStockSimAction" class="com.viettel.im.database.DAO.LookupStockSimDAO" method="preparePage">
+            <result type="tiles" name="lookupStockSim">lookupStockSim.page</result>
+        </action>
+        <action name="activeCard" class="com.viettel.im.database.DAO.ActiveCardDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    activeCard,activeCardRapid
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="activeCard">activeCard.page</result>
+            <result type="tiles" name="activeCardRapid">ActiveCardRapid.page</result>
+        </action>
+
+        <!--end-->
+
+
+        <action name="lookupIsdnHistoryAction" class="com.viettel.im.database.DAO.LookupIsdnHistoryDAO" method="preparePage">
+            <result type="tiles" name="lookupIsdnHistory">lookupIsdnHistory.page</result>
+            <result type="tiles" name="listLookupIsdnHistory">listLookupIsdnHistory.page</result>
+            <result type="json" name="changeStockType">
+                <param name="root">listItem</param>
+            </result>
+        </action>
+        <!-- quan ly khai bao han muc cho nhan vien don le va theo file-->
+        <action name="stockOwnerTmpAction" class="com.viettel.im.database.DAO.StockOwnerTmpDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    updateStockOwnerTmp,updateStockOwnerTmpByFile
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="addSingleStockOwnerTmp">addSingleStockOwnerTmp.page</result>
+            <result type="tiles" name="addStockOwnerTmpByFile">addStockOwnerTmpByFile.page</result>
+            <result type="tiles" name="listStockOwnerTmp">listStockOwnerTmp.page</result>
+        </action>
+        <action name="stockModelSourcePriceAction" class="com.viettel.im.database.DAO.StockModelDAO" method="preparePageStockModelSourcePrice">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    updateSMSP
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="searchStockModelSourcePrice">searchStockModelSourcePrice.page</result>
+            <result type="tiles" name="listStockModelSourcePrice">listStockModelSourcePrice.page</result>
+        </action>
+        
+        <!-- Tien ich tra cuu han muc kenh -->
+        <action name="lookupMaxDebitAction" class="com.viettel.im.database.DAO.LookupMaxDebitDAO" method="preparePage">
+            <result type="tiles" name="lookupMaxDebit">lookupMaxDebit.page</result>
+            <result type="tiles" name="lookupMaxDebitResult">lookupMaxDebitResult.page</result>
+        </action>
+        
+        <!--hoangpm3 5/9/2012-->
+        <!--Luu log danh muc-->
+        <action name="lookupItemHistoryAction" class="com.viettel.im.database.DAO.LookupItemHistoryDAO" method="preparePage">
+            <result type="tiles" name="lookupItemHistoryPreparePage">lookupItemHistory.page</result>
+            <result type="tiles" name="listLookupItemHistory">listLookupItemHistory.page</result>
+            <result type="tiles" name="lookupItemDetailHistory">lookupItemDetailHistory.page</result>
+        </action>
+
+        <!--end hoangpm3-->
+        
+         
+        <action name="configWarningAction" class="com.viettel.im.database.DAO.ConfigWarningDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    selectWarning
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="preparePage">preparePage.page</result>
+        </action>
+        <!--TruongNQ5 20140811 R6342-->
+        <action name="mappingDslamSaleServiceAction" class="com.viettel.im.database.DAO.MappingDslamSaleServiceDAO" method="preparePage">
+            <result type="tiles" name="preparePage">MappingDslamSaleService.page</result>
+            <result type="tiles" name="mappingDslamSaleServiceResult">listMappingDslamSaleService.page</result>
+            <interceptor-ref name="fkInterceptor">
+                <param name="tokenSession.includeMethods">
+                    delete,create
+                </param>
+            </interceptor-ref>
+        </action>
+        <!--End TruongNQ5 20140811 R6342-->
+    </package>
+</struts>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <package name="discount"  extends="default">
+
+        <action name="discountGroupAction" class="com.viettel.im.database.DAO.DiscountGroupDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addOrEditDiscountGroup,
+                    delDiscountGroup,
+                    addOrEditDiscountDetail,
+                    delDiscountDetail,
+                    addOrEditDiscountGoods,
+                    delDiscountGoods
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="discountGroupOverview">discountGroupOverview.page</result>
+            <result type="tiles" name="discountGroupInfo">discountGroupInfo.page</result>
+            <result type="tiles" name="searchDiscountGroup">searchDiscountGroup.page</result>
+            <result type="tiles" name="discountGroup">discountGroup.page</result>
+            <result type="tiles" name="discountDetail">discountDetail.page</result>
+            <result type="tiles" name="discountGoods">discountGoods.page</result>
+        </action>
+        <action name="getDiscountTree" class="com.viettel.im.database.DAO.DiscountGroupDAO" method="getDiscountTree">
+            <result type="json" name="success">
+                <param name="root">listItems</param>
+            </result>
+        </action>
+        <action name="getAreaTree" class="com.viettel.im.database.DAO.DiscountGroupDAO" method="getAreaTree">
+            <result type="json" name="success">
+                <param name="root">listItems</param>
+            </result>
+        </action>
+        <action name="getDiscountGoodsCombobox" class="com.viettel.im.database.DAO.DiscountGroupDAO" method="getDiscountGoodsCombobox">
+            <result type="json" name="success">
+                <param name="root">listItemsCombo</param>
+            </result>
+        </action>
+        <action name="discountGoodsAction" class="com.viettel.im.database.DAO.DiscountGroupDAO" method="displayDiscountGoods">
+            <result type="tiles" name="discountGroupOverview">discountGroupOverview.page
+            </result>
+            <result type="tiles" name="discountGoods">discountGoods.page
+            </result>
+        </action>
+        <action name="discountDetailAction" class="com.viettel.im.database.DAO.DiscountGroupDAO" method="displayDiscountDetail">
+            <result type="tiles" name="discountGroupOverview">discountGroupOverview.page
+            </result>
+            <result type="tiles" name="discountDetail">discountDetail.page
+            </result>
+        </action>
+        
+        <action name="saleAction" class="com.viettel.im.database.DAO.SaleDAO">
+            <result type="tiles" name="saleFromExpCommand">saleFromExpCommand.page</result>
+            <result type="tiles" name="retailSale">retailSale.page</result>
+            <result type="tiles" name="invoiceToSale">invoiceToSale.page</result>
+            <result type="tiles" name="destroySaleInvoice">destroySaleInvoice.page</result>
+            <result type="tiles" name="changeDamagedGoods">changeDamagedGoods.page</result>
+            <result type="tiles" name="saleForCollaborator">saleForCollaborator.page</result>
+            <result type="tiles" name="viewStock">viewStock.page</result>
+            <result type="tiles" name="viewSerial">viewSerial.page</result>
+        </action>
+        <action name="getResource" class="com.viettel.im.database.DAO.AjaxDAO" method="getResource">
+            <result type="json" name="success">
+                <param name="root">listItemsCombo</param>
+            </result>
+        </action>
+        <!--
+        <action path="/discountGroupAction" scope="request"
+                type="com.viettel.server.action.ServiceAction"
+                name="DiscountGroupForm">
+            <forward name="discountGroupOverview" path="discountGroupOverview.page" />
+            <forward name="discountGroup" path="discountGroup.page" />
+        </action>
+        <action path="/discountGoodsAction" scope="request"
+                type="com.viettel.server.action.ServiceAction"
+                name="DiscountGoodsForm">
+            <forward name="discountGroupOverview" path="/discountGroupAction.do?className=DiscountGroupDAO&amp;methodName=discountGroupOverview" />
+            <forward name="discountGoods" path="discountGoods.page" />
+        </action>
+        <action path="/discountDetailAction" scope="request"
+                type="com.viettel.server.action.ServiceAction"
+                name="DiscountForm">
+            <forward name="discountGroupOverview" path="/discountGroupAction.do?className=DiscountGroupDAO&amp;methodName=discountGroupOverview" />
+            <forward name="discountDetail" path="discountDetail.page" />
+        </action>
+        <action path="/getAreaTreeData" scope="request"
+                type="com.viettel.server.action.ServiceAction"
+                name="DiscountForm">
+            <forward name="getAreaTreeData" path="getAreaTreeData.page" />
+        </action>-->
+    </package>
+</struts>
+

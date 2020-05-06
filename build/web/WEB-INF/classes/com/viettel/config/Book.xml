@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="Book" extends="default">
+        <action name="GetBookTypeAction" class="com.viettel.im.database.DAO.BookTypeDAO" method="preparePage">
+
+<!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    copyBookType,
+                    addBookType,
+                    editBookType,
+                    deleteBookType,
+                    addParamBookType,
+                    editParamBookType,
+                    deleteParamBookType,
+                    addOrEditPrinterUser,
+                    deletePrinterUser
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="GetBookTypePrepare">GetBookTypePre.page</result>
+            <result type="tiles" name="pageNavigator">listBookType.page</result>
+            <result type="tiles" name="LisParamBookType">LisParamBookType.page</result>
+            <result type="tiles" name="PrinterUser">PrinterUser.page</result>
+            <result type="tiles" name="listPrinterUser">listPrinterUser.page</result>
+        </action>      
+    </package>
+</struts>

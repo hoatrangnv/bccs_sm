@@ -1,0 +1,11 @@
+#minwidth, #minwidth-body {
+    width:expression(document.body.clientWidth <= 700 ? "700px": "auto") ;
+}
+
+#content-box {
+    float: left ;
+}
+
+div#element-box div.m {
+    padding: 5px 10px ;
+}

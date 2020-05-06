@@ -1,0 +1,105 @@
+<%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%--
+    Document   : invoiceSaleTransSearchResult
+    Created on : 22/04/2009, 16:43:14 PM
+    Author     : tungtv
+--%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+
+<%@taglib prefix="s" uri="/struts-tags" %>
+<%@taglib  prefix="sx" uri="/struts-dojo-tags" %>
+<%@taglib tagdir="/WEB-INF/tags/" prefix="tags" %>
+<%@taglib uri="VTdisplaytaglib" prefix="display" %>
+<%@taglib prefix="imDef" uri="imDef" %>
+
+<%            //request.setAttribute("lstSaleTrans", request.getSession().getAttribute("lstSaleTrans"));
+%>
+
+<div id="saleTransListArea">
+    <s:if test="#request.lstSaleTrans != null && #request.lstSaleTrans.size() != 0">
+        <fieldset class="imFieldset">
+            <legend>${fn:escapeXml(imDef:imGetText('MSG.SAE.181'))}</legend>
+            <display:table id="saleTrans" targets="saleTransListArea" name="lstSaleTrans" pagesize="1000" class="dataTable" cellpadding="1" cellspacing="1" requestURI="SaleTransInvoiceAction!pageNavigator.do">
+                <display:column title="${fn:escapeXml(imDef:imGetText('MSG.SAE.048'))}" sortable="false" style="width:40px; text-align:center" headerClass="tct">
+                    ${fn:escapeXml(saleTrans_rowNum)}
+                </display:column>
+                <display:column escapeXml="true" property="saleTransCode" title="${fn:escapeXml(imDef:imGetText('MSG.SAE.113'))}" sortable="false" style="text-align:left;" headerClass="tct"/>
+                <display:column escapeXml="true" property="telecomServiceName" title="${fn:escapeXml(imDef:imGetText('MSG.SAE.016'))}" sortable="false" style="text-align:left;" headerClass="tct"/>
+                <s:if test = "#attr.saleTrans.saleTransType == 2">
+                    <display:column escapeXml="true" property="custName" title="${fn:escapeXml(imDef:imGetText('MSG.SAE.174'))}" sortable="false" style="text-align:left;" headerClass="tct"/>
+                </s:if>
+                <s:else>
+                    <display:column escapeXml="true" property="custName" title="${fn:escapeXml(imDef:imGetText('MSG.SAE.123'))}" sortable="false" style="text-align:left;" headerClass="tct"/>
+                </s:else>
+                <display:column property="saleTransDate1" title="${fn:escapeXml(imDef:imGetText('MSG.SAE.143'))}" sortable="false" style="text-align:left;" headerClass="tct" format="{0,date,dd/MM/yyyy HH:mm:ss}" />
+                <s:if test = "#attr.saleTrans.isFineTrans != 1">
+                    <display:column escapeXml="true" property="saleTransTypeName" title="${fn:escapeXml(imDef:imGetText('MSG.SAE.162'))}" sortable="false" style="text-align:left;" headerClass="tct"/>
+                </s:if>
+                <display:column escapeXml="true" property="payMethodName" title="${fn:escapeXml(imDef:imGetText('MSG.SAE.153'))}" sortable="false" style="text-align:left;" headerClass="tct"/>
+                <s:if test = "#attr.saleTrans.isFineTrans != 1">
+                    <display:column escapeXml="true" property="reasonName" title="${fn:escapeXml(imDef:imGetText('MSG.SAE.009'))}" sortable="false" style="text-align:left;" headerClass="tct"/>
+                </s:if>
+                <display:column title="${fn:escapeXml(imDef:imGetText('MSG.SAE.179'))}" sortable="false" style="text-align:left;" headerClass="tct">
+                    <s:if test="#attr.saleTrans.staffId == null ">
+                        <s:property escapeJavaScript="true"  value="#attr.saleTrans.shopName"/>
+                    </s:if>
+                    <s:else>
+                        <s:property escapeJavaScript="true"  value="#attr.saleTrans.staffName"/>
+                    </s:else>
+                </display:column>
+
+                <display:column escapeXml="true" property="statusName"  title="${fn:escapeXml(imDef:imGetText('MSG.SAE.128'))}" sortable="false" style="text-align:left;" headerClass="tct"/>
+                <display:column property="discount" title="${fn:escapeXml(imDef:imGetText('MSG.SAE.081'))}" sortable="false" style="text-align:right;" headerClass="tct" format="{0,number,#,###.00}"/>
+                <display:column property="amountTax" title="${fn:escapeXml(imDef:imGetText('MSG.SAE.145'))}" sortable="false" style="text-align:right;" headerClass="tct" format="{0,number,#,###.00}"/>
+                <display:column property="vat" title="${fn:escapeXml(imDef:imGetText('MSG.SAE.180'))}" sortable="false" style="text-align:right;" headerClass="tct" format="{0,number,#,###.00}"/>
+                <display:column title="${fn:escapeXml(imDef:imGetText('MSG.SAE.146'))}" sortable="false" style="text-align:center;" headerClass="tct">
+                    <s:url action="SaleTransInvoiceAction!searchSaleTransDetailList" id="URL">
+                        <s:param name="saleTransId" value="#attr.saleTrans.saleTransId"/>
+                        <s:param name="isFineTrans" value="#attr.saleTrans.isFineTrans"/>
+                    </s:url>
+                    <sx:a targets="invoiceSaleTransDetailArea" href="%{#URL}" cssClass="cursorHand" executeScripts="true" parseContent="true">
+                        <img src="${contextPath}/share/img/accept.png" title="${fn:escapeXml(imDef:imGetText('MSG.SAE.146'))}" alt="${fn:escapeXml(imDef:imGetText('MSG.SAE.146'))}"/>
+                    </sx:a>
+                </display:column>
+                <s:if test="form.canSelect != null && (1*form.canSelect) > 0 "> <%--Kiem tra neu la danh sach tim kiem giao dich thi ok, con neu la danh sach giao dich lap hoa dong thi ko hien thi cot--%>
+                    <display:column title="<input id='checkAllId' type='checkbox' onclick=\"selectCbAll()\">" sortable="false" style="text-align:center" headerClass="tct">
+                        <div align="center" style="text-align:center; width:50px">
+                            <s:if test = "#attr.saleTrans.status == 2"><%--GD chua lap hoa don--%>
+                                <s:checkbox name="form.saleTransIdList" fieldValue="%{#attr.saleTrans.saleTransId}" id="checkBoxId%{#attr.saleTrans.saleTransId}" theme="simple"/>
+                            </s:if>
+                            <s:else><%--GD da lap hoa hon--%>-</s:else>
+                        </div>
+                    </display:column>
+                </s:if>
+                <display:footer> <tr> <td colspan="15" style="color:green">${fn:escapeXml(imDef:imGetText('MSG.SAE.147'))}:<s:property escapeJavaScript="true"  value="%{#request.lstSaleTrans.size()}" /></td> <tr> </display:footer>
+                </display:table>
+        </fieldset>
+        <br>
+        <s:hidden name="form.canSelect" />
+
+        <%--Kiem tra neu khong cho hien thi cot 'checked' thi an nut bam 'Lap hoa don'--%>
+        <s:if test="form.canSelect != null && (1*form.canSelect) != 0 ">
+            <div style="width:100%" align="center" id="btnGotoCreateInvoice2">
+                <tags:submit targets="bodyContent" 
+                             formId="form"
+                             cssStyle="width:85px;"
+                             value="MSG.SAE.178"
+                             preAction="SaleTransInvoiceAction!gotoCreateInvoice.do"
+                             showLoadingText="true"/>
+            </div>
+        </s:if>
+
+        <%--Danh sach chi tiet trong giao dich--%>
+        <sx:div id = "invoiceSaleTransDetailArea" theme="simple">
+            <%--<s:if test="#session.lstSaleTransDetail != null && #session.lstSaleTransDetail.size() != 0">--%>
+            <s:if test="#request.lstSaleTransDetail != null && #request.lstSaleTransDetail.size() != 0">
+                <jsp:include page="invoiceSaleTransDetail.jsp"/>
+            </s:if>
+        </sx:div>
+
+
+    </s:if>
+
+</div>

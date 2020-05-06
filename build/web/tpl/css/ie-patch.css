@@ -1,0 +1,20 @@
+input { 
+    border-width: expression(this.type=="radio" ? '0px' : this.type=="checkbox" ? '0px':'1px'); 
+}
+
+select {
+    border: 1px;
+}
+
+button.stylish { 
+    width:auto; 
+    overflow:visible;
+}
+button.stylish span { 
+    position: relative;
+    top:2px;
+}
+
+body {
+    behavior:url("/BTS_FM/tpl/csshover.htc");    
+}

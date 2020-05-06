@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : report.xml
+    Created on : June 23, 2009, 4:35 PM
+    Author     : tamdt1
+    Description:
+        Khai bao cac action lien quan den nghiep vu bao cao
+-->
+
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <package name="ReportMB" extends="default">
+        <!--TuanNV-->               
+        <action name="reportMB01Action" class="com.viettel.im.database.DAO.ReportMBDAO" method="preparePage01">
+            <result type="tiles" name="reportMB01">reportMB01.page</result>
+        </action>        
+        <action name="reportMB02Action" class="com.viettel.im.database.DAO.ReportMBDAO" method="preparePage02">
+            <result type="tiles" name="reportMB02">reportMB02.page</result>
+        </action>        
+        <action name="reportMB03Action" class="com.viettel.im.database.DAO.ReportMBDAO" method="preparePage03">
+            <result type="tiles" name="reportMB03">reportMB03.page</result>
+        </action>        
+        <action name="reportMB04Action" class="com.viettel.im.database.DAO.ReportMBDAO" method="preparePage04">
+            <result type="tiles" name="reportMB04">reportMB04.page</result>
+        </action>       
+        <action name="reportMB05Action" class="com.viettel.im.database.DAO.ReportMBDAO" method="preparePage05">
+            <result type="tiles" name="reportMB05">reportMB05.page</result>
+        </action>       
+        <action name="reportMB07Action" class="com.viettel.im.database.DAO.ReportMBDAO" method="preparePage07">
+            <result type="tiles" name="reportMB07">reportMB07.page</result>
+        </action>    
+        <action name="reportMB08Action" class="com.viettel.im.database.DAO.ReportMBDAO" method="preparePage08">
+            <result type="tiles" name="reportMB08">reportMB08.page</result>
+        </action>    
+        <action name="reportMB09Action" class="com.viettel.im.database.DAO.ReportMBDAO" method="preparePage09">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                   reportMB09
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="reportMB09">reportMB09.page</result>
+        </action>    
+        
+    </package>
+</struts>

@@ -1,0 +1,717 @@
+#CSS
+css.url=http://localhost:8080/Inventory_2/share/css/
+js.url=http://localhost:8080/Inventory_2/share/js/
+#
+#dia chi server
+SERVER_IP=localhost
+#Config for SHOP_REVOKE, id cua kho so thu hoi
+REVOKE_SHOP_ID=1968
+#Config for TAX_MONEY
+Tax_Money=1.1
+
+DAY_AFTER=10
+
+SMTP_EMAIL="smtp.viettel.com.vn"
+SMTP_EMAIL_SERVER="trungdh3@viettel.com.vn"
+SMTP_EMAIL_PSW="xxxx"
+################################## CHECK_LEVEL_LOGIN ##############################################
+# 0: khong phan biet level login
+# 1: chi danh cho cap cong ty login
+# 2: chi danh cho cap duoi login
+CHECK_LEVEL_LOGIN=0
+################################## CHECK_LEVEL_LOGIN ##############################################
+
+
+
+
+################################################################################
+################################# ACTIVE  CARD #################################
+################################################################################
+#LAMNV ADD START
+#config duong dan ghi log file
+#FILE_PATH_LOG_JOB=//app//IM//bccs_im_tomcat_8888//webapps//IM_Haiti//logs//
+#PRO_ACT_URL=10.228.33.71
+#PRO_ACT_PORT=5410
+#PRO_ACT_USER=vc_sale
+#PRO_ACT_PASS=vc_sale
+#So luong the toi da duoc tra cuu
+#HW_MAX_CARD=100
+#So luong the toi da duoc kich hoat
+#HW_MAX_CARD_ACTIVE=100000
+#LAMNV ADD STOP
+
+################################################################################
+#Provisioning
+#Link1
+#kich hoat the cao thu cong
+FILE_PATH_LOG_JOB=//app//IM//bccs_im_tomcat_8888//webapps//IM_Haiti//logs//
+PRO_ACT_URL=10.229.42.50
+PRO_ACT_PORT=5200
+PRO_ACT_USER=prm
+PRO_ACT_PASS=prm
+HW_MAX_CARD=100
+HW_MAX_CARD_ACTIVE=100000
+
+#check trang thai the cao khi doi the cao hong
+PRO_SER_ACT_PROCESS_CODE=000073
+PRO_SER_ACT_URL=10.229.42.37
+PRO_SER_ACT_PORT=5300
+PRO_SER_ACT_USER=bccs_cc
+PRO_SER_ACT_PASS=bccs_cc
+PRO_SER_ACT_TIMEOUT=260000
+PRO_SER_MESSAGE_TYPE=1900
+PRO_SER_ACT_CLIENT_ID=bccs_cc
+
+#Link2
+#FILE_PATH_LOG_JOB=//app//IM//bccs_im_tomcat_8888//webapps//IM_Haiti//logs//
+#PRO_ACT_URL=10.229.42.38
+#PRO_ACT_PORT=5200
+#PRO_ACT_USER=prm
+#PRO_ACT_PASS=prm
+#HW_MAX_CARD=100
+#HW_MAX_CARD_ACTIVE=100000
+#
+#PRO_SER_ACT_PROCESS_CODE=000073
+#PRO_SER_ACT_URL=10.229.42.38
+#PRO_SER_ACT_PORT=5300
+#PRO_SER_ACT_USER=bccs_cc
+#PRO_SER_ACT_PASS=bccs_cc
+#PRO_SER_ACT_TIMEOUT=260000
+#PRO_SER_MESSAGE_TYPE=1900
+#PRO_SER_ACT_CLIENT_ID=bccs_cc
+
+################################################################################
+#SMSGW 
+#test
+#SMS_URL=http://10.229.40.9009/vasp/Service.asmx
+#SMS_XMLNS=http://tempuri.org/
+#SMS_USER=gwmovitel
+#SMS_PASS=gwmovitel
+#SERVICE_ID=SMS
+#SESSION_ID=0
+#SENDER=86904
+
+#Link1
+SMS_URL=http://10.229.42.198:9009/vasp/Service.asmx
+SMS_XMLNS=http://tempuri.org/
+SMS_USER=gwmovitel
+SMS_PASS=gwmovitel
+SERVICE_ID=SMS
+SESSION_ID=0
+SENDER=86905
+
+#Link2
+#SMS_URL=http://10.229.42.198:9009/vasp/Service.asmx
+#SMS_XMLNS=http://tempuri.org/
+#SMS_USER=gwmovitel
+#SMS_PASS=gwmovitel
+#SERVICE_ID=SMS
+#SESSION_ID=0
+#SENDER=86905
+################################################################################
+
+
+
+
+
+VT_TELECOM =0
+VT_SHOP=1
+SHOP_AUT_LEVEL1=2
+SELL_POINT=3
+AGENT_LEVEL1=4
+AGENT_LEVEL2=5
+SHOP_OF_AGENT=6
+VT_COMP=7
+SHOP_SPECIAL=8
+DIRECT_SALE=9
+COLLABOR=10
+BRANCH=11
+SHOP_TECH=13
+STAFF_SALE_DIRECT=14
+STAFF_OF_SHOP=15
+STAFF_TECH=18
+
+
+PRICE_TYPE_AGENT=5
+
+PRICE_TYPE_DEPOSIT=7
+
+PRICE_TYPE_WITH_SERVICE=2
+
+PRICE_TYPE_PROMOTION=3
+
+PRICE_TYPE_SERVICE=6
+
+PRICE_TYPE_COLLABOR=1
+
+
+
+#duong dan den file template cua chi tiet sim tra truoc
+#Khong dung: LIST_SIM_PRE_PAID_TEMPLATE_PATH=/WEB-INF/template/mzb_english/ListSimPrePaid.xls
+#duong dan den file template cua chi tiet so mobile
+#Khong dung: LIST_ISDN_MOBILE_TEMPLATE_PATH=/WEB-INF/template/mzb_english/ListIsdnMobile.xls
+#duong dan den file templage xuat bao cao loi khi phan phoi so
+
+#Co dung. Sua lai code: (chi ro duong dan)
+DI_TMP_PATH_ERR=/WEB-INF/template/mzb_english/DI_Err.xls
+ASMFI_TMP_PATH_ERR=/WEB-INF/template/mzb_english/ASMFI_Err.xls
+AIT_TMP_PATH_ERR=/WEB-INF/template/mzb_english/AIT_Err.xls
+CECFF_TMP_PATH_ERR=/WEB-INF/template/mzb_english/CECFF_Err.xls
+ACTFS_TMP_PATH_ERR=/WEB-INF/template/mzb_english/ACTFS_Err.xls
+
+#duyet giay nop tien
+APPROVE_BANK_RECEIPT_TMP_PATH=/WEB-INF/template/mzb_english/ApproveBankReceipt.xls
+
+# bao cao cho TKTT
+#Co dung: phai sua cho cac file config khac
+report_accountAgent_AddMoney=/WEB-INF/template/mzb_english/report_accountAgent_AddMoney.xls
+report_accountAgent_Detail=/WEB-INF/template/mzb_english/report_accountAgent_Detail.xls
+report_accountAgent_General=/WEB-INF/template/mzb_english/report_accountAgent_General.xls
+report_accountAgent_ActiveMobile = /WEB-INF/template/mzb_english/report_accountAgent_ActiveMobile.xls
+report_accountAgent_AddGet = /WEB-INF/template/mzb_english/report_accountAgent_AddGet.xls
+
+report_accountAgentSubscriber_Detail= /WEB-INF/template/mzb_english/report_accountAgentSubscriber_Detail.xls
+report_accountAgentSubscriber_General = /WEB-INF/template/mzb_english/report_accountAgentSubscriber_General.xls
+report_listAccountAgent_General = /WEB-INF/template/mzb_english/report_listAccountAgent_General.xls
+report_listAccountAgent_Detail = /WEB-INF/template/mzb_english/report_listAccountAgent_Detail.xls
+report_accountAgentBL_Detail = /WEB-INF/template/mzb_english/report_accountAgentBL_Detail.xls
+report_ActiveSubscriber = /WEB-INF/template/mzb_english/report_ActiveSubscriber.xls
+
+report_ActiveSubscriber_No_VAT_DL = /WEB-INF/template/mzb_english/report_ActiveSubscriber_No_VAT_DL.xls
+report_ActiveSubscriber_No_VAT_CTV = /WEB-INF/template/mzb_english/report_ActiveSubscriber_No_VAT_CTV.xls
+report_ActiveSubscriber_VAT_DL = /WEB-INF/template/mzb_english/report_ActiveSubscriber_VAT_DL.xls
+report_ActiveSubscriber_VAT_CTV = /WEB-INF/template/mzb_english/report_ActiveSubscriber_VAT_CTV.xls
+report_ActiveSubscriber_DB = /WEB-INF/template/mzb_english/report_ActiveSubscriber_DB.xls
+
+#xuat file loi khi chuyen kenh
+errorChangeStaffManagement= /WEB-INF/template/mzb_english/errorChangeStaffManagement.xls
+errorChangeCTVDBInShopByFile= /WEB-INF/template/mzb_english/errorChangeCTVDBInShopByFile.xls
+errorChangeParentShopByFile= /WEB-INF/template/mzb_english/errorChangeParentShopByFile.xls
+errorAddStaffByFile= /WEB-INF/template/mzb_english/errorAddStaffByFile.xls
+errorAddShopByFile= /WEB-INF/template/mzb_english/errorAddShopByFile.xls
+
+#xuat file loi khi nhap quan ly tram BTS
+errorAddBTSByFile= /WEB-INF/template/mzb_english/errorAddBTSByFileEn.xls
+errorUpdateChannelBTSByFile= /WEB-INF/template/mzb_english/errorUpdateChannelBTSEn.xls
+
+#ThaiPH1 : 12/06/22
+errorImportCompetitorDataByFile= /WEB-INF/template/mzb_english/errorImportCompetitorDataByFile.xls
+
+#File Print Export Cmd To Master Agent
+printFileExportCmdToMasterAgent=/WEB-INF/template/mzb_english/printFileExportCmdToMasterAgent.xls
+
+#Co dung: phai sua cho cac file config khac
+
+#duong dan den thu muc chua file tam (nhap hang tu doi tac)
+IMPORT_STOCK_FROM_PARTNER_TEMP_PATH=/share/
+#Luu file xuat hang Dai Ly
+LINK_FILE_EXPORT_STOCK_MASTER_AGENT=D:\\Restart\\WEB_SM\\
+FOLDER_FILE_EXPORT_STOCK_MASTER_AGENT=/File_Accept_SaleTrans/
+#Duong dan den thu muc chua file template cua bao cao
+#TEMPLATE_PATH = /WEB-INF/template/mzb_english/
+
+TEMPLATE_PATH = /WEB-INF/template/mzb_english/
+LINK_TO_DOWNLOAD_FILE=/share/report_out/
+#LINK_TO_DOWNLOAD_FILE=\\share\\report_out\\
+LINK_PATTERN_FILE=D:\\Restart\\WEB_SM\\build\\web\\
+LINK_TO_DOWNLOAD_FILE_2=D:\\Restart\\WEB_SM\\web\\share\\report_out\\
+
+LINK_TO_FONT_FOLDER=/share/fonts/
+
+PATH_DOWNLOAD_FILE_TEMPLATE=/share/pattern/
+
+#Duong dan den thu muc chua file PDF mau cua hoa don
+INVOICE_PATTERN_PATH=/WEB-INF/invoicePattern/
+#khoang cach giua 2 lien cua phieu thu/phieu chi trong 1 trang A4
+Y_DISTANCE=386
+#Chuyen so tien bang chu, do dai ky tu tren 1 row, neu dai qua se tach xuong row thu 2, khoang cach giua row 1 va row 2:
+INVOICE_WORD_LENGTH=48
+INVOICE_WORD_DISTANCE=16
+
+
+#Ly do doi hang hong
+REASON_IMP_CHANGE_DEMAGED_GOODS=NKH
+REASON_EXP_CHANGE_DEMAGED_GOODS=XKH
+#code ly do doi hang hong
+#ly do nhap
+IMP_CHANGE_DEMAGED=IMP_CHANGE_DEMAGED
+#ly do xuat
+EXP_CHANGE_DEMAGED=EXP_CHANGE_DEMAGED
+
+#Gioi han du lieu
+# Max file size inport vao he thong 50 Mb
+MAX_FILE_SIZE_IMPORT = 200
+#SO LUONG TOI DA SERIAL IMPORT THEO DAI
+MAX_QUANTITY_IMPORT =2000000
+#SO LUONG ISDN TOI DA TRONG 1 LAN TAO DAI SO
+MAX_ISDN_IMPORT=2000000
+#SO LUONG ISDN TOI DA TRONG 1 LAN LOC SO DEP
+MAX_ISDN_FILTER=100000000
+#SO LUONG ISDN TOI DA TRONG 1 LAN PHAN PHOI SO
+MAX_ISDN_DISTRIBUTE=2000000
+#SO LUONG ISDN TOI DA TRONG 1 LAN GAN LOAI SO
+MAX_ISDN_ASSIGN_TYPE=2000000
+#SO LUONG TOI DA TRONG 1 LAN GHEP LO BO KIT
+MAX_KIT_INTEGRATE=2000000
+#SO LUONG ISDN TOI DA CHO 1 LAN CAP NHAP SO THANH MAT HANG
+MAX_ASSIGN_ISDN_TO_GOOD=1000000
+#DO LON FILE TOI DA CHO 1 LAN CAP NHAT GIA SO DEP 20Mb
+MAX_FILE_SIZE_ASSIGN_ISDN_PRICE=20
+#SO LUONG MAT HANG TOI DA KHI XEM CHI TIET SERIAL
+MAX_GOOD_VIEW_DETAIL=10000000
+#SO LUONG TOI DA SO PSTN/ 1 LAN GAN DLU
+MAX_ISDN_ASSIGN_TO_DLU=1000000
+#so luong dong toi da  tren 1 file excel
+MAX_EXCEL_ROW=60000
+
+
+
+
+#Quyen huy giao dich tu cm day sang
+cancelSaleTransCM=cancelSaleTransCM
+
+#phan quyen lap hoa don thay
+createInvoiceShop=createInvoiceShop
+createInvoiceStaff=createInvoiceStaff
+
+#phan quyen sua hoa don
+editInvoiceNV = editInvoiceNV
+editInvoiceCHT = editInvoiceCHT
+editInvoiceVT = editInvoiceVT
+editInvoiceCN = editInvoiceCN
+
+#phan quyen huy hoa don
+cancelInvoiceNV = cancelInvoiceNV
+cancelInvoiceCHT = cancelInvoiceCHT
+cancelInvoiceVT = cancelInvoiceVT
+cancelInvoiceCN = cancelInvoiceCN
+
+#phan quyen khoi phuc hoa don
+recoverInvoiceNV = recoverInvoiceNV
+recoverInvoiceCHT = recoverInvoiceCHT
+recoverInvoiceVT = recoverInvoiceVT
+recoverInvoiceCN = recoverInvoiceCN
+
+#phan quyen huy giao dich
+cancelTransNV = cancelTransNV
+cancelTransCHT = cancelTransCHT
+cancelTransVT = cancelTransVT
+cancelTransCN = cancelTransCN
+cancelTransCN = cancelTransCN
+
+#phan quyen gan DSLAM cho KHU VUC
+ROLE_VIEW_ALL_PROVINCE VIEW_ALL_PROVINCE
+
+#phan quyen phan phoi so, tamdt1
+niceIsdnRole=niceIsdnRole
+normalIsdnRole=normalIsdnRole
+#normalIsdnStockModelId=1,2,3
+#TrongLV: sua theo id mat hang moi
+normalIsdnStockModelId=201163,201161,201442
+
+#phan quyen Vunt
+reportAccountAgentf9Shop=reportAccountAgentf9Shop
+reportAccountAgentf9StaffManagement=reportAccountAgentf9StaffManagement
+reportAccountAgentf9AccountCode=reportAccountAgentf9AccountCode
+
+saleTransManagementf9Shop=saleTransManagementf9Shop
+saleTransManagementf9Staff=saleTransManagementf9Staff
+reportRevenueByInvoicef9Shop=reportRevenueByInvoicef9Shop
+reportRevenueByInvoicef9Staff=reportRevenueByInvoicef9Staff
+reportRevenueShop=reportRevenueShop
+reportRevenueStaff=reportRevenueStaff
+#NamLT add 9/9/2010
+viewAllShopDebit=viewAllShopDebit
+reportInvoiceDestroyAndVATShop=reportInvoiceDestroyAndVATShop
+lookupIsdnf9Shop=lookupIsdnf9Shop
+lookupSerialf9Shop=lookupSerialf9Shop
+reportChangeGoodf9Shop=reportChangeGoodf9Shop
+reportGeneralStockModelf9Shop=reportGeneralStockModelf9Shop
+
+accountManagementf9Shop=accountManagementf9Shop
+accountManagementf9Staff=accountManagementf9Staff
+
+
+
+#TrongLV
+#Bo sung role cho 2 doi tuong Commune va Collector
+
+#mapChannelTypeRoleActive
+roleActiveCommune=roleActiveCommune
+roleActiveCollector=roleActiveCollector
+
+#mapChannelTypeRoleReActive
+roleReActiveCommune=roleReActiveCommune
+roleReActiveCollector=roleReActiveCollector
+
+#mapChannelTypeRoleChangePass
+roleChangePassCommune=roleChangePassCommune
+roleChangePassCollector=roleChangePassCollector
+
+#mapChannelTypeRoleChangeStatus
+roleChangeStatusCommune=roleChangeStatusCommune
+roleChangeStatusCollector=roleChangeStatusCollector
+
+#mapChannelTypeRoleChangeInfo
+roleChangeInfoCommune=roleChangeInfoCommune
+roleChangeInfoCollector=roleChangeInfoCollector
+
+
+#mapChannelTypeRoleChangeRepairSim
+roleRepairSimCommune=roleRepairSimCommune
+roleRepairSimCollector=roleRepairSimCollector
+
+
+#mapChannelTyperoleAddMoneyAccount
+roleAddMoneyAccountCommune=roleAddMoneyAccountCommune
+roleAddMoneyAccountCollector=roleAddMoneyAccountCollector
+
+
+#mapChannelTyperoleGetMoneyAccount
+roleGetMoneyAccountCommune=roleGetMoneyAccountCommune
+roleGetMoneyAccountCollector=roleGetMoneyAccountCollector
+
+#mapChannelTyperoleBorrowCreditAccount
+roleBorrowCreditAccountCommune=roleBorrowCreditAccountCommune
+roleBorrowCreditAccountCollector=roleBorrowCreditAccountCollector
+
+#mapChannelTyperolePaymentCreditAccount
+rolePaymentCreditAccountCommune=rolePaymentCreditAccountCommune
+rolePaymentCreditAccountCollector=rolePaymentCreditAccountCollector
+
+
+#mapChannelTyperoleUnlockAccount
+roleUnlockAccountAgentCommune=roleUnlockAccountAgentCommune
+roleUnlockAccountAgentCollector=roleUnlockAccountAgentCollector
+
+#mapChannelTyperoleUnlockAccountBreach
+roleUnlockAccountBreachAgentCommune=roleUnlockAccountBreachAgentCommune
+roleUnlockAccountBreachAgentCollector=roleUnlockAccountBreachAgentCollector
+
+
+#mapChannelTyperoleCreateAccountBalance
+roleCreateBalanceAccountCommune=roleCreateBalanceAccountCommune
+roleCreateBalanceAccountCollector=roleCreateBalanceAccountCollector
+
+
+#mapChannelTyperoleUpdateAccountBalance
+roleUpdateBalanceAccountCommune=roleUpdateBalanceAccountCommune
+roleUpdateBalanceAccountCollector=roleUpdateBalanceAccountCollector
+
+
+#mapChannelTyperoleDestroyAccountBalance
+roleDestroyBalanceAccountCommune=roleDestroyBalanceAccountCommune
+roleDestroyBalanceAccountCollector=roleDestroyBalanceAccountCollector
+
+
+#mapChannelTyperoleCreateAccountAnyPay
+roleCreateAnyPayAccountCommune=roleCreateAnyPayAccountCommune
+roleCreateAnyPayAccountCollector=roleCreateAnyPayAccountCollector
+
+
+#roleUpdateAnyPayAccountCommune
+roleUpdateAnyPayAccountCommune=roleUpdateAnyPayAccountCommune
+roleUpdateAnyPayAccountCollector=roleUpdateAnyPayAccountCollector
+
+
+#mapChannelTyperoleDestroyAccountAnyPay
+mapChannelTyperoleDestroyAccountAnyPay=mapChannelTyperoleDestroyAccountAnyPay
+roleDestroyAnyPayAccountCollector=roleDestroyAnyPayAccountCollector
+
+
+
+
+
+
+roleActiveAccountAgent=roleActiveAccountAgent
+roleChangePassAccountAgent=roleChangePassAccountAgent
+roleChangeStatusAccountAgent=roleChangeStatusAccountAgent
+roleChangeInfoAccountAgent=roleChangeInfoAccountAgent
+roleRepairSimAccountAgent=roleRepairSimAccountAgent
+roleAddOrGetMoney=roleAddOrGetMoney
+roleDestroyAccountEload=roleDestroyAccountEload
+roleDestroyAccountAnyPay=roleDestroyAccountAnyPay
+#role active
+roleActiveCTV=roleActiveCTV
+roleActiveAgent=roleActiveAgent
+roleActiveStaffManagement=roleActiveStaffManagement
+roleActiveSale=roleActiveSale
+#role changepass
+roleChangePassCTV=roleChangePassCTV
+roleChangePassAgent=roleChangePassAgent
+roleChangePassStaffManagement=roleChangePassStaffManagement
+roleChangePassSale=roleChangePassSale
+#role changestatus
+roleChangeStatusCTV=roleChangeStatusCTV
+roleChangeStatusAgent=roleChangeStatusAgent
+roleChangeStatusStaffManagement=roleChangeStatusStaffManagement
+roleChangeStatusSale=roleChangeStatusSale
+#role changeInfo
+roleChangeInfoCTV=roleChangeInfoCTV
+roleChangeInfoAgent=roleChangeInfoAgent
+roleChangeInfoStaffManagement=roleChangeInfoStaffManagement
+roleChangeInfoSale=roleChangeInfoSale
+#role changeRepairSim
+roleRepairSimCTV=roleRepairSimCTV
+roleRepairSimAgent=roleRepairSimAgent
+roleRepairSimStaffManagement=roleRepairSimStaffManagement
+roleRepairSimSale=roleRepairSimSale
+#role nap tien
+roleAddMoneyAccountCTV=roleAddMoneyAccountCTV
+roleAddMoneyAccountAgent=roleAddMoneyAccountAgent
+roleAddMoneyAccountStaffManagement=roleAddMoneyAccountStaffManagement
+roleAddMoneyAccountSale=roleAddMoneyAccountSale
+#role rut tien
+roleGetMoneyAccountCTV=roleGetMoneyAccountCTV
+roleGetMoneyAccountAgent=roleGetMoneyAccountAgent
+roleGetMoneyAccountStaffManagement=roleGetMoneyAccountStaffManagement
+roleGetMoneyAccountSale=roleGetMoneyAccountSale
+#role cho vay tin dung
+roleBorrowCreditAccountCTV=roleBorrowCreditAccountCTV
+roleBorrowCreditAccountAgent=roleBorrowCreditAccountAgent
+roleBorrowCreditAccountStaffManagement=roleBorrowCreditAccountStaffManagement
+roleBorrowCreditAccountSale=roleBorrowCreditAccountSale
+#role giam tin dung
+rolePaymentCreditAccountCTV=rolePaymentCreditAccountCTV
+rolePaymentCreditAccountAgent=rolePaymentCreditAccountAgent
+rolePaymentCreditAccountStaffManagement=rolePaymentCreditAccountStaffManagement
+rolePaymentCreditAccountSale=rolePaymentCreditAccountSale
+
+#role them moi TKTT
+roleCreateBalanceAccountCTV=roleCreateBalanceAccountCTV
+roleCreateBalanceAccountAgent=roleCreateBalanceAccountAgent
+roleCreateBalanceAccountSale=roleCreateBalanceAccountSale
+#role huy TKTT
+roleDestroyBalanceAccountCTV=roleDestroyBalanceAccountCTV
+roleDestroyBalanceAccountAgent=roleDestroyBalanceAccountAgent
+roleDestroyBalanceAccountSale=roleDestroyBalanceAccountSale
+#role cap nhat TKTT
+roleUpdateBalanceAccountCTV=roleUpdateBalanceAccountCTV
+roleUpdateBalanceAccountAgent=roleUpdateBalanceAccountAgent
+roleUpdateBalanceAccountSale=roleUpdateBalanceAccountSale
+#role them moi TK anyPay
+roleCreateAnyPayAccountCTV=roleCreateAnyPayAccountCTV
+roleCreateAnyPayAccountAgent=roleCreateAnyPayAccountAgent
+roleCreateAnyPayAccountSale=roleCreateAnyPayAccountSale
+#role cap nhat TK anyPay
+roleUpdateAnyPayAccountCTV=roleUpdateAnyPayAccountCTV
+roleUpdateAnyPayAccountAgent=roleUpdateAnyPayAccountAgent
+roleUpdateAnyPayAccountSale=roleUpdateAnyPayAccountSale
+#role huy TK anyPay
+roleDestroyAnyPayAccountCTV=roleDestroyAnyPayAccountCTV
+roleDestroyAnyPayAccountAgent=roleDestroyAnyPayAccountAgent
+roleDestroyAnyPayAccountSale=roleDestroyAnyPayAccountSale
+
+#role mo khoa TK STK
+roleUnlockAccountAgentCTV=roleUnlockAccountAgentCTV
+roleUnlockAccountAgentAgent=roleUnlockAccountAgentAgent
+roleUnlockAccountAgentSale=roleUnlockAccountAgentSale
+
+#role mo khoa TK STK do vi pham DKTT
+roleUnlockAccountBreachAgentAgent=roleUnlockAccountBreachAgentAgent
+roleUnlockAccountBreachAgentSale=roleUnlockAccountBreachAgentSale
+roleUnlockAccountBreachAgentCTV=roleUnlockAccountBreachAgentCTV
+
+#role check kich hoat lai
+roleReActiveAgent=roleReActiveAgent
+roleReActiveSale=roleReActiveSale
+roleReActiveCTV=roleReActiveCTV
+roleReActiveStaffManagement=roleReActiveStaffManagement
+
+#role reportListAccountAgent
+rolef9ProvinceReportListAccountAgent=rolef9ProvinceReportListAccountAgent
+rolef9ShopReportListAccountAgent=rolef9ShopReportListAccountAgent
+#role ReportDevelopSubscriber
+rolef9ProvinceReportDevelopSubscriber=rolef9ProvinceReportDevelopSubscriber
+rolef9ShopReportDevelopSubscriber=rolef9ShopReportDevelopSubscriber
+rolef9StaffManageMentReportDevelopSubscriber=rolef9StaffManageMentReportDevelopSubscriber
+
+#role ReportActiveSubscriber
+rolef9ShopReportActiveSubscriber=rolef9ShopReportActiveSubscriber
+rolef9StaffManageMentReportActiveSubscriber=rolef9StaffManageMentReportActiveSubscriber
+
+#check huy gd
+checkdestroypos=checkdestroypos
+checkHeadShop=checkHeadShop
+checkSaleTransInvoiceAgent=checkSaleTransInvoiceAgent
+
+#phan quyen cap nhat thong tin ma trang
+checkUpdateCTV=checkUpdateCTV
+checkUpdateDB=checkUpdateDB
+checkUpdateInfoDB=checkUpdateInfoDB
+checkUpdateInfoCTV=checkUpdateInfoCTV
+
+#dieu chuyen
+checkChangeStaffManagementDB=checkChangeStaffManagementDB
+checkChangeStaffManagementCTV=checkChangeStaffManagementCTV
+checkChangeShopDB=checkChangeShopDB
+checkChangeShopCTV=checkChangeShopCTV
+
+#cap nhat thong tin ma trang
+f9ShopChangeInfoStaff=f9ShopChangeInfoStaff
+f9StaffManagementChangeInfoStaff=f9StaffManagementChangeInfoStaff
+#tao ma trang
+rolef9ShopAddStaff=rolef9ShopAddStaff
+rolef9ShopChangeStaffManagement=rolef9ShopChangeStaffManagement
+rolef9ShopChangeCTVDBInShop=rolef9ShopChangeCTVDBInShop
+rolef9ShopChangeParentShop=rolef9ShopChangeParentShop
+f9ProvinceChangeDLU=f9ProvinceChangeDLU
+viewExcelPstntoDLU=viewExcelPstntoDLU
+editAndDeletePstnToDLU=editAndDeletePstnToDLU
+rejectLogErrorDistributeIsdn=rejectLogErrorDistributeIsdn
+rejectLogErrorAssignStockModel=rejectLogErrorAssignStockModel
+rejectLogErrorAssignIsdnStatus=rejectLogErrorAssignIsdnStatus
+rejectLogErrorAssignChannelType=rejectLogErrorAssignChannelType
+
+#schemaEvoucher=EVOUCHER_OWNER
+schemaEvoucher=anypay_owner
+
+schemaCus=CUS_OWNER
+
+connectUrlDDV=com/viettel/im/database/config/connectUrlDDV
+
+#connectUrlEv=com/viettel/im/database/config/connectUrlEv
+connectUrlEv=com/viettel/im/database/config/connectUrlAnypay
+
+connectUrlCus=com/viettel/im/database/config/connectUrlCus
+
+connectUrlCMPre=com/viettel/im/database/config/connectUrlCMPre
+connectUrlCMPost=com/viettel/im/database/config/connectUrlCMPost
+connectUrlOffline=com/viettel/im/database/config/connectUrlOffline
+
+#Thong bao loi ko cap nhap duoc trang thai tk ben he thong evoucher trong truong hop tai khoan anypay da bi xoa
+MESS_EVOUCHER_ACCOUNT_DELETE=Agent nay dang o trang thai deleted khong the thay doi trang thai.
+
+#quyen duoc quyen phan phoi serial chua gan kenh
+actionOnSerialHasNotAssignedChannel=actionOnSerialHasNotAssignedChannel
+
+
+
+#duong dan den cac file template bao cao doanh thu theo hoa don
+#   - template bao cao doanh thu tong hop
+RR_BY_INVOICE_TMP_PATH_GENERAL_1=/WEB-INF/template/mzb_english/RR_ByInvoice_General_1.xls
+
+#duong dan den cac file template bao cao hoa don
+#   - template bao cao hoa don tong hop
+RI_TMP_PATH_GENERAL_1=/WEB-INF/template/mzb_english/RI_General_1.xls
+RI_TMP_PATH_GENERAL_V2=/WEB-INF/template/mzb_english/RI_General_V2.xls
+#import han muc loi
+errorUpdateStockOwnerTmpByFile=/WEB-INF/template/mzb_english/errorUpdateStockOwnerTmpByFile.xls
+
+#import Card Not Sale
+errorImportCardNotSaleFile=/WEB-INF/template/mzb_english/errorImportCardNotSaleFile.xls
+#import Card Lost
+errorImportCardLostFile=/WEB-INF/template/mzb_english/errorImportCardLostFile.xls
+exportListScatchCards=/WEB-INF/template/mzb_english/exportListScatchCards.xls
+exportListCardLost=/WEB-INF/template/mzb_english/exportListCardLost.xls
+#import Simtk DKTT
+errorImportSimtkByFile=/WEB-INF/template/mzb_english/errorImportSimtkByFile.xls
+exportListSimtkDKTT=/WEB-INF/template/mzb_english/exportListSimtkDKTT.xls
+
+#giao tiep voi CM
+cm_postpaid = com/viettel/im/database/config/connectUrlCMPost
+cm_prepaid =  com/viettel/im/database/config/connectUrlCMPre
+cm_post_connection = com/viettel/im/database/config/connectUrlCMPost
+cm_pre_connection =  com/viettel/im/database/config/connectUrlCMPre
+
+#Role cho phep import mat hang ANYPAY : nam trong chuc nang Import mat hang tu doi tac
+CHECK_IMPORT_ANYPAY=importAnypay
+
+#Config so tien toi thieu va toi da duoc nap #
+Max_Anypay_To_Retail=10000
+Min_Anypay_To_Retail=5
+#tutm1 16/08/2012 doi hang hong theo file
+errorImporChangeGoodsByFile=/WEB-INF/template/mzb_english/errorImporChangeGoodsByFile.xls
+#!tutm1
+cancelTransCard=cancelTransCard
+#phan quyen cong anypay cho don vi
+addSingleAnyPayShop=addSingleAnyPayShop
+#phan quyen cong anypay cho NVQL
+addSingleAnyPayStaff=addSingleAnyPayStaff
+#haint41 8/11/2011 : gioi han so tien cong AnyPay don le
+AMOUNT_ANYPAY = 1000
+TRANS_TYPE_ANYPAY=KMAN
+#haint41 30/11/2011 Quyen nhap thong tin shop cha
+f9ChangeInfoAgentRole=f9ChangeInfoAgentRole
+ADD_SINGLE_ANYPAY_TMP_PATH_ERR=/WEB-INF/template/mzb_english/addSingleAnyPay_Err.xls
+ADD_SUB_ANYPAY_TMP_PATH_ERR=/WEB-INF/template/mzb_english/addMinusAnypay_Err.xls
+
+#tutm1 17/08/2013 template LN, PN anypay tu doi tac
+LN_ANYPAY_PARTNER = /WEB-INF/template/mzb_english/LN_ANYPAY_PARTNER.xls
+PN_ANYPAY_PARTNER = /WEB-INF/template/mzb_english/PN_ANYPAY_PARTNER.xls
+#end tutm1.
+listApParamTypeDebit=DEBIT_TYPE,DEBIT_DAY_TYPE
+LINK_TO_DOWNLOAD_FILE_FIX=/WEB-INF/report_out/
+#end tutm1.
+#TruongNQ5 20140725 R6237
+SCHEMA_RVN_SEVICE=SM
+#So Ngay User Bi Canh Bao
+DATE_WARNING_LOCK_USER=8
+DATE_POPUP_LOCK_USER=8
+
+#Quyen Unlock the cao bi khoa UnlockUserCardOfBranch R13112
+UnlockUserCardOfBranch=UnlockUserCardOfBranch
+#So gio cau hinh chi nhanh bi khoa user
+HOUR_LOCK_USER_CARD_BRANCH=2
+#Config Web Service Vi Dien Tu Keeto phan tao Kenh
+#CreateWalletForSubscriber_wsdlUrl=http://10.229.42.146:9903/
+CreateWalletForSubscriber_wsdlUrl=http://10.229.16.36:9903/
+API=json/reply/Program.GwRequest
+UserName=Bccs
+PassWord=Movitel@1234
+
+#Config Web Service Vi Dien Tu Keeto phan payment
+SaleTrans_PayMethod_Emola_wsdlUrl=http://10.229.42.146:9903/
+API_Payment=json/reply/Program.GwRequest/payment
+UserName_Payment=BCCS
+PassWord_Payment=Movitel@1234
+#END Config Keeto WS
+#quyen thay doi isdn , kenh vi ChangeISDNChannelWallet
+ChangeISDNChannelWallet=ChangeISDNChannelWallet
+
+#danh sach chi nhanh ban theo chinh sach gia khuyen mai rieng
+LIST_BRANCH_HAVE_PRICE_POLICY_BRANCH=CABBR;NACBR
+LIST_BRANCH_DISCOUNT=MACBR;TETBR
+#Export List User Login mBCCS
+exportReportUserCallOfmBccsActionIM=/WEB-INF/template/mzb_english/exportReportUserCallOfmBccsActionIM.xls
+exportReportUserCallOfmBccsActionCM=/WEB-INF/template/mzb_english/exportReportUserCallOfmBccsActionCM.xls
+#Danh sach th cao khi nhan vien hap kho thi Active luon
+LIST_STOCK_CARD_ACTIVE_WHEN_STAFF_IMPORT=C10;C20
+#cau hinh log4j
+#logfilepath=/u01/app/sm_new/SM/tomcat_8801/webapps/SM/WEB-INF/classes/log4j.conf
+logfilepath=D:\\Restart\\WEB_SM\\src\\java\\log4j.conf
+#cau hinh so luong hang hoa toi da duoc ban tren mot hoa don
+MAX_OF_GOODS=10
+#Config YC 30204 cau hinh danh sach Role cua nhan vien c\u00f3 quyen xac nhan hang.
+ROLE_OF_STAFF_CONFIRM_IMPORT_STOCK=SH_TRANS_STAFF_IM,CE_SALE_STAFF_IM,CE_CO_MANAGER_IM,SH_MANAGER,SH_TRANS_STAFF,CE_DIRECTOR,BR_SALE_STAFF_IM,CE_AG_MANAGER_IM,BR_DIRECTOR,CE_DIRECTOR,CE_CO_MANAGER,SH_MANAGER,SH_TRANS_STAFF,BR_ASSET_MANAGER,BR_ASSET_STAFF,BR_CORP_MANAGER,BR_CORP_STAFF,BR_SALE_MANAGER,BR_SALE_STAFF,BR_TECH_MANAGER,BR_TECH_STAFF,SH_MANAGER,CE_SALE_STAFF,CE_TECH_STAFF,CE_TECH_STAFF,SH_SALE_STAFF
+ROLE_STAFF_OF_SHOP_CONFIRM_IMPORT_STOCK=SH_MANAGER_IM,CE_NEW_DIRECTOR_IM,CE_DIRECTOR,CE_DIRECTOR_IM,BR_STOCK_KEEPER_IM,BR_DIRECTOR_IM,BR_BCCS_STAFF_IM
+#END config YC 30204
+
+#Cau hinh giao chi tieu
+errorTargetToStaffByFile= /WEB-INF/template/mzb_english/errorAddTargetToStaffByFileEn.xls
+LINK_PATTERN_FILE_TARGET=/share/pattern/
+#tannh config user check AgreeUser
+IS_CHECK_AGREE_USER = mv_it_haitt25;mv_fbb_salimosi;mv_franciscoe;obediente_mac;mv_mauriciopica;mv_dhbh_brunob;mv_nam_bod_ngocpv;it_test;MV_MAN_TANAKAAM_BOD;MV_MAN_BERNARDOC;JANUARIO_CAB;MV_TET_ALBINONE;MV_NAC_MAMADECA;MV_NIA_HUNGTN;MV_NIA_MANUELRO;MV_SALE_AMELIAOM;MV_SALES_THUYNB;MV_MKT_TRINHTTT;MV_INH_CARMINADI;MV_MOC_JOAOOM;MV_NAM_ARCHELSAVI;MV_ZAM_MERLINDAHI;MV_DHBH_EUNISIOMA;MV_TET_SALE_ESMAELEM;XAVIERC_SOF;MV_MAC_SUMUELFU;mv_mac_sumuelfu
+#Tannh modified 15/11/2017 : Add server for checkSimChange: read file pdf, jpg
+server_get_file_to_server_host = 10.229.42.55
+server_get_file_to_server_username = scan_doc
+server_get_file_to_server_password = 8dw29Jk$3d
+server_get_file_to_server_tempdir_upto_file=/u01/scan_doc/CONTRACT_CHANNEL/
+server_get_file_to_server_tempdir_upto_file_accounttrans = /u01/scan_doc/ACCOUNT_TRANS/
+#server_get_file_to_server_tempdir=/u01/app/sm_new/SM/tomcat_8801/webapps/SM/
+#server_get_file_to_server_tempdir = /u01/app/sm_new/SM/tomcat_9999_test/webapps/SM/
+server_get_file_to_server_tempdir = D:\\Restart\\WEB_SM\\etc\\tmpUpload
+msgToFinanceStaff = Staff XXX has just created order transaction with Bank Document No: YYY. Please check and approve transaction. Thank you!
+msgToSaleStaff = This Bank Document No: ZZZ already approve by user XXX. Please create transaction with Bank Document No ZZZ.
+msgCancelTrans = This Bank Document No: ZZZ already cancel by user XXX. Please contact and check again.
+#tannh20180504 ham nhan tin khi khong duyet han muc cho nhan vien 
+msgCheckNotAcceptStaff = The request for debit limit XXX was refused.
+msgCheckAcceptStaff = The request for debit limit XXX accept .
+msgNoteLimitMoney = Limit money of saleman is 85000 and limit day is 1 .Limit money of other user is 57000 and limit day is 1
+moneyMaxLimitSale = 85000
+dayMaxLimitSale = 1
+moneyMaxLimitOther = 57000
+dayMaxLimitOther = 1
+smsConverChannelsuccess=XXXX foi modificado para YYYY pelo usuario ZZZZ. Por favor use YYYY para iniciar a sessao no mBCCS. Obrigado!
+#LinhNBV 20191030: Add Url Check BankDocument
+urlBankManager = http://10.229.41.35:9997/BankManager?wsdl

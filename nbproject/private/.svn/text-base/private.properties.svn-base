@@ -1,0 +1,7 @@
+deploy.ant.properties.file=C:\\Users\\itbl_linh\\AppData\\Roaming\\NetBeans\\7.3.1\\tomcat60.properties
+j2ee.server.domain=C:/Users/USER/AppData/Roaming/NetBeans/7.3.1/apache-tomcat-7.0.34.0_base
+j2ee.server.home=D:/xxx_movitel/tomcat_20190703/apache-tomcat-6.0.20
+j2ee.server.instance=tomcat60:home=D:\\xxx_movitel\\tomcat_20190703\\apache-tomcat-6.0.20
+javac.debug=true
+javadoc.preview=true
+user.properties.file=C:\\Users\\itbl_linh\\AppData\\Roaming\\NetBeans\\7.3.1\\build.properties

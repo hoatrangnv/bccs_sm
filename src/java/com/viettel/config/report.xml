@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : report.xml
+    Created on : June 23, 2009, 4:35 PM
+    Author     : tamdt1
+    Description:
+        Khai bao cac action lien quan den nghiep vu bao cao
+-->
+
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <package name="Report" extends="default">
+        <!--ThanhNC-->
+        <action name="ReportStockImpExpAction" class="com.viettel.im.database.DAO.ReportStockImpExpDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+<!--                    exportStockImpExpReport-->
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="reportStockExpImp">reportStockExpImp.page</result>
+            <result type="json" name="selectTelecomService">
+                <param name="root">listStockModel</param>
+            </result>
+            <result type="json" name="autoSelectShop">
+                <param name="root">listShop</param>
+            </result>
+            <result type="json" name="autoSelectStaff">
+                <param name="root">listStaff</param>
+            </result>
+            <result type="tiles" name="popupSearchShop">popupSearch.page</result>
+        </action>
+        <!--End ThanhNC-->
+<!--trung dh3 R499-->
+        <action name="reportImportExportStockV2Action" class="com.viettel.im.database.DAO.ReportStockImpExpVersion2DAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    exportStockImpExpReport
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="reportStockExpImpVersion2">reportStockExpImpVersion2.page</result>
+            <result type="json" name="selectTelecomService">
+                <param name="root">listStockModel</param>
+            </result>
+            <result type="json" name="autoSelectShop">
+                <param name="root">listShop</param>
+            </result>
+            <result type="json" name="autoSelectStaff">
+                <param name="root">listStaff</param>
+            </result>
+            <result type="tiles" name="popupSearchShop">popupSearch.page</result>
+        </action>
+
+        <!-- tamdt1, 23/06/2009 - start -->
+
+        <!-- bao cao doanh thu -->
+        <action name="reportRevenueAction" class="com.viettel.im.database.DAO.ReportRevenueDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+<!--                    reportRevenue,reportDestroyTrans-->
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="reportRevenue">reportRevenue.page</result>
+            <result type="tiles" name="reportDestroy">reportDestroyTrans.page</result>
+            <result type="json" name="getShopCode">
+                <param name="root">listItem</param>
+            </result>
+            <result type="json" name="getShopName">
+                <param name="root">listItem</param>
+            </result>
+            <result type="json" name="getStaffCode">
+                <param name="root">listItem</param>
+            </result>
+            <result type="json" name="getStaffName">
+                <param name="root">listItem</param>
+            </result>
+            <result type="json" name="changeStockType">
+                <param name="root">listItem</param>
+            </result>
+        </action>
+        <!--ThanhNC bao cao doanh thu offline -->
+        <action name="reportRevenueOfflineAction" class="com.viettel.im.database.DAO.ReportRevenueOfflineDAO" method="preparePage">
+            <result type="tiles" name="reportRevenue">reportRevenue.page</result>
+            <result type="tiles" name="reportDestroy">reportDestroyTrans.page</result>
+            <result type="json" name="getShopCode">
+                <param name="root">listItem</param>
+            </result>
+            <result type="json" name="getShopName">
+                <param name="root">listItem</param>
+            </result>
+            <result type="json" name="getStaffCode">
+                <param name="root">listItem</param>
+            </result>
+            <result type="json" name="getStaffName">
+                <param name="root">listItem</param>
+            </result>
+            <result type="json" name="changeStockType">
+                <param name="root">listItem</param>
+            </result>
+        </action>
+
+          <!-- bao cao mua hang cua CTV -->
+        <action name="reportRevenueBoughtByCollaboratorAction" class="com.viettel.im.database.DAO.ReportRevenueBoughtByCollaboratorDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+<!--                   reportRevenueBoughtByCollaborator-->
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="reportRevenueBoughtByCollaborator">reportRevenueBoughtByCollaborator.page</result>
+            <result type="tiles" name="reportRevenueBoughtByShop">reportRevenueBoughtByShop.page</result>
+        </action>
+        
+        <action name="reportRevenueByAgentAction" class="com.viettel.im.database.DAO.ReportRevenueBoughtByCollaboratorDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+<!--                   reportRevenueBoughtByCollaborator-->
+                </param>
+            </interceptor-ref>
+
+
+            <result type="tiles" name="reportRevenueBoughtByCollaborator">reportRevenueBoughtByCollaborator.page</result>
+            <result type="tiles" name="reportRevenueBoughtByShop">reportRevenueBoughtByShop.page</result>
+        </action>
+
+        <!-- bao cao TK STK -->
+        <action name="reportAccountAgentAction" class="com.viettel.im.database.DAO.ReportAccountAgentDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+<!--                   reportAccountAgent-->
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="reportAccountAgent">ReportAccountAgent.page</result>
+        </action>
+        <action name="reportDevelopSubscriberAction" class="com.viettel.im.database.DAO.ReportDevelopSubscriberDAO" method="preparePage">
+            <result type="tiles" name="reportSubscriber">ReportSubscriber.page</result>
+        </action>
+        <action name="reportListAccountAgentAction" class="com.viettel.im.database.DAO.ReportListAccountAgentDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+<!--                    reportListChannel,getComboboxSource,reportListAccountAgent-->
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="reportListAccountAgent">ReportListAccountAgent.page</result>
+            <result type="tiles" name="reportListChannel">reportListChannel.page</result>
+            <result type="json" name="getComboboxSource">
+                <param name="root">listItemsCombo</param>
+            </result>
+        </action>
+        <action name="reportAccountAgentBLAction" class="com.viettel.im.database.DAO.ReportAccountAgentBLDAO" method="preparePage">
+            <result type="tiles" name="reportAccountAgentBL">ReportAccountAgentBL.page</result>
+        </action>
+        <action name="reportActiveSubscriberAction" class="com.viettel.im.database.DAO.ReportActiveSubscriberDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+<!--                    reportActiveSub-->
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="reportActiveSubscriber">ReportActiveSubscriber.page</result>
+        </action>
+        <action name="reportCreditBookAction" class="com.viettel.im.database.DAO.ReportCreditBookDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+<!--                   reportCreditBook-->
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="reportCreditBook">ReportCreditBook.page</result>
+        </action>
+        <action name="reportActiveSubCommAction" class="com.viettel.im.database.DAO.ReportActiveSubCommDAO" method="preparePage">
+            <result type="tiles" name="reportActiveSubComm">ReportActiveSubComm.page</result>
+        </action>
+        <action name="reportActiveSubCommDetailAction" class="com.viettel.im.database.DAO.ReportActiveSubCommDetailDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+<!--                   reportActiveSubComm-->
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="reportActiveSubCommDetail">ReportActiveSubCommDetail.page</result>
+        </action>
+
+        <!-- bao cao doanh thu theo hoa don -->
+        <action name="reportRevenueByInvoiceAction" class="com.viettel.im.database.DAO.ReportRevenueByInvoiceDAO" method="preparePage">
+
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+<!--                   reportRevenueByInvoice-->
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="reportRevenueByInvoice">reportRevenueByInvoice.page</result>
+            <result type="json" name="getShopCode">
+                <param name="root">listItem</param>
+            </result>
+            <result type="json" name="getShopName">
+                <param name="root">listItem</param>
+            </result>
+            <result type="json" name="getStaffCode">
+                <param name="root">listItem</param>
+            </result>
+            <result type="json" name="getStaffName">
+                <param name="root">listItem</param>
+            </result>
+            <result type="json" name="changeStockType">
+                <param name="root">listItem</param>
+            </result>
+        </action>
+
+        <action name="reportInvoiceAction" class="com.viettel.im.database.DAO.ReportInvoiceDAO" method="preparePage">
+
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+<!--                   reportInvoice-->
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="reportInvoice">reportInvoice.page</result>
+            <result type="json" name="getShopCode">
+                <param name="root">listItem</param>
+            </result>
+            <result type="json" name="getShopName">
+                <param name="root">listItem</param>
+            </result>
+            <result type="json" name="getStaffCode">
+                <param name="root">listItem</param>
+            </result>
+            <result type="json" name="getStaffName">
+                <param name="root">listItem</param>
+            </result>
+        </action>
+
+        <action name="reportInvoiceV2Action" class="com.viettel.im.database.DAO.ReportInvoiceDAO" method="preparePageV2">
+            <result type="tiles" name="reportInvoiceV2">reportInvoiceV2.page</result>
+        </action>
+
+        <!-- tamdt1, 23/06/2009 - end -->
+
+        <!-- tutm1 - 20/07/2011 - bao cao doanh thu theo nhan vien quan ly dai ly -->
+        <action name="reportRevenueByAgentManagerAction" class="com.viettel.im.database.DAO.ReportRevenueByAgentManagerDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+<!--                   reportRevenueByAgentManager-->
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="reportRevenueByAgentManager">reportRevenueByAgentManager.page</result>
+        </action>
+        <!-- end tutm1 - 20/07/2011 - bao cao doanh thu theo nhan vien quan ly dai ly -->
+
+
+        <!--TrongLV-->
+        <action name="reportStockTransAction" class="com.viettel.im.database.DAO.ReportStockTransDAO" method="preparePage">
+
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+<!--                    reportStockTrans-->
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="reportStockTrans">reportStockTrans.page</result>
+            <result type="tiles" name="errorPage">returnMsg.page</result>
+            <result type="json" name="changeStockType">
+                <param name="root">lstItems</param>
+            </result>
+            <result type="json" name="getShopCode">
+                <param name="root">lstItems</param>
+            </result>
+            <result type="json" name="getShopName">
+                <param name="root">lstItems</param>
+            </result>
+
+            <result type="json" name="selectTelecomService">
+                <param name="root">listStockModel</param>
+            </result>
+            <result type="json" name="autoSelectShop">
+                <param name="root">listShop</param>
+            </result>
+            <result type="json" name="autoSelectStaff">
+                <param name="root">listStaff</param>
+            </result>
+        </action>
+
+        <action name="reportStockSerialRemain" class="com.viettel.im.database.DAO.ReportRemainSerialDAO" method="prepareViewStockStaffDetail">
+
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+<!--                exportStockStaffDetail-->
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="viewStockRemainSerial">reportStockRemainSerial.page</result>
+            <result type="tiles" name="exportStockDetailNormal">exportStockDetailNormal.page </result>
+        </action>
+
+        <!--TrongLV-->
+
+        <!--Bao cao doi hang hong-->
+        <action name="reportChangeGoodAction" class="com.viettel.im.database.DAO.ReportChangeGoodDAO" method="preparePage">
+
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+<!--                exportReportChangeGoodReport-->
+                </param>
+            </interceptor-ref>
+
+
+            <result type="tiles" name="ReportChangeGood">ReportChangeGood.page</result>
+            <result type="json" name="selectTelecomService">
+                <param name="root">listStockModel</param>
+            </result>
+            <result type="json" name="autoSelectShop">
+                <param name="root">listShop</param>
+            </result>
+        </action>
+        <!--End-->
+
+        <!--Bao cao dat coc-->
+        <action name="reportDepositAction" class="com.viettel.im.database.DAO.ReportDepositDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+<!--                   exportReportDepositBranch-->
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="ReportDeposit">ReportDeposit.page</result>
+            <result type="tiles" name="ReportDepositBranch">ReportDepositBranch.page</result>
+        </action>
+        <!--End-->
+
+        <!--Bao cao tong hop-->
+        <action name="reportGeneralStockModelAction" class="com.viettel.im.database.DAO.ReportGeneralStockModelDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+<!--                    exportReport,exportReportStockTotalDetail-->
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="ReportGeneralStockModel">ReportGeneralStockModel.page</result>
+            <result type="tiles" name="ReportStockTotalDeital">ReportStockTotalDeital.page</result>
+            <result type="json" name="selectTelecomService">
+                <param name="root">listStockModel</param>
+            </result>
+        </action>
+        
+        
+        
+        
+        <!--lamnt bao cao khi giam tru-->
+        <!--/reportStockActionGTHH!preparePageReportStockGTHH.do-->
+        <action name="reportStockActionGTHH" class="com.viettel.im.database.DAO.ReportStockGTHHActionDAO" method="preparePage">
+            <result type="tiles" name="ReportStockGTHH">ReportStockGTHH.page</result>
+        </action>
+        <!--end lamnt-->
+        
+        
+        
+
+        <!-- LamNV START -->
+        <action name="reportGetGoodCTVAction" class="com.viettel.im.database.DAO.ReportRevokeGoodFromColDAO" method="preparePage">
+            <result type="tiles" name="prepareSuccess">ReportGetGoodCTV.page</result>
+            <result type="tiles" name="viewSuccess">ViewReportGetGoodCTV.page</result>
+        </action>
+
+        <action name="smsAction" class="com.viettel.im.database.DAO.RevokeGoodFromColDAO" method="prepareSms">
+            <result type="tiles" name="prepareSuccess">hello.jsp</result>
+        </action>
+        <!-- LamNV END -->
+
+        <!-- NamNX START -->
+        <action name="reportNiceNumberAction" class="com.viettel.im.database.DAO.ReportNiceNumberDAO" method="preparePage">
+            <result type="tiles" name="reportNiceNumber">reportNiceNumber.page</result>
+        </action>
+        <!--Bao cao doanh thu so dep-->
+        <action name="reportRevenueNiceNumberAction" class="com.viettel.im.database.DAO.ReportRevenueNiceNumberDAO" method="preparePage">
+            <result type="tiles" name="reportRevenueNiceNumber">reportRevenueNiceNumber.page</result>
+        </action>
+
+        <!-- NamNX END -->
+
+        <action name="reportReceiveExpenseAction" class="com.viettel.im.database.DAO.ReportReceiveExpenseDAO" method="preparePage">
+            <result type="tiles" name="reportReceiveExpense">reportReceiveExpense.page</result>
+        </action>
+
+        <action name="reportBankReceiptAction" class="com.viettel.im.database.DAO.ReportBankReceiptDAO" method="preparePage">
+            <result type="tiles" name="reportBankReceipt">reportBankRecipt.page</result>            
+        </action>
+        <action name="reportGeneralInvoiceAction" class="com.viettel.im.database.DAO.ReportGeneralInvoiceDAO" method="preparePage">
+
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+<!--                    reportGeneralInvoice-->
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="reportGeneralInvoice">reportGeneralInvoice.page</result>
+        </action>
+        <action name="reportAnyPayAction" class="com.viettel.im.database.DAO.ReportAnyPayDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+<!--                    reportAnyPay-->
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="reportAnyPay">reportAnyPay.page</result>
+        </action>
+
+        <!--Thetm bao cao ton kho so homePhone-->
+        <action name="reportInStockHomephoneAction" class="com.viettel.im.database.DAO.ReportInStockHomephoneDAO" method="preparePage">
+            <result type="tiles" name="reportInStockHomephone">reportInStockHomephone.page</result>
+        </action>
+
+        <!--TrongLV - Bao cao hoa don ton -->
+        <action name="reportInvoiceDailyRemainAction" class="com.viettel.im.database.DAO.ReportInvoiceDailyRemainDAO" method="preparePage">
+
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+<!--                    exportInvoiceDailyRemain-->
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="reportInvoiceDailyRemain">reportInvoiceDailyRemain.page</result>
+        </action>
+
+        <!--TrongLV - Bao cao hoa don ton -->
+        <action name="reportStockUnImportAction" class="com.viettel.im.database.DAO.ReportStockUnImportDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+<!--                    exportReport-->
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="pageReport">reportStockUnImport.page</result>
+        </action>
+
+        <!-- bao cao tong hop cong no -->
+        <action name="reportDebitAction" class="com.viettel.im.database.DAO.ReportDebitDAO" method="preparePage">
+
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+<!--                    reportDebit-->
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="preparePage">preparePageReportDebit.page</result>
+        </action>
+
+        <!--        BC GNT Haiti-->
+        <action name="reportBankReceiptInExAction" class="com.viettel.im.database.DAO.ReportBankReceiptInExDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+<!--                    reportBankReceipt-->
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="reportBankReceipt">reportBankReciptInEx.page</result>
+            <result type="tiles" name="reportBankReceiptExternal">reportBankReceiptExternal.page</result>
+        </action>        
+        <!--        BC GNT Haiti-->
+        
+        <!--NamLT - Bao cao hang cho nhap kho -->
+        <action name="reportImportStockPending" class="com.viettel.im.database.DAO.ReportImportStockPendingDAO" method="preparePage">
+            <result type="tiles" name="reportStockImportPending">reportStockImportPending.page</result>
+        </action>
+        
+        <action name="reportBalanceDepositAction" class="com.viettel.im.database.DAO.ReportBalanceDepositDAO" method="preparePage">
+            <result type="tiles" name="ReportBalanceDeposit">ReportBalanceDeposit.page</result>
+        </action>
+
+  <!--ThaiPH - bao cao chi tiet kenh mua hang va kenh khong mua hang -->
+        <action name="reportDetailChannelBuyAndNotBuyAction" class="com.viettel.im.database.DAO.ReportDetailChannelBuyAndNotBuyDAO" method="preparePage">
+            <result type="tiles" name="ReportDetailChannelBuyAndNotBuy">ReportDetailChannelBuyAndNotBuy.page</result>
+            <result type="tiles" name="reportSaleOfChannel">reportSaleOfChannel.page</result>
+        </action>
+
+        
+        <action name="importCompetitorDataAction" class="com.viettel.im.database.DAO.ImportCompetitorDataDAO" method="preparePage">
+            <result type="tiles" name="importCompetitorData">importCompetitorData.page</result>
+            <result type="tiles" name="prepareExportCompetitorData">prepareExportCompetitorData.page</result>
+        </action>
+        
+        <!--ThaiPH - bao cao ban hang anypay cho khach le -->
+        <action name="ReportSaleAnypayToRetailAction" class="com.viettel.im.database.DAO.ReportSaleAnypayToRetailDAO" method="preparePage">
+            <result type="tiles" name="reportSaleAnypayToDetail">reportSaleAnypayToDetail.page</result>
+        </action>
+        
+        
+        <!--LeVT - bao cao cong tru anypay -->
+        <action name="reportAddMinusAnypayAction" class="com.viettel.im.database.DAO.ReportAddMinusAnypayDAO" method="preparePage">
+            <result type="tiles" name="reportAddSubAnypay">reportAddSubAnypay.page</result>
+        </action>
+        <action name="reportMaxDebitAction" class="com.viettel.im.database.DAO.ReportMaxDebitDAO" method="preparePage">
+            <result type="tiles" name="reportMaxDebit">reportMaxDebit.page</result>
+        </action>
+        
+        <action name="reportMaxDebitCatalogueAction" class="com.viettel.im.database.DAO.ReportMaxDebitCatalogueDAO" method="preparePage">
+            <result type="tiles" name="reportMaxDebitCatalogue">reportMaxDebitCatalogue.page</result>
+        </action>
+<!--        /trung dh 3 R499-->
+       <action name="reportImportExportStock" class="com.viettel.im.database.DAO.ReportStockImpExpV2DAO" method="preparePage">
+            <result type="tiles" name="reportStockExpV2Imp">reportStockExpImpV2.page</result>
+        </action>
+        <action name="reportDetailsStockTrans" class="com.viettel.im.database.DAO.ReportDetailStockTransDAO" method="preparePage">
+            <result type="tiles" name="reportDetailSockTrans">reportDetailStockTrans.page</result>
+        </action>
+        <action name="reportStockSenior" class="com.viettel.im.database.DAO.ReportStockSeniorDAO" method="preparePage">
+            <result type="tiles" name="reportStockSenior">reportStockSenior.page</result>
+        </action>
+        <action name="reportStockSerialRemainAction" class="com.viettel.im.database.DAO.ReportRemainSerialV2DAO" method="preparePage">
+            <result type="tiles" name="reportRemainSerialV2">reportRemainSerialV2.page</result>
+        </action>
+
+        <action name="reportGoodsBetwenTheBranches" class="com.viettel.im.database.DAO.ReportGoodsBetwenTheBranchesDAO" method="preparePage">
+            <result type="tiles" name="reportGoodsBetwenTheBranchesPre">reportGoodsBetwenTheBranchesPre.page</result>
+        </action>
+		<action name="reportInvenLimitByChannelAction" class="com.viettel.im.database.DAO.ReportInventoryLimitByChannelDAO" method="preparePage">
+            <result type="tiles" name="preparePage">reportInvenLimitByChannel.page</result>
+        </action>
+        <action name="reportInvenLimitStaffAction" class="com.viettel.im.database.DAO.ReportInventoryLimitStaffDAO" method="preparePage">
+            <result type="tiles" name="preparePage">reportInvenLimitStaff.page</result>
+        </action>
+        <!--TruongNQ5 R6505 20140903 end-->
+        <action name="reportStockUnsoldAction" class="com.viettel.im.database.DAO.ReportStockUnsoldDAO" method="preparePage">
+            <result type="tiles" name="reportStockUnsold">reportStockUnsold.page</result>
+        </action>
+        <!--TruongNQ5 R6505 20140903 end-->
+        <action name="reportRevenueVipCustomerAction" class="com.viettel.im.database.DAO.ReportRevenueVipCustomerDAO" method="preparePage">
+            <result type="tiles" name="reportRevenueVipCustomer">reportRevenueVipCustomer.page</result>
+        </action>
+        <!--Bao cao tong hop tac dong cua User tren Smart Phone-->
+        <action name="reportManagementActionOfUserAction" class="com.viettel.im.database.DAO.ReportActionOfUserMBCCSDAO" method="preparePage">
+            <result type="tiles" name="reportManagementActionOfUser">reportManagementActionOfUser.page</result>
+        </action>
+    </package>
+</struts>

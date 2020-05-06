@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/code/!svn/ver/2723/BCCS_IM/Source_Web/etc
+END
+logo_movitel.png
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/code/!svn/ver/2613/BCCS_IM/Source_Web/etc/logo_movitel.png
+END
+smsgateway.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/code/!svn/ver/730/BCCS_IM/Source_Web/etc/smsgateway.cfg
+END
+service.conf
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/code/!svn/ver/730/BCCS_IM/Source_Web/etc/service.conf
+END
+tcp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/code/!svn/ver/730/BCCS_IM/Source_Web/etc/tcp.xml
+END
+sms_process.jks
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/code/!svn/ver/730/BCCS_IM/Source_Web/etc/sms_process.jks
+END
+database.xml.ept
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/code/!svn/ver/730/BCCS_IM/Source_Web/etc/database.xml.ept
+END
+agent.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/code/!svn/ver/730/BCCS_IM/Source_Web/etc/agent.cfg
+END
+loglevel.conf
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/code/!svn/ver/730/BCCS_IM/Source_Web/etc/loglevel.conf
+END
+database.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/code/!svn/ver/2723/BCCS_IM/Source_Web/etc/database.xml
+END
+app.conf
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/code/!svn/ver/730/BCCS_IM/Source_Web/etc/app.conf
+END
+exchange_client.cfg.ept
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/code/!svn/ver/730/BCCS_IM/Source_Web/etc/exchange_client.cfg.ept
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/code/!svn/ver/730/BCCS_IM/Source_Web/etc/log.conf
+END
+smsgateway.cfg.ept
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/code/!svn/ver/730/BCCS_IM/Source_Web/etc/smsgateway.cfg.ept
+END
+dbmm.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/code/!svn/ver/730/BCCS_IM/Source_Web/etc/dbmm.cfg
+END
+exchange_client.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/code/!svn/ver/730/BCCS_IM/Source_Web/etc/exchange_client.cfg
+END

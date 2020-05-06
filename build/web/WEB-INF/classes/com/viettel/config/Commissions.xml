@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="Commission" extends="default">
+        <action name="commAddItemAction" class="com.viettel.im.database.DAO.CommItemsDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addOrEditCommItems,deleteCommItems,deleteCommFees,addOrEditItemFeeChannel,addOrEditItemFeeChannelAdvance
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="treeGroupCommItems">treeGroupCommItems.page</result>
+        </action>
+
+        <action name="getCommTree" class="com.viettel.im.database.DAO.CommItemsDAO" method="getCommTree">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addOrEditCommItems,deleteCommItems,deleteCommFees,addOrEditItemFeeChannel,addOrEditItemFeeChannelAdvance
+                </param>
+            </interceptor-ref>
+            <result type="json" name="success">
+                <param name="root">listItems</param>
+            </result>
+            <result type="tiles" name="addCommissionItem">addCommItems.page</result>
+            <result type="tiles" name="listCommItems">listCommItems.page</result>
+            <result type="tiles" name="declareCommItem">declareCommItem.page</result>
+            <result type="tiles" name="treeGroupCommItems">listGroupCommItem.page</result>
+        </action>
+
+        <action name="commSetPriceAction" class="com.viettel.im.database.DAO.CommFeeDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    updateCommPrice
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="declareCommissionFee">ItemFee.page</result>
+            <result type="tiles" name="declareCommPriceItems">declareCommPriceItems.page</result>
+            <result type="tiles" name="treeGroupCommItems">ItemFee.page</result>
+            <result type="tiles" name="detailCommItemsGroups">detailCommItemsGroups.page</result>
+        </action>
+
+        <action name="commRootTreePriceAction" class="com.viettel.im.database.DAO.CommFeeDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    updateCommPrice
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="treeGroupCommItems">listGroupCommItem.page</result>
+        </action>
+        
+    </package>
+</struts>
+

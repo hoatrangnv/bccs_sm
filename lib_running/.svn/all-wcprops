@@ -1,0 +1,833 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/lib_running
+END
+utilsPost.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/utilsPost.jar
+END
+tiles-core-2.0.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/tiles-core-2.0.6.jar
+END
+jotm.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jotm.jar
+END
+struts2-dojo-plugin-2.3.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/struts2-dojo-plugin-2.3.1.2.jar
+END
+jakarta-oro.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jakarta-oro.jar
+END
+commons-digester-2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/commons-digester-2.0.jar
+END
+PropertiesUtils.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/lib_running/PropertiesUtils.jar
+END
+httpclient-4.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/httpclient-4.1.1.jar
+END
+jta.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jta.jar
+END
+jaxb-impl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jaxb-impl.jar
+END
+PaymentLib1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/PaymentLib1.0.jar
+END
+iText-rups-2.1.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/iText-rups-2.1.5.jar
+END
+commons-chain-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/commons-chain-1.1.jar
+END
+jxls-reader-0.9.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jxls-reader-0.9.8.jar
+END
+jxl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jxl.jar
+END
+iText-2.1.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/iText-2.1.5.jar
+END
+log4j-1.2.15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/log4j-1.2.15.jar
+END
+velocity-1.6.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/velocity-1.6.3.jar
+END
+vaspapi.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/vaspapi.jar
+END
+poi-contrib-3.2-FINAL-20081019.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/poi-contrib-3.2-FINAL-20081019.jar
+END
+jaxws-rt.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jaxws-rt.jar
+END
+antlr.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/antlr.jar
+END
+crypto.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/crypto.jar
+END
+mockrunner.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/mockrunner.jar
+END
+mina-core-2.0.0-M5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/mina-core-2.0.0-M5.jar
+END
+CM_LIB.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/CM_LIB.jar
+END
+jta-spec1_0_1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jta-spec1_0_1.jar
+END
+commons-collections-3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/commons-collections-3.2.jar
+END
+ANYPAY_LIB.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/ANYPAY_LIB.jar
+END
+tiles-api-2.0.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/tiles-api-2.0.6.jar
+END
+struts2-json-plugin-2.3.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/struts2-json-plugin-2.3.1.2.jar
+END
+ridl-2.3.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/ridl-2.3.0.jar
+END
+stax-ex.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/stax-ex.jar
+END
+swing-worker-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/swing-worker-1.1.jar
+END
+slf4j-api-1.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/slf4j-api-1.5.6.jar
+END
+c3p0-0.9.1.2-jdk1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/c3p0-0.9.1.2-jdk1.3.jar
+END
+SM_LIB.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/SM_LIB.jar
+END
+AjaxFileUpload-0.03.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/AjaxFileUpload-0.03.jar
+END
+ojdbc6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/ojdbc6.jar
+END
+gson-2.2.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/gson-2.2.4.jar
+END
+c3p0-0.9.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/c3p0-0.9.1.2.jar
+END
+jotm_iiop_stubs.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jotm_iiop_stubs.jar
+END
+vpclient-ws.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/vpclient-ws.jar
+END
+DBInforEncrypter.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/DBInforEncrypter.jar
+END
+jericho-html-2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jericho-html-2.1.jar
+END
+FastInfoset.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/FastInfoset.jar
+END
+ojdbc14.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/ojdbc14.jar
+END
+commons-httpclient-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/commons-httpclient-3.1.jar
+END
+vptoken.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/vptoken.jar
+END
+junit-4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/junit-4.1.jar
+END
+jaxws-tools.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jaxws-tools.jar
+END
+struts2-tiles-plugin-2.3.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/struts2-tiles-plugin-2.3.1.2.jar
+END
+xwork-core-2.3.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/xwork-core-2.3.1.2.jar
+END
+jts1_0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jts1_0.jar
+END
+juh-2.3.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/juh-2.3.0.jar
+END
+hibernate3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/hibernate3.jar
+END
+streambuffer.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/streambuffer.jar
+END
+saaj-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/saaj-api.jar
+END
+commons-beanutils-core.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/commons-beanutils-core.jar
+END
+commons-codec-1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/commons-codec-1.4.jar
+END
+webservices-api-osgi.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/webservices-api-osgi.jar
+END
+json-lib-2.3-jdk15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/json-lib-2.3-jdk15.jar
+END
+appframework-1.0.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/appframework-1.0.3.jar
+END
+quartz-1.6.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/quartz-1.6.6.jar
+END
+sendmtv1.2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/sendmtv1.2.0.jar
+END
+xapool.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/xapool.jar
+END
+ant-antlr-1.6.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/ant-antlr-1.6.5.jar
+END
+jaxb-xjc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jaxb-xjc.jar
+END
+sjsxp.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/sjsxp.jar
+END
+c3p0-0.9.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/c3p0-0.9.2.1.jar
+END
+AESEncryptBySessionURIEncode.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/AESEncryptBySessionURIEncode.jar
+END
+jettison-1.0-RC1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jettison-1.0-RC1.jar
+END
+VasUtils_v1.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/lib_running/VasUtils_v1.2.1.jar
+END
+http.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/http.jar
+END
+xstream-1.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/xstream-1.2.2.jar
+END
+jurt-2.3.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jurt-2.3.0.jar
+END
+QueryCrypt.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/QueryCrypt.jar
+END
+sendmt.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/sendmt.jar
+END
+commons-fileupload-1.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/commons-fileupload-1.2.1.jar
+END
+jaxb-api-osgi.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jaxb-api-osgi.jar
+END
+objectweb-datasource.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/objectweb-datasource.jar
+END
+standard-1.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/standard-1.1.2.jar
+END
+commons-validator.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/commons-validator.jar
+END
+jodconverter-2.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jodconverter-2.2.1.jar
+END
+ow_carol.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/ow_carol.jar
+END
+freemarker-2.3.13.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/freemarker-2.3.13.jar
+END
+howl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/howl.jar
+END
+tiles-jsp-2.0.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/tiles-jsp-2.0.6.jar
+END
+asm-attrs.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/asm-attrs.jar
+END
+commons-beanutils-bean-collections.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/commons-beanutils-bean-collections.jar
+END
+c3p0-oracle-thin-extras-0.9.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/c3p0-oracle-thin-extras-0.9.1.2.jar
+END
+poi-3.2-FINAL-20081019.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/poi-3.2-FINAL-20081019.jar
+END
+jxls-core-0.9.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jxls-core-0.9.8.jar
+END
+asm.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/asm.jar
+END
+jotm_jrmp_stubs.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jotm_jrmp_stubs.jar
+END
+mail.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/mail.jar
+END
+javassist-3.11.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/javassist-3.11.0.jar
+END
+iText-rtf-2.1.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/iText-rtf-2.1.5.jar
+END
+httpcore-4.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/httpcore-4.3.jar
+END
+ajaxtags-1.2-beta3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/ajaxtags-1.2-beta3.jar
+END
+commons-v3.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/commons-v3.0.jar
+END
+displaytag-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/displaytag-1.2.jar
+END
+utils.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/utils.jar
+END
+activation.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/activation.jar
+END
+slf4j-jdk14-1.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/slf4j-jdk14-1.5.6.jar
+END
+jaxws-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jaxws-api.jar
+END
+org-netbeans-modules-java-j2seproject-copylibstask.jar
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/org-netbeans-modules-java-j2seproject-copylibstask.jar
+END
+commons-jexl-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/commons-jexl-1.1.jar
+END
+jstl-1.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jstl-1.1.2.jar
+END
+commons.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/commons.jar
+END
+commons-configuration-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/commons-configuration-1.0.jar
+END
+saaj-impl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/saaj-impl.jar
+END
+dom4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/dom4j-1.6.1.jar
+END
+cglib-2.1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/cglib-2.1.3.jar
+END
+jsr173_api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jsr173_api.jar
+END
+javax.annotation.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/javax.annotation.jar
+END
+unoil-2.3.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/unoil-2.3.0.jar
+END
+mchange-commons-java-0.2.3.4_fw.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/mchange-commons-java-0.2.3.4_fw.jar
+END
+jsr250-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jsr250-api.jar
+END
+commons-logging-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/commons-logging-1.1.jar
+END
+vpclientv3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/vpclientv3.jar
+END
+ognl-3.0.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/ognl-3.0.4.jar
+END
+struts.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/struts.jar
+END
+struts2-dwr-plugin-2.3.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/struts2-dwr-plugin-2.3.1.2.jar
+END
+struts2-core-2.3.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/struts2-core-2.3.1.2.jar
+END
+WsAnyPay.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/WsAnyPay.jar
+END
+commons-cli-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/commons-cli-1.0.jar
+END
+connector-1_5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/connector-1_5.jar
+END
+commons-io-1.3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/commons-io-1.3.2.jar
+END
+commons-collections-testframework-3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/commons-collections-testframework-3.2.jar
+END
+ViettelLib 2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/ViettelLib%202.0.jar
+END
+ezmorph-1.0.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/ezmorph-1.0.6.jar
+END
+poi-scratchpad-3.2-FINAL-20081019.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/poi-scratchpad-3.2-FINAL-20081019.jar
+END
+commons-lang-2.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/commons-lang-2.3.jar
+END
+jaxb-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jaxb-api.jar
+END
+iexs_lib.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/iexs_lib.jar
+END
+jsr181-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/jsr181-api.jar
+END
+commons-beanutils-1.7.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/code/!svn/ver/731/BCCS_IM/Source_Web/lib_running/commons-beanutils-1.7.0.jar
+END

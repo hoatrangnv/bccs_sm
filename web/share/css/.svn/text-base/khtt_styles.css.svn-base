@@ -1,0 +1,88 @@
+.status
+{
+    font-family: Arial, Helvetica, sans-serif, Times, serif;
+    font-size:13px;    
+    font-weight: bold;
+    color: #ff3300;
+}
+.info{                
+    color: #ff9933;
+    font-size: 13px;
+    
+    /*text-align:center*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+.txtWarning {
+    
+    font-family: Arial,Helvetica,sans-serif;
+    color: #ff9933;
+    font-weight: normal;
+    background-position: left;
+    font-size: 10pt;
+}
+.txtError {
+    font-family: Arial,Helvetica,sans-serif;
+    color: #cc0033;
+    font-weight: normal;
+    background-position: left;
+    font-size: 10pt;
+}
+.txtTwoCol{    
+    width: 80%;
+    padding: 0px;
+    border-color:black;
+    border:all;
+    border-width: 1px;
+    font-size: 14px;
+}
+.txtTwoColSmall{    
+    width: 48%;
+    padding: 0px;
+    border-color:black;
+    border:all;
+    border-width: 1px;
+    font-size: 14px;
+}
+.ReadOnlyText{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #009900;
+    font-weight: normal;
+    background-position: left;    
+    font-size: 11pt;
+}
+.txtOneCol
+{    
+    width: 80%;
+    padding: 0px;
+    border-color:black;
+    border:all;
+    border-width: 1px;
+    font-size: 14px;
+}
+.txtAreaOneCol{
+    width: 100%;
+    padding: 0px;
+    border-color:black;
+    border:all;
+    border-width: 1px;
+    font-size: 14px;
+}
+legend.transparent
+{
+    background-color: #FFFFFF;
+    border: 0;    
+    color: #0B55C4;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12pt;
+}
+
+fieldset.gray
+{
+    width: 98%;
+    border-top-color: #cccccc;
+    border-bottom-color: #cccccc;
+    border-left-color: #cccccc;
+    border-right-color: #cccccc;  
+    padding-left: 10px;
+}
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+    <appender name="ConsoleAppender" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value=
+                "Date: %d{yyyy/MM/dd HH:mm:ss} | Classname: %C | Location: %l | Milliseconds since program start: %r | Message: %m %n"/>
+        </layout>
+    </appender>
+
+    <appender name="BaseDAOAction" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="file" value="${catalina.home}/logs/Sale.log" />
+        <param name="append" value="true" />
+        <param name="datePattern" value="yyyy-MM-dd" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyyy/MM/dd HH:mm:ss.SSS} %t %C{1} %-5p %m%n" />
+        </layout>
+    </appender>
+    <logger name="com.viettel.database.DAO.BaseDAOAction" additivity="false">
+        <level value="debug"/>
+        <appender-ref ref="BaseDAOAction" />
+    </logger>
+
+    <appender name="DAOPackage" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="file" value="${catalina.home}/logs/DAOPackage.log" />
+        <param name="append" value="true" />
+        <param name="datePattern" value="'.'yyyy-MM-dd" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyyy/MM/dd HH:mm:ss.SSS} %t %C{1} %-5p %m%n" />
+        </layout>
+    </appender>
+    <logger name="com.viettel.im.database.DAO" additivity="false">
+        <level value="debug"/>
+        <appender-ref ref="DAOPackage" />
+    </logger>
+
+    <appender name="wflog" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="file" value="${catalina.home}/logs/wflog.log" />
+        <param name="append" value="true" />
+        <param name="datePattern" value="'.'yyyy-MM-dd-HH" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"
+                   value="%d{HH:mm:ss.SSS} %t %C{1} %-5p %n%l%n%m%n%n" />
+        </layout>
+    </appender>
+
+
+    <appender name="VSAFilterAppender" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="file" value="${catalina.base}/logs/vsaFilter.log" />
+        <param name="append" value="true" />
+        <param name="datePattern" value="'.'yyyy-MM-dd-HH" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"
+                   value="%d{dd/MM/yyyy HH:mm:ss} %5p [%c{1}] %m%n" />
+        </layout>
+    </appender>
+
+    <logger name="viettel.passport.util">
+        <level value="info"/>
+        <appender-ref ref="VSAFilterAppender"/>
+    </logger>
+
+    <!--root>
+        <priority value ="WARN" />
+        <appender-ref ref="ConsoleAppender"/>
+    </root-->
+
+</log4j:configuration>

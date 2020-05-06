@@ -1,0 +1,24 @@
+/* 
+    Document   : custom
+    Created on : Aug 6, 2008, 9:37:20 AM
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.searchKhachHang .text2Row {
+    width: 85%;
+}
+
+.searchKhachHang .cbo2Row {
+    width: 85%;
+}
+
+.searchKhachHang .text1Row {
+    width: 95%;
+}

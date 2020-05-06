@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="Pstn" extends="default">
+        <action name="importPSTNAction" class="com.viettel.im.database.DAO.StockIsdnAssignPstnToDluDAO" method="preparePage">
+            <result type="tiles" name="preparePage">createStockIsdnPstn.page
+            </result>
+        </action>
+        <action name="processPSTNAction" class="com.viettel.im.database.DAO.StockIsdnAssignPstnToDluDAO" method="preparePage">
+<!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    deletePstn,
+                    assignPstnToDslam,
+                    actionDeletePstnDLU,
+                    assignPstnToDLU,
+                    refreshListIsdnPstn,
+                    gotoEditPstn
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="preparePage">createStockIsdnPstn.page
+            </result>
+            <result type="tiles" name="assignPstnToDslam">createStockIsdnPstn.page
+            </result>
+            <result type="tiles" name="gotoEditPstn">editPstn.page
+            </result>
+            <result type="tiles" name="editPstnComplete">createStockIsdnPstn.page
+            </result>
+            <result type="tiles" name="deletePstnComplete">createStockIsdnPstn.page
+            </result>
+            <result type="tiles" name="pageNavigator">createStockIsdnPstn.page
+            </result>
+            <result type="tiles" name="pageNavigatorForList">createStockIsdnPstnSearchResult.page
+            </result>
+            <result type="tiles" name="exportfile">createStockIsdnPstn_Base.page
+            </result>
+            <result type="json" name="success">
+                <param name="root">hashMapResult</param>
+            </result>
+            <result type="json" name="updatePstnCodeSuccess">
+                <param name="root">hashMapPstnCode</param>
+            </result>
+        </action>
+        <action name="editPSTNAction" class="com.viettel.im.database.DAO.StockIsdnAssignPstnToDluDAO" method="editPstnComplete">
+            <result type="tiles" name="editPstnComplete">updateAndClose.page
+            </result>
+             <result type="tiles" name="gotoEditPstn">editPstn.page
+            </result>
+        </action>
+    </package>
+</struts>
+

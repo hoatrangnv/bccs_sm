@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportRevenue
+END
+reportRevenue.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportRevenue/reportRevenue.jsp
+END
+reportRevenueVipCustomer.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportRevenue/reportRevenueVipCustomer.jsp
+END
+ReportBalanceDeposit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportRevenue/ReportBalanceDeposit.jsp
+END
+reportRevenueByAgentManager.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportRevenue/reportRevenueByAgentManager.jsp
+END
+reportDestroyTrans.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportRevenue/reportDestroyTrans.jsp
+END
+reportRevenueBoughtByCollaborator.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportRevenue/reportRevenueBoughtByCollaborator.jsp
+END
+reportRevenueByInvoice.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportRevenue/reportRevenueByInvoice.jsp
+END
+reportAddMinusAnypay.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportRevenue/reportAddMinusAnypay.jsp
+END

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="CardNotSale" extends="default">
+        <result-types>
+            <result-type name="customJSON" class="com.viettel.im.server.action.JSONResult" />
+        </result-types>
+         <!-- lap yeu cau the cao chua ban import-->
+        <action name="importCardNotSaleAction" class="com.viettel.im.database.DAO.ImportCardNotSaleFileDAO" method="preparePage">            
+            <result type="tiles" name="importCardNotSaleFile">importCardNotSaleFile.page</result>
+            <result type="tiles" name="errorPage">errorPage.page</result>
+        </action>
+        <!-- lap yeu cau the cao chua ban-->
+        
+         <!--import Card lost-->
+        <action name="importStockCardLostAction" class="com.viettel.im.database.DAO.ImportStockCardLostDAO" method="preparePage">            
+            <result type="tiles" name="importStockCardLost">importStockCardLost.page</result>
+            <result type="tiles" name="errorPage">errorPage.page</result>
+        </action>
+        <!--import Card lost-->
+        
+        <!--phe duyet yeu cau khoa user-->
+        <action name="approveRequestLockUserAction" class="com.viettel.im.database.DAO.ApproveRequestLockUserDAO" method="preparePage">            
+            <result type="tiles" name="approveRequestLockUser">approveRequestLockUser.page</result>
+            <result type="tiles" name="searchRequestLock">approveRequestLockUser.page</result>
+            <result type="tiles" name="pageNavigator">listRequestCardNotSale.page</result>
+            <result type="tiles" name="lookDetailRequest">lookDetailRequest.page</result>
+            <result type="tiles" name="errorPage">errorPage.page</result>
+        </action>
+        <!--phe duyet yeu cau khoa use-->
+        
+        <!--phe duyet mo khoa use-->
+        <action name="unLockUserAction" class="com.viettel.im.database.DAO.UnLockUserActionDAO" method="preparePage">            
+            <result type="tiles" name="unLockUser">unLockUser.page</result>
+            <result type="tiles" name="searchReqUnLockUser">listReqUnLockUser.page</result>
+            <result type="tiles" name="pageNavigator">listReqUnLockUser.page</result>
+            <result type="tiles" name="popupUnlockUser">popupUnlockUser.page</result>
+            <result type="tiles" name="errorPage">errorPage.page</result>
+        </action>
+        <!--phe duyet mo khoa use-->
+        
+        <!--Xuat bao cao danh sach the cao-->
+        <action name="reportListScatchCardsAction" class="com.viettel.im.database.DAO.ExportListScatchCards" method="preparePage">            
+            <result type="tiles" name="exportListScatchCards">exportListScatchCards.page</result>
+            <result type="tiles" name="errorPage">errorPage.page</result>
+        </action>
+        <!--Xuat bao cao danh sach the cao-->
+        
+         <!--phe duyet the cao mat cap-->
+        <action name="approveStockCardLostAction" class="com.viettel.im.database.DAO.ApproveStockCardLostDAO" method="preparePage">            
+            <result type="tiles" name="approveStockCardLost">approveStockCardLost.page</result>
+            <result type="tiles" name="pageNavigator">listStockCardLost.page</result>
+            <result type="tiles" name="errorPage">errorPage.page</result>
+        </action>
+        <!--phe duyet the cao mat cap-->
+        
+        <!--Xuat bao cao danh sach the cao mat cap-->
+        <action name="reportListCardLostAction" class="com.viettel.im.database.DAO.ExportListCardLost" method="preparePage">            
+            <result type="tiles" name="exportListCardLost">exportListCardLost.page</result>
+            <result type="tiles" name="errorPage">errorPage.page</result>
+        </action>
+        <!--Xuat bao cao danh sach the cao mat cap-->
+    </package>
+</struts>
+
+

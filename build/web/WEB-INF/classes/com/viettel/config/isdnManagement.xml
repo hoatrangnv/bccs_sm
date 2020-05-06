@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : isdnManagement.xml
+    Created on : November 24, 2009, 12:02 AM
+    Author     : Doan Thanh 8
+    Description:
+        Cac action lien quan den quan ly so
+-->
+
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <package name="isdnmanagement" extends="default">
+        <!-- tao dai so moi -->
+        <action name="createStockIsdnAction" class="com.viettel.im.database.DAO.StockIsdnDAO" method="preparePage">
+<!--                        CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    createStockIsdn,
+                    changeServiceType,
+                    changeProvince,
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="createStockIsdn">createStockIsdn.page</result>
+            <result type="tiles" name="createStockIsdnSearchResult">createStockIsdnSearchResult.page</result>
+        </action>
+
+        <!-- loc so dep -->
+        <action name="filterIsdnAction" class="com.viettel.im.database.DAO.FilterISDNDAO" method="preparePage">
+<!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    changeService,
+                    filterNumber,
+                    saveData
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="filterISDN">filterISDN.page </result>
+            <result type="tiles" name="filterISDNResult">filterISDNResult.page </result>
+            <result type="tiles" name="treeFilter">treeFilter.page </result>
+            <result type="json" name="success">
+                <param name="root">listItems</param>
+            </result>
+        </action>
+
+        <!-- gan loai so va trang thai so -->
+        <action name="assignIsdnAction" class="com.viettel.im.database.DAO.AssignIsdnTypeDAO" method="preparePage">
+<!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    assignStatusForIsdnByFile,
+                    assignIsdnType,
+                    delIsdnRange
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="assignIsdnType">assignIsdnType.page</result>
+            <result type="tiles" name="listAssignIsdnType">listAssignIsdnType.page</result>
+        </action>
+
+        <!-- phan phoi so -->
+        <action name="DistributeISDNAction" class="com.viettel.im.database.DAO.DistributeISDNDAO" method="preparePage">
+            <!--CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    distributeIsdnByFile,
+                    distributeNumber,
+                    addIsdnRange
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="distributeISDN">distributeISDN.page</result>
+            <result type="tiles" name="distributeISDNBase">distributeISDNBase.page</result>
+            <result type="tiles" name="listDistributeIsdn">listDistributeIsdn.page</result>
+            <result type="json" name="getStockModelCombobox">
+                <param name="root">hashMapResult</param>
+            </result>
+            <result type="json" name="getListFromShopCode">
+                <param name="root">hashMapResult</param>
+            </result>
+            <result type="json" name="getListToShopCode">
+                <param name="root">hashMapResult</param>
+            </result>
+            <result type="json" name="getShopName">
+                <param name="root">hashMapResult</param>
+            </result>
+        </action>
+
+        <!-- gan mat hang cho so -->
+        <action name="assignStockModelForIsdnAction" class="com.viettel.im.database.DAO.AssignStockModelForIsdnDAO" method="preparePage">
+<!--                  CSRF Hieptd      -->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    assignStockModelForIsdn,
+                    updateListGroupFilterRule,
+                    updateListFilterType,
+                    updateListRule
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="assignStockModelForIsdn">assignStockModelForIsdn.page</result>
+            <result type="tiles" name="assignStockModelForIsdnList">assignStockModelForIsdnList.page</result>
+            <result type="json" name="updateListHashMapResult">
+                <param name="root">hashMapResult</param>
+            </result>
+        </action>
+
+        <!-- cap nhat gia so dep -->
+        <action name="assignIsdnPriceAction" class="com.viettel.im.database.DAO.AssignIsdnPriceDAO" method="preparePage">
+<!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    assignIsdnPrice
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="prepareAssignIsdnPrice">prepareAssignIsdnPrice.page </result>
+            <result type="tiles" name="assignIsdnPrice">assignIsdnPrice.page </result>
+        </action>
+
+    </package>
+</struts>

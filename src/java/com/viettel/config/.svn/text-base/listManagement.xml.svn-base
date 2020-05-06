@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : listManagement.xml
+    Created on : April 8, 2009, 2:57 PM
+    Author     : tamdt1
+    Description:
+        Khai bao cac action lien quan den danh muc
+-->
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <package name="List" extends="default">
+        <!-- tamdt1, 06/04/2009 - start -->
+
+        <!-- Danh muc chinh sach chiet khau -->
+        <action name="discountPolicyAction" class="com.viettel.im.database.DAO.DiscountPolicyDAO" method="preparePage">
+<!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addOrEditDiscountPolicy,
+                    delDiscountPolicy
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="discountPolicy">discountPolicy.page</result>
+            <result type="tiles" name="listDiscountPolicy">listDiscountPolicy.page</result>
+        </action>
+
+        <!-- Danh muc ly do (danh muc) -->
+        <action name="reasonAction" class="com.viettel.im.database.DAO.ReasonDAO" method="preparePage">
+<!--            CSRF Hieptd -->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addNewReason,
+                    editReason,
+                    deleteReason,
+                    copyReason
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="addNewReason">addNewReason.page</result>
+            <result type="tiles" name="pageNavigator">addNewReason.page</result>
+            <result type="tiles" name="pageReasonNavigator">addNewReasonResult.page</result>
+        </action>
+
+        <!-- Danh muc nhom ly do (danh muc) -->
+        <action name="reasonGroupAction" class="com.viettel.im.database.DAO.ReasonDAO" method="prepareReasonGroupPage">
+<!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addNewReasonGroup,
+                    editReasonGroup,
+                    deleteReasonGroup,
+                    copyReasonGroup
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="addNewReasonGroup">addNewReasonGroup.page</result>
+            <result type="tiles" name="pageReasonGroupNavigator">addNewReasonGroupResult.page</result>
+            
+        </action>
+
+        <!-- Danh muc doi tac (danh muc) -->
+        <action name="partnerAction" class="com.viettel.im.database.DAO.PartnerDAO" method="preparePage">
+<!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addNewPartner,
+                    editPartner,
+                    deletePartner,
+                    copyPartner
+                </param>
+            </interceptor-ref>
+
+
+            <result type="tiles" name="addNewPartner">addNewPartner.page</result>
+            <result type="tiles" name="pageNavigator">addNewPartnerResult.page</result>
+        </action>
+
+        <!-- tamdt1 - end -->
+        <!-- NamNX, 10/04/2009 - start -->
+        <!-- Danh muc kenh (danh muc) -->
+
+        <action name="saleChannelAction" class="com.viettel.im.database.DAO.SaleChannelDAO" method="prepareAddNewSaleChannel">
+            <result type="tiles" name="addNewSaleChannel">addNewSaleChannel.page</result>
+        </action>
+
+
+
+        <!-- Danh muc loai kenh (danh muc) -->
+        <action name="saleChannelTypeAction" class="com.viettel.im.database.DAO.SaleChannelTypeDAO" method="preparePage">
+<!--            CSRF Hieptd -->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    copyChannelType,
+                    deleteChannelType,
+                    editChannelType,
+                    addNewChannelType
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="addNewSaleChannelType">addNewSaleChannelType.page</result>
+            <result type="tiles" name="pageNavigator">searchChannelTypeResult.page</result>
+            <!--<result type="tiles" name="cancelSuccess">addNewSaleChannelType.page</result>-->
+        </action>
+
+        <!-- Danh muc ngan hang(danh muc) -->
+
+        <action name="bankAccountAction" class="com.viettel.im.database.DAO.BankAccountDAO" method="preparePage">
+<!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    saveBankAccount,
+                    deleteBankAccount
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="addNewBankAccount">addNewBankAccount.page</result>
+            <result type="tiles" name="pageNavigator">addNewBankAccountResult.page</result>
+        </action>
+
+        <!-- NamNX - end -->
+
+        
+        <!-- CuongNT -->
+        <!-- Danh muc tap luat (luat so dep) -->
+        <action name="groupFilterRuleAction" class="com.viettel.im.database.DAO.GroupFilterRuleDAO" method="preparePage">
+<!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    insertOrUpDateGroupFilterRule,
+                    actionDeleteGroupFilterRule,
+                    copyGroupFilterRule
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="addGroupFilterRule">addNewGroupFilterRule.page</result>
+            <result type="tiles" name="listGroupFilterRule">listGroupFilterRule.page</result>
+        </action>
+        <!-- Danh muc nhom luat (luat so dep) -->
+        <action name="filterTypeAction" class="com.viettel.im.database.DAO.FilterTypeDAO" method="preparePage">
+<!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    editFilterType,
+                    actionDeleteFilterType,
+                    copyFilterType
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="addFilterType">addNewFilterType.page</result>
+            <result type="tiles" name="manage">addNewFilterType.page</result>
+            <result type="tiles" name="pageNavigator">addNewFilterType.page</result>
+            <result type="tiles" name="listFilterType">listFilterType.page</result>
+        </action>
+        <!-- Danh muc luat so dep (luat so dep) -->
+        <action name="isdnFilterRulesAction" class="com.viettel.im.database.DAO.IsdnFilterRulesDAO" method="preparePage">
+<!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    insertOrUpDateIsdnFilterRules,
+                    delIsdnFilterRules,
+                    updateListFilterType
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="addIsdnFilterRules">addNewIsdnFilterRules.page</result>
+            <result type="tiles" name="listIsdnFilterRules">listIsdnFilterRules.page</result>
+            <result type="json" name="updateListFilterType">
+                <param name="root">hashMapResult</param>
+            </result>
+        </action>
+        <!-- CuongNT -->
+
+       <!--Phan Danh muc ly do phat-->
+        <action name="finePriceAction" class="com.viettel.im.database.DAO.FinePriceDAO" method="preparePage">
+<!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addOrEditFineItems,
+                    delFineItems,
+                    addOrEditFineItemsPrice,
+                    deleteFineItemPrice
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="FineItemsOverview">FineItemsOverview.page</result>
+            <result type="tiles" name="fineItems">fineItems.page</result>
+            <result type="tiles" name="fineItemsPrice">fineItemsPrice.page</result>
+            <result type="tiles" name="listTelecomService">listTelecomService.page</result>
+            <result type="tiles" name="listFineItem">listFineItem.page</result>
+            <result type="tiles" name="listFineItemPrice">listFineItemPrice.page</result>
+            <result type="tiles" name="fineItemInfo">fineItemInfo.page</result>
+            <result type="json" name="success">
+                <param name="root">listItems</param>
+            </result>
+        </action>
+       <!--LeVT1 R499 start danh muc email -->
+        <action name="stockReportEmailAction" class="com.viettel.im.database.DAO.StockReportEmailDAO" method="prepareStockReportEmailPage">
+            <result type="tiles" name="addNewStockReportEmail">addNewStockReportEmail.page</result>
+            <result type="tiles" name="pageStockReportEmailNavigator">addNewStockReportEmailResult.page</result>
+            <interceptor-ref name="fkInterceptor">
+                <param name="tokenSession.includeMethods">
+                    addNewStockReportEmail,editStockReportEmail,deleteStockReportEmail,copyStockReportEmail
+                </param>
+            </interceptor-ref>
+        </action>
+        <!--LeVT1 R499 end danh muc email -->
+    </package>
+</struts>

@@ -1,0 +1,347 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/code/!svn/ver/322/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure
+END
+cableBoxOfDslam.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/cableBoxOfDslam.jsp
+END
+assignDslamAreaOverview.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/assignDslamAreaOverview.jsp
+END
+listBTSLog.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/listBTSLog.jsp
+END
+dslamCable.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/dslamCable.jsp
+END
+addBTSByFile.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/addBTSByFile.jsp
+END
+listCableNoManagement.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/listCableNoManagement.jsp
+END
+AddNewBoards.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/AddNewBoards.jsp
+END
+AssignPSTNToExchange.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/AssignPSTNToExchange.jsp
+END
+cableNoManagement.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/cableNoManagement.jsp
+END
+switch.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/switch.jsp
+END
+addDslamArea.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/addDslamArea.jsp
+END
+listMdf.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/listMdf.jsp
+END
+listEquipment.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/listEquipment.jsp
+END
+card.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/card.jsp
+END
+listCableBox.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/listCableBox.jsp
+END
+chassicResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/chassicResult.jsp
+END
+assignShopDslamListDslam.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/assignShopDslamListDslam.jsp
+END
+logBTSDetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/logBTSDetail.jsp
+END
+searchBTS.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/searchBTS.jsp
+END
+AddEquipment.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/AddEquipment.jsp
+END
+listEquipmentVendor.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/listEquipmentVendor.jsp
+END
+listProvince.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/listProvince.jsp
+END
+slot.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/slot.jsp
+END
+listBras.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/listBras.jsp
+END
+port.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/port.jsp
+END
+listBTS.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/listBTS.jsp
+END
+listPSTNToExchange.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/listPSTNToExchange.jsp
+END
+assignAreaBTS.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/assignAreaBTS.jsp
+END
+assignShopDslamOverview.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/assignShopDslamOverview.jsp
+END
+bras.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/bras.jsp
+END
+dslamOverview.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/dslamOverview.jsp
+END
+portFormatList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/portFormatList.jsp
+END
+listDslam.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/listDslam.jsp
+END
+portFormat.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/portFormat.jsp
+END
+editBTS.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/editBTS.jsp
+END
+AddEquipmentVendor.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/AddEquipmentVendor.jsp
+END
+switchResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/switchResult.jsp
+END
+dslam.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/dslam.jsp
+END
+cableNo.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/cableNo.jsp
+END
+addShopDslam.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/addShopDslam.jsp
+END
+chassicOverview.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/chassicOverview.jsp
+END
+brasIpPoolList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/brasIpPoolList.jsp
+END
+listBoards.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/listBoards.jsp
+END
+cardResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/cardResult.jsp
+END
+changTypeDownload.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/changTypeDownload.jsp
+END
+manageBTSHome.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/manageBTSHome.jsp
+END
+brasIpPool.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/brasIpPool.jsp
+END
+addNewBTS.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/addNewBTS.jsp
+END
+chassic.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/chassic.jsp
+END
+dslamCableOverview.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/dslamCableOverview.jsp
+END
+cablebox.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/cablebox.jsp
+END
+addMdf.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/addMdf.jsp
+END
+slotResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/slotResult.jsp
+END
+listCableBoxOfDslam.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/listCableBoxOfDslam.jsp
+END
+portResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/portResult.jsp
+END
+assignDslamAreaListArea.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/assignDslamAreaListArea.jsp
+END
+listDslamCable.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/listDslamCable.jsp
+END

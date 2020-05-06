@@ -1,0 +1,1343 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/code/!svn/ver/2743/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form
+END
+AddSingleAnyPayForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/AddSingleAnyPayForm.java
+END
+BO.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/BO.java
+END
+ImportCommonForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/48/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ImportCommonForm.java
+END
+DiscountGoodsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/DiscountGoodsForm.java
+END
+CreateExpStockForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/CreateExpStockForm.java
+END
+RetrieveInvoiceCouponForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/RetrieveInvoiceCouponForm.java
+END
+BankReceiptAdjustmentForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/BankReceiptAdjustmentForm.java
+END
+FilterTypeForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/FilterTypeForm.java
+END
+ReasonForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ReasonForm.java
+END
+SaleServicesForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SaleServicesForm.java
+END
+BankReceiptExternalForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/BankReceiptExternalForm.java
+END
+GroupFilterRuleForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/GroupFilterRuleForm.java
+END
+StockKitForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/StockKitForm.java
+END
+CommItemsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/CommItemsForm.java
+END
+AssignInvoiceListForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/AssignInvoiceListForm.java
+END
+AssignStockModelForIsdnForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/AssignStockModelForIsdnForm.java
+END
+PackageGoodsV2Form.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/PackageGoodsV2Form.java
+END
+ConfirmReceiveBillForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ConfirmReceiveBillForm.java
+END
+AnyPayTransManagementForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/AnyPayTransManagementForm.java
+END
+StockTypeProfileForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/StockTypeProfileForm.java
+END
+SaleRetailAnypayForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SaleRetailAnypayForm.java
+END
+ChassicForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ChassicForm.java
+END
+CommCountersForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/CommCountersForm.java
+END
+SaleTransDetailForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SaleTransDetailForm.java
+END
+ImportSimForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ImportSimForm.java
+END
+PortForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/PortForm.java
+END
+StaffRoleForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/StaffRoleForm.java
+END
+MapDebitDayTypeForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/MapDebitDayTypeForm.java
+END
+CollectFeesForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/CollectFeesForm.java
+END
+TableFeesForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/TableFeesForm.java
+END
+ReportChangeGoodForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ReportChangeGoodForm.java
+END
+StockHandsetForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/StockHandsetForm.java
+END
+ConfigWarningForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ConfigWarningForm.java
+END
+StockSimForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/StockSimForm.java
+END
+AdjustFeesForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/AdjustFeesForm.java
+END
+ManagementActionOfUserForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ManagementActionOfUserForm.java
+END
+AssignGoodsDrawForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/AssignGoodsDrawForm.java
+END
+DslamForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/DslamForm.java
+END
+ReportGetGoodCTVForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ReportGetGoodCTVForm.java
+END
+AccountBalanceForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/AccountBalanceForm.java
+END
+ApproveDepositForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ApproveDepositForm.java
+END
+CatalogApParamsDebitForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/CatalogApParamsDebitForm.java
+END
+ReportInvoiceDailyRemainForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ReportInvoiceDailyRemainForm.java
+END
+LinkSimSoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/LinkSimSoForm.java
+END
+AddSingleAnyPayManagementForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/AddSingleAnyPayManagementForm.java
+END
+ConfirmReceivISDNForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ConfirmReceivISDNForm.java
+END
+CardForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/CardForm.java
+END
+ReportInStockHomephoneForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ReportInStockHomephoneForm.java
+END
+SaleTransEmolaForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/147/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SaleTransEmolaForm.java
+END
+NewStockIsdnForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/NewStockIsdnForm.java
+END
+AccountAnyPayManagementForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/AccountAnyPayManagementForm.java
+END
+SaleChannelForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SaleChannelForm.java
+END
+IsdnFilterRulesForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/IsdnFilterRulesForm.java
+END
+ActionLogForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ActionLogForm.java
+END
+StockOwnerTmpForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/StockOwnerTmpForm.java
+END
+BasicForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/BasicForm.java
+END
+PortOutsideForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/PortOutsideForm.java
+END
+BuyAndNotBuyForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/BuyAndNotBuyForm.java
+END
+ExportStockToPartnerForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ExportStockToPartnerForm.java
+END
+BankReceiptInternalForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/BankReceiptInternalForm.java
+END
+EquipmentVendorForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/EquipmentVendorForm.java
+END
+AssignIsdnPriceForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/AssignIsdnPriceForm.java
+END
+TargetForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/321/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/TargetForm.java
+END
+SubBO.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SubBO.java
+END
+ExportDemoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ExportDemoForm.java
+END
+SerialGoods.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/1510/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SerialGoods.java
+END
+DebitForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/DebitForm.java
+END
+BankAccountForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/BankAccountForm.java
+END
+CreateExpCmdFromFileForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/CreateExpCmdFromFileForm.java
+END
+ReportInvoiceForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ReportInvoiceForm.java
+END
+BookTypeForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/BookTypeForm.java
+END
+ReportAnyPayForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ReportAnyPayForm.java
+END
+DocDepositForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/DocDepositForm.java
+END
+InformationUserVsaFrom.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/InformationUserVsaFrom.java
+END
+UpdateSaleTransForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/UpdateSaleTransForm.java
+END
+FineItemPrice.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/FineItemPrice.java
+END
+FineItemForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/FineItemForm.java
+END
+UsersForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/UsersForm.java
+END
+StaffForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/2531/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/StaffForm.java
+END
+AddShopDslamForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/AddShopDslamForm.java
+END
+CableNoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/CableNoForm.java
+END
+AssignPricePolicyAndDiscountPolicyForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/AssignPricePolicyAndDiscountPolicyForm.java
+END
+ReasonGroupForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ReasonGroupForm.java
+END
+DestroyReferenceNoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/DestroyReferenceNoForm.java
+END
+ReportBankReceiptInExForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ReportBankReceiptInExForm.java
+END
+AddAgentForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/AddAgentForm.java
+END
+DiscountPolicyForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/DiscountPolicyForm.java
+END
+SaleTransInvoiceForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/2611/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SaleTransInvoiceForm.java
+END
+LookupIsdnHistoryForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/LookupIsdnHistoryForm.java
+END
+StockGoodDrawForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/StockGoodDrawForm.java
+END
+PackageGoodsDetailForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/PackageGoodsDetailForm.java
+END
+SaleServicesPriceForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SaleServicesPriceForm.java
+END
+SaleServicesDetailForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SaleServicesDetailForm.java
+END
+ImportStockForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ImportStockForm.java
+END
+ChangeInfoAgentForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ChangeInfoAgentForm.java
+END
+PackageGoodsDetailV2Form.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/PackageGoodsDetailV2Form.java
+END
+AssignNewStockModelForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/AssignNewStockModelForm.java
+END
+UploadForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/UploadForm.java
+END
+SaleToAccountAnyPayForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SaleToAccountAnyPayForm.java
+END
+ReportGeneralInvoiceForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ReportGeneralInvoiceForm.java
+END
+AgentDistributeManagementForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/AgentDistributeManagementForm.java
+END
+AddStaffCodeCTVDBForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/2366/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/AddStaffCodeCTVDBForm.java
+END
+ExpToPartnerForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ExpToPartnerForm.java
+END
+PayFeesForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/PayFeesForm.java
+END
+SplitBillForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SplitBillForm.java
+END
+StockIsdnForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/StockIsdnForm.java
+END
+PrinterParamForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/PrinterParamForm.java
+END
+DiscountGroupForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/DiscountGroupForm.java
+END
+FineItemsPriceForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/FineItemsPriceForm.java
+END
+LoginForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/LoginForm.java
+END
+InputSimForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/InputSimForm.java
+END
+ExchangeRateCurrencyForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ExchangeRateCurrencyForm.java
+END
+SaleServicesModelForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SaleServicesModelForm.java
+END
+RevokeISDNForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/RevokeISDNForm.java
+END
+StockDepositForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/StockDepositForm.java
+END
+PartnerForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/PartnerForm.java
+END
+SaleManagmentForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/2424/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SaleManagmentForm.java
+END
+IMAdminForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/IMAdminForm.java
+END
+ImportPSTNForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ImportPSTNForm.java
+END
+ReportDebitForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ReportDebitForm.java
+END
+SimtkManagementForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SimtkManagementForm.java
+END
+CancelNotUsedBillsReasonForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/CancelNotUsedBillsReasonForm.java
+END
+ReportStockTransForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ReportStockTransForm.java
+END
+LookupIsdnForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/LookupIsdnForm.java
+END
+PSTNExchangeForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/PSTNExchangeForm.java
+END
+DiscountForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/DiscountForm.java
+END
+SaleToCollaboratorForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SaleToCollaboratorForm.java
+END
+LookupSerialHistoryForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/LookupSerialHistoryForm.java
+END
+CommissionFeeForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/CommissionFeeForm.java
+END
+PriceForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/PriceForm.java
+END
+ReportDepositForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ReportDepositForm.java
+END
+ListAccountBookForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ListAccountBookForm.java
+END
+CreateNewBillsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/CreateNewBillsForm.java
+END
+MdfForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/MdfForm.java
+END
+ReportForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ReportForm.java
+END
+ReportRevenueNiceNumberForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ReportRevenueNiceNumberForm.java
+END
+PayDepositForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/PayDepositForm.java
+END
+PrinterUserForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/PrinterUserForm.java
+END
+ExportStockForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/548/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ExportStockForm.java
+END
+SearchDebitRequestForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SearchDebitRequestForm.java
+END
+SwitchesForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SwitchesForm.java
+END
+ReportMBForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ReportMBForm.java
+END
+ImSearchForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ImSearchForm.java
+END
+DistributeIsdnForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/DistributeIsdnForm.java
+END
+CalculateFeesForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/CalculateFeesForm.java
+END
+ActiveCardForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ActiveCardForm.java
+END
+ViewAccountAgentForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ViewAccountAgentForm.java
+END
+ReportReceiveExpenseForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ReportReceiveExpenseForm.java
+END
+EquipmentForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/EquipmentForm.java
+END
+StockModelSourcePriceForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/StockModelSourcePriceForm.java
+END
+ShopForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ShopForm.java
+END
+LookupItemHistoryForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/LookupItemHistoryForm.java
+END
+BoardsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/BoardsForm.java
+END
+GoodsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/GoodsForm.java
+END
+ReportStockUnImportForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ReportStockUnImportForm.java
+END
+ReportRevenueByInvoiceForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ReportRevenueByInvoiceForm.java
+END
+CableBoxForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/CableBoxForm.java
+END
+GroupFilterType.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/GroupFilterType.java
+END
+InventoryLimitByChannelForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/InventoryLimitByChannelForm.java
+END
+InventoryLimitStaffForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/InventoryLimitStaffForm.java
+END
+SlotForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SlotForm.java
+END
+CommissionItemsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/CommissionItemsForm.java
+END
+TblSimeActionLogDetailForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/TblSimeActionLogDetailForm.java
+END
+ImportBankReceiptForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ImportBankReceiptForm.java
+END
+PackageGoodsReplaceForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/PackageGoodsReplaceForm.java
+END
+CommItemFeeChannelForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/CommItemFeeChannelForm.java
+END
+ManagementCTVAndPointForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/code/!svn/ver/147/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ManagementCTVAndPointForm.java
+END
+AssignChannelTypeForSerialForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/AssignChannelTypeForSerialForm.java
+END
+PackageGoodsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/PackageGoodsForm.java
+END
+BrasForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/BrasForm.java
+END
+ResourceForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ResourceForm.java
+END
+AccountAnyPayFPTForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/AccountAnyPayFPTForm.java
+END
+GoodsDefForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/GoodsDefForm.java
+END
+SaleTransForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/1510/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SaleTransForm.java
+END
+QuotasAssignedSingleForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/QuotasAssignedSingleForm.java
+END
+PortFormatForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/PortFormatForm.java
+END
+CollAccountManagmentForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/CollAccountManagmentForm.java
+END
+CommissionPolicyForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/CommissionPolicyForm.java
+END
+ListSearchForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ListSearchForm.java
+END
+AddDslamAreaForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/AddDslamAreaForm.java
+END
+MappingDslamSaleServiceForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/MappingDslamSaleServiceForm.java
+END
+ReportStockImpExpForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ReportStockImpExpForm.java
+END
+StockModelForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/StockModelForm.java
+END
+AssignIsdnTypeForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/AssignIsdnTypeForm.java
+END
+ReportRevenueForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ReportRevenueForm.java
+END
+SearchSaleChannelTypeForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SearchSaleChannelTypeForm.java
+END
+DrawnRangeSo.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/DrawnRangeSo.java
+END
+ReqCardNotSaleFrom.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ReqCardNotSaleFrom.java
+END
+ChannelForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/2743/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ChannelForm.java
+END
+BrasIppoolForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/BrasIppoolForm.java
+END
+CommItemGroupsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/CommItemGroupsForm.java
+END
+StockCardForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/StockCardForm.java
+END
+AddCreditBorrowForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/AddCreditBorrowForm.java
+END
+SaleChannelTypeForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/145/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SaleChannelTypeForm.java
+END
+ApproveFeesForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ApproveFeesForm.java
+END
+ContractFeesForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ContractFeesForm.java
+END
+PricePolicyForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/PricePolicyForm.java
+END
+UpdateSaleTransDetailForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/UpdateSaleTransDetailForm.java
+END
+ActiveKitForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ActiveKitForm.java
+END
+ReportNiceNumberForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ReportNiceNumberForm.java
+END
+SaleForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SaleForm.java
+END
+CreateRequestDebitForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/CreateRequestDebitForm.java
+END
+AddSubAnyPayForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/AddSubAnyPayForm.java
+END
+LookupStockSimForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/LookupStockSimForm.java
+END
+CreateAgentDepositReceiptForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/CreateAgentDepositReceiptForm.java
+END
+AddMoneyToAccountBalanceForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/AddMoneyToAccountBalanceForm.java
+END
+StockReportEmailForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/StockReportEmailForm.java
+END
+DebitDayTypeForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/DebitDayTypeForm.java
+END
+BTSForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/BTSForm.java
+END
+BillsDepartmentForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/BillsDepartmentForm.java
+END
+DrawGoodsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/DrawGoodsForm.java
+END
+DebitTypeForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/DebitTypeForm.java
+END
+PayDebitShopForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/PayDebitShopForm.java
+END
+KitIntegrationForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/KitIntegrationForm.java
+END
+UpdFeesForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/UpdFeesForm.java
+END
+ImportMDFOutsideForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/ImportMDFOutsideForm.java
+END
+PayDepositAtShopForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/PayDepositAtShopForm.java
+END
+FilterISDNForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/FilterISDNForm.java
+END
+SaleToAnyPayManagementForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SaleToAnyPayManagementForm.java
+END
+DiscountModelMapForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/DiscountModelMapForm.java
+END
+PSTNExchangeForm_1.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/PSTNExchangeForm_1.java
+END
+SearchBillForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/SearchBillForm.java
+END
+LookupSerialForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/form/LookupSerialForm.java
+END

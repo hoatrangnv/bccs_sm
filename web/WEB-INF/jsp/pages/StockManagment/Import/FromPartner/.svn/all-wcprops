@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/1617/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Import/FromPartner
+END
+listImpCmdToPartner.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Import/FromPartner/listImpCmdToPartner.jsp
+END
+listImpNoteToPartner.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Import/FromPartner/listImpNoteToPartner.jsp
+END
+expImpNoteToPartner.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Import/FromPartner/expImpNoteToPartner.jsp
+END
+KetQuaVaNut.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Import/FromPartner/KetQuaVaNut.jsp
+END
+listSerialRange.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Import/FromPartner/listSerialRange.jsp
+END
+processStockImp.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Import/FromPartner/processStockImp.jsp
+END
+ImpStockFromPartner.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Import/FromPartner/ImpStockFromPartner.jsp
+END
+importStockFromPartner.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/code/!svn/ver/1617/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Import/FromPartner/importStockFromPartner.jsp
+END
+notePrintPath.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Import/FromPartner/notePrintPath.jsp
+END
+CreateImpCmdStockFromPartner.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Import/FromPartner/CreateImpCmdStockFromPartner.jsp
+END
+CreateImpNoteStockFromPartner.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Import/FromPartner/CreateImpNoteStockFromPartner.jsp
+END
+ImpStockFromPartnerFinal.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Import/FromPartner/ImpStockFromPartnerFinal.jsp
+END

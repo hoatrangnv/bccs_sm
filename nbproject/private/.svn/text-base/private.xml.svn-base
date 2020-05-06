@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/F:/1.Work/SM_Web/SM_Web/web/WEB-INF/jsp/pages/Sale/approveInvoiceCreditManagement.jsp</file>
+            <file>file:/F:/1.Work/SM_Web/SM_Web/src/java/com/viettel/im/database/DAO/SaleManagmentDAO.java</file>
+            <file>file:/F:/1.Work/SM_Web/SM_Web/web/WEB-INF/jsp/pages/Sale/approveInvoiceCreditManagementList.jsp</file>
+            <file>file:/F:/1.Work/SM_Web/SM_Web/src/java/com/viettel/im/database/DAO/ApproveInvoiceCreditManagementDAO.java</file>
+            <file>file:/F:/1.Work/SM_Web/SM_Web/src/java/com/viettel/im/common/Constant.java</file>
+            <file>file:/F:/1.Work/SM_Web/SM_Web/src/java/com/viettel/im/database/DAO/InvoiceListDAO.java</file>
+            <file>file:/F:/1.Work/SM_Web/SM_Web/src/java/com/viettel/im/database/DAO/InvoiceUsedDAO.java</file>
+            <file>file:/F:/1.Work/SM_Web/SM_Web/web/WEB-INF/jsp/pages/Sale/invoiceCreditManagementList.jsp</file>
+            <file>file:/F:/1.Work/SM_Web/SM_Web/src/java/com/viettel/im/database/DAO/InvoiceCreditManagementDAO.java</file>
+            <file>file:/F:/1.Work/SM_Web/SM_Web/web/WEB-INF/jsp/pages/Sale/invoiceCreditManagement.jsp</file>
+        </group>
+    </open-files>
+</project-private>

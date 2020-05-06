@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : goodsManagement.xml
+    Created on : April 6, 2009, 8:09 AM
+    Author     : tamdt1
+    Description:
+        Khai bao cac action lien quan den phan quan ly mat hang
+-->
+
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <package name="Goods" extends="default">
+        <!-- tamdt1, 06/04/2009 - start -->
+
+        <!-- Tao profile mat hang (quan ly mat hang) -->
+        <action name="profileAction" class="com.viettel.im.database.DAO.GoodsProfileDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addOrEditProfile,delProfile
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="goodsProfileOverview">goodsProfileOverview.page</result>
+            <result type="tiles" name="goodsProfile">goodsProfile.page</result>
+            <result type="tiles" name="searchProfile">searchProfile.page</result>
+            <result type="tiles" name="listProfiles">listProfiles.page</result>
+            <result type="tiles" name="listStockTypes">goodsListStockTypes.page</result>
+            <result type="json" name="getGoodsProfileTree">
+                <param name="root">listItems</param>
+            </result>
+        </action>
+
+        <!-- Dinh nghia dich vu ban hang (quan ly mat hang) -->
+        <action name="saleServicesOverviewAction" class="com.viettel.im.database.DAO.SaleServicesDAO" method="saleServicesOverview">
+            <result type="tiles" name="saleServicesOverview">saleServicesOverview.page</result>
+        </action>
+        <action name="saleServicesAction" class="com.viettel.im.database.DAO.SaleServicesDAO" method="displaySaleServices">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addOrEditSaleServices,delSaleServices,addOrEditSaleServicesPrice,delSaleServicesPrice,addOrEditSaleServicesModel,delSaleServicesModel,addOrEditSaleServicesDetail,delSaleServicesDetail
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="searchSaleServices">searchSaleServices.page</result>
+            <result type="tiles" name="saleServicesInfo">saleServicesInfo.page</result>
+            <result type="tiles" name="saleServices">saleServices.page</result>
+            <result type="tiles" name="saleServicesModel">saleServicesModel.page</result>
+            <result type="tiles" name="saleServicesDetail">saleServicesDetail.page</result>
+            <result type="tiles" name="saleServicesPrice">saleServicesPrice.page</result>
+            <result type="tiles" name="listSaleServicesPrices">listSaleServicesPrices.page</result>
+            <result type="tiles" name="listSaleServices">listSaleServices.page</result>
+            <result type="tiles" name="listSaleServicesModels">listSaleServicesModels.page</result>
+            <result type="json" name="getComboboxSource">
+                <param name="root">listItemsCombo</param>
+            </result>
+            <result type="json" name="getDataForPriceCombobox">
+                <param name="root">listItemsCombo</param>
+            </result>
+            <result type="json" name="getDataForShopAutocompleter">
+                <param name="root">hashMapShopCode</param>
+            </result>
+            <result type="json" name="updateShopName">
+                <param name="root">hashMapShopName</param>
+            </result>
+            <result type="json" name="getSaleServicesTree">
+                <param name="root">listItems</param>
+            </result>
+        </action>
+        <action name="getComboboxSource" class="com.viettel.im.database.DAO.SaleServicesDAO" method="getComboboxSource">
+            <result type="json" name="success">
+                <param name="root">listItemsCombo</param>
+            </result>
+        </action>
+
+        <!-- phan dinh nghia mat hang -->
+        <action name="goodsDefAction" class="com.viettel.im.database.DAO.GoodsDefDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addOrEditStockModel,delStockModel,addOrEditPrice,deletePrice,addOrEditStockDeposit,deleteStockDeposit
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="stockModelOverview">stockModelOverview.page</result>
+            <result type="tiles" name="searchStockModel">searchStockModel.page</result>
+            <result type="tiles" name="stockModelInfo">stockModelInfo.page</result>
+            <result type="tiles" name="stockModel">stockModel.page</result>
+            <result type="tiles" name="stockPrice">stockPrice.page</result>
+            <result type="tiles" name="stockDeposit">stockDeposit.page</result>
+            <result type="tiles" name="listStockModels">listStockModel.page</result>
+            <result type="tiles" name="listPrices">listPrices.page</result>
+            <result type="tiles" name="listStockDeposit">listStockDeposit.page</result>
+            <result type="json" name="success">
+                <param name="root">listItems</param>
+            </result>
+        </action>
+
+        <action name="packageGoodsV2Action" class="com.viettel.im.database.DAO.PackageGoodsV2DAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    savePackageGoods,deletePackageGoods,savePackageGoodsDetail,deletePackageGoodsDetail,savePackageGoodsReplace,deletePackageGoodsReplace
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="preparePage">searchPackageGoods.page</result>
+            <result type="tiles" name="addNewPackageGoods">addNewPackageGoods.page</result>
+            <result type="tiles" name="editPackageGoods">editPackageGoods.page</result>
+            <result type="tiles" name="packageGoodsDetailList">packageGoodsDetailList.page</result>
+            <result type="tiles" name="addNewPackageGoodsDetail">addNewPackageGoodsDetail.page</result>
+            <result type="tiles" name="editPackageGoodsDetail">editPackageGoodsDetail.page</result>
+            <result type="tiles" name="replaceGoodsManagement">replaceGoodsManagement.page</result>
+            <result type="tiles" name="packageGoodsV2List">packageGoodsV2List.page</result>
+        </action>
+        
+        <!-- haint41 :  -->
+        <action name="exportToExcelAction" class="com.viettel.im.database.DAO.PackageGoodsV2DAO" >
+            <result name="success" type="stream">
+                <param name="contentType">application/vnd.ms-excel</param>
+                <param name="inputName">exportToExcel</param>
+                <param name="contentDisposition">filename="ListOfPackage.xls"</param>
+                <param name="bufferSize">12288</param>
+            </result>
+        </action>
+        <action name="packageGoodsAction" class="com.viettel.im.database.DAO.PackageGoodsDAO" method="displayPackageGoods">
+            <result type="tiles" name="packageGoods">packageGoods.page</result>
+            <result type="tiles" name="packageGoodsDetail">packageGoodsDetail.page</result>
+            <result type="tiles" name="packageGoodsPrice">packageGoodsPrice.page</result>
+            <result type="tiles" name="listPackageGoodsPrices">listPackageGoodsPrices.page</result>
+            <result type="tiles" name="listPackageGoods">listPackageGoods.page</result>
+            <result type="tiles" name="listPackageGoodsModels">listPackageGoodsModels.page</result>
+            <result type="tiles" name="packageGoodsInfo">packageGoodsInfo.page</result>
+
+            <result type="json" name="getStockModel">
+                <param name="root">listStockModel</param>
+            </result>
+            <result type="json" name="getComboboxSource">
+                <param name="root">listItemsCombo</param>
+            </result>
+            <result type="json" name="getDataForPriceCombobox">
+                <param name="root">listItemsCombo</param>
+            </result>
+            <result type="json" name="getDataForShopAutocompleter">
+                <param name="root">hashMapShopCode</param>
+            </result>
+            <result type="json" name="updateShopName">
+                <param name="root">hashMapShopName</param>
+            </result>
+            <result type="json" name="getPakageGoodsTree">
+                <param name="root">listItems</param>
+            </result>
+
+            <!-- LAMNV START -->
+            <interceptor-ref name="fkInterceptor">
+                <param name="tokenSession.includeMethods">
+                    delPackageGoods,addPackageGoodsDetail,addOrEditPackageGoodsPrice,addOrEditPackageGoods,delPackageGoodsDetail,delPackageGoodsPrice
+                </param>
+            </interceptor-ref>
+            <!-- LAMNV STOP -->
+
+        </action>
+        <!-- end haint41 -->
+        <action name="packageGoodsNewAction" class="com.viettel.im.database.DAO.PackageGoodsNewDAO" method="displayPackageGoods">
+            <result type="tiles" name="packageGoodsNewOverview">packageGoodsNewOverview.page</result>
+            <result type="tiles" name="packageGoodsNewInfo">packageGoodsNewInfo.page</result>
+            <result type="tiles" name="listPackageNewGoods">listPackageNewGoods.page</result>
+            <result type="tiles" name="packageGoodsNew">packageGoodsNew.page</result>
+            <result type="tiles" name="packageGoodsAddDetail">packageGoodsAddDetail.page</result>
+            <result type="tiles" name="packageGoodsAddDetail1">packageGoodsAddDetail1.page</result>
+            <result type="tiles" name="listPackageNewGoodsModels">listPackageNewGoodsModels.page</result>
+            <result type="json" name="getPakageGoodsTree">
+                <param name="root">listItems</param>
+            </result>
+            <result type="tiles" name="addPackageGoodsDetailSuccess">addPackageGoodsDetailSuccess.page</result>
+
+            <!-- LAMNV START -->
+            <interceptor-ref name="fkInterceptor">
+                <param name="tokenSession.includeMethods">
+                    <!--addPackageGoodsDetailPopUp-->
+                    addPackageGoodsDetailPopUp,cancelAddPackageGoodsDetail,closeAddPackageGoodsDetail, addPackageGoodsMap,delPackageGoodsMap,addOrEditPackageGoods,prepareAddPackageGoods1,delPackageGoods
+                </param>
+            </interceptor-ref>
+            <!-- LAMNV STOP -->
+        </action>
+
+    </package>
+</struts>

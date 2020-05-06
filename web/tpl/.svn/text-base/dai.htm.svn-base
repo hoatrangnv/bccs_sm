@@ -1,0 +1,516 @@
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+    
+        
+        
+            
+        
+        
+    
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Trang chu</title>
+        <base href="http://192.168.206.216:8080/KHDN/pages/layout/layout.jsp" />
+        
+
+
+
+
+<script type="text/javascript" src="/KHDN/js/prototype.js"></script>
+<script type="text/javascript" src="/KHDN/js/scriptaculous/scriptaculous.js"></script>
+<script type="text/javascript" src="/KHDN/js/overlibmws/overlibmws.js"></script>
+<script type="text/javascript" src="/KHDN/js/overlibmws/overlibmws_crossframe.js"></script>
+<script type="text/javascript" src="/KHDN/js/overlibmws/overlibmws_iframe.js"></script>
+<script type="text/javascript" src="/KHDN/js/overlibmws/overlibmws_hide.js"></script>
+<script type="text/javascript" src="/KHDN/js/overlibmws/overlibmws_shadow.js"></script>
+<script type="text/javascript" src="/KHDN/js/ajax/ajaxtags.js"></script>
+<script type="text/javascript" src="/KHDN/js/ajax/ajaxtags_controls.js"></script>
+<script type="text/javascript" src="/KHDN/js/ajax/ajaxtags_parser.js"></script>
+<script type="text/javascript" src="/KHDN/js/ajax/Ajax.js"></script>
+
+<script type="text/javascript" src="/KHDN/js/dolphin.js"></script>
+<script type="text/javascript" src="/KHDN/js/jsDate.js"></script>
+<script type="text/javascript" src="/KHDN/js/menu.js"></script>
+<script type="text/javascript" src="/KHDN/js/validate.js"></script>
+<script type="text/javascript" src="/KHDN/js/calendar.js"></script>
+<script type="text/javascript" src="/KHDN/js/calendar-en.js"></script>
+<script type="text/javascript" src="/KHDN/js/calendar-setup.js"></script>
+<script type="text/javascript" src="/KHDN/js/dtree.js"></script>
+<script type="text/javascript" src="/KHDN/js/anylink.js"></script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/KHDN/css/ajaxtags.css" />
+<link rel="stylesheet" type="text/css" href="/KHDN/css/displaytag.css" />
+<link rel="stylesheet" href="/KHDN/css/style.css" charset="UTF-8" type="text/css"/>
+<link rel="stylesheet" href="/KHDN/css/displaytagex.css" charset="UTF-8" type="text/css"/>
+<link rel="stylesheet" href="/KHDN/css/dtree.css" charset="UTF-8" type="text/css"/>
+<link rel="stylesheet" href="/KHDN/css/anylink.css" charset="UTF-8" type="text/css"/>
+<link rel="stylesheet" href="/KHDN/css/site.css" charset="UTF-8" type="text/css" />
+        
+        <!-- [BEGIN] MY CSS & MY JS -->
+        <link rel="stylesheet" href="/KHDN/tpl/css/template.css" type="text/css">
+        
+        <!--[if IE 7]>
+            <link href="/KHDN/tpl/css/ie7-patch.css" rel="stylesheet" type="text/css" />
+        <![endif]-->
+
+        <!--[if IE 6]>
+            <link href="/KHDN/tpl/css/ie6-patch.css" rel="stylesheet" type="text/css" />
+        <![endif]-->       
+        
+        <comment>
+            <link href="/KHDN/tpl/css/ff-patch.css" rel="stylesheet" type="text/css" />
+        </comment>
+        <!-- [END] MY CSS & MY JS -->
+        
+    </head>
+    <body id="minwidth">
+        <!-- [BEGIN] Banner -->
+        ﻿<div id="border-top">
+            <div>
+                <div>
+                    
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<span class="version">"Lởm" Version</span>
+<span class="title">Khách hàng doanh nghiệp</span>
+<span class="subtitle">... Trưởng thành qua thách thức và thất bại</span>
+                </div>
+            </div>
+        </div>        
+        <!-- [END] Banner -->
+        
+        
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    <div id="header-box">
+        <!-- [BEGIN] Status -->
+        <div id="module-status">
+            <span>
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        <a href="/KHDN/userAction.do?_vt=cb8debd0207e8584ae56e0bfad09db07" title="thay doi mat khau">testkhdn_hn</a>                        
+                        |
+                        
+                        
+                        <a href="/KHDN/authenticateAction.do?_vt=f43aadbc175b26115d8d021479469375"><a href="/KHDN/pages/login/logout.jsp">Thoát &nbsp;</a></a>
+                    
+                
+                
+            </span>
+        </div>
+        <!-- [END] Status -->
+        <!-- [BEGIN] Menu Bar -->
+        <div id="module-menu">
+            <ul id="menu">
+                
+                    <li class="node">
+                        <a>Quản lý KH</a>
+                        <ul style="width: 225px;"> 
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/customerAction.do?_vt=d65a5c7d3ef1c96f05bded432183e82a" onclick="onChangeTitle();">Nhập mới khách hàng</a>
+                                    </li>                                                                                
+                                
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/searchCustomerAction.do?_vt=7e70508a0bc9a7ebe960cdb320ef664e" onclick="onChangeTitle();">Danh sách khách hàng</a>
+                                    </li>                                                                                
+                                
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/hopDongKHDNAction.do?_vt=ab1ba416bcdf0bff5ecf5893a6a34d7a" onclick="onChangeTitle();">Cập nhập hợp đồng KHDN</a>
+                                    </li>                                                                                
+                                
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/updateSubAction.do?_vt=f0a5d244a33906ef4e0df594119eaa03" onclick="onChangeTitle();">Cập nhật thuê bao cho KHDN</a>
+                                    </li>                                                                                
+                                
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/finishHopDongKHDNAction.do?_vt=ab1ba416bcdf0bff5ecf5893a6a34d7a" onclick="onChangeTitle();">Chấm dứt hợp đồng KHDN</a>
+                                    </li>                                                                                
+                                
+                            
+                        </ul>
+                    </li>
+                
+                    <li class="node">
+                        <a>Quản lý dự án</a>
+                        <ul style="width: 225px;"> 
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/project.do?_vt=5d622be08ee67dbf553dca5cc0e42842" onclick="onChangeTitle();">Thêm dự án</a>
+                                    </li>                                                                                
+                                
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/searchProject.do?_vt=9b37aaf165af9390d6822b73cdaea53a" onclick="onChangeTitle();">Danh sách dự án</a>
+                                    </li>                                                                                
+                                
+                            
+                        </ul>
+                    </li>
+                
+                    <li class="node">
+                        <a>QL đơn vị</a>
+                        <ul style="width: 225px;"> 
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/tothu.do?_vt=a1786eb709818a087a62156a51cf86ce" onclick="onChangeTitle();">Danh sách tổ thu</a>
+                                    </li>                                                                                
+                                
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/tothu.do?_vt=4fc15bf228911604f8981a79e7d93020" onclick="onChangeTitle();">Thêm tổ thu</a>
+                                    </li>                                                                                
+                                
+                            
+                        </ul>
+                    </li>
+                
+                    <li class="node">
+                        <a>QL danh mục</a>
+                        <ul style="width: 225px;"> 
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/loaiVonDauTuAction.do?_vt=a9f51526f0ad022ec8800323eaaff100" onclick="onChangeTitle();">Danh mục loại vốn đầu tư</a>
+                                    </li>                                                                                
+                                
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/listTXAction.do?_vt=141ea9988a79346420568aaf6e1bb742" onclick="onChangeTitle();">Danh mục loại tiếp xúc KH</a>
+                                    </li>                                                                                
+                                
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/listTBAction.do?_vt=783ca2f88b4cee2b32085d8734b97502" onclick="onChangeTitle();">Danh mục thiết bị</a>
+                                    </li>                                                                                
+                                
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/listLDAAction.do?_vt=590fafa6cec5984a9334979fe0d5537e" onclick="onChangeTitle();">Danh mục loại dự án</a>
+                                    </li>                                                                                
+                                
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/editPaymentMethodAction.do?_vt=60baa43001917fabb026d9e1273ed98a" onclick="onChangeTitle();">Danh mục hình thức thanh toán</a>
+                                    </li>                                                                                
+                                
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/searchPaymentMethodAction.do?_vt=d7c3966afbd735b032c5e3dd60e1921a" onclick="onChangeTitle();">Tìm kiếm hình thức thanh toán</a>
+                                    </li>                                                                                
+                                
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/listKMAction.do?_vt=da1331f15835117957f5f9334cd78aa8" onclick="onChangeTitle();">Danh mục khuyến mại</a>
+                                    </li>                                                                                
+                                
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/listDVVTMAction.do?_vt=6e43fa547df2ca865d62bc970cef1a63" onclick="onChangeTitle();">Danh mục dịch vụ viễn thông</a>
+                                    </li>                                                                                
+                                
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/listRankAction.do?_vt=52a556405190c69f4c4db1cb9f6228d2" onclick="onChangeTitle();">Danh mục hạng khách hàng</a>
+                                    </li>                                                                                
+                                
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/loaiKHDNAction.do?_vt=dd10635a05426da714052bac34eea2a6" onclick="onChangeTitle();">Danh mục loại KHDN</a>
+                                    </li>                                                                                
+                                
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/diachi.do?_vt=bc90998600b7333e9086bc2ee93de502" onclick="onChangeTitle();">Danh mục địa chỉ</a>
+                                    </li>                                                                                
+                                
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/investmentMethodAction.do?_vt=90891368247b00dbd3a17fa555a51670" onclick="onChangeTitle();">Danh mục phương án đầu tư</a>
+                                    </li>                                                                                
+                                
+                            
+                        </ul>
+                    </li>
+                
+                    <li class="node">
+                        <a>Báo Cáo</a>
+                        <ul style="width: 225px;"> 
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/reportAction.do?_vt=9ec0a378ae27f1aaef1860d967a97589" onclick="onChangeTitle();">Báo cáo</a>
+                                    </li>                                                                                
+                                
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/reportIncome.do?_vt=c4505cdb1cb649353ce9ccacab9d2716" onclick="onChangeTitle();">Báo cáo doanh thu theo dự án</a>
+                                    </li>                                                                                
+                                
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/reportProject.do?_vt=9a39f92c73df1daf72dfac03c61e7b87" onclick="onChangeTitle();">Báo cáo chi tiết các dự án phát triển</a>
+                                    </li>                                                                                
+                                
+                            
+                        </ul>
+                    </li>
+                
+                    <li class="node">
+                        <a>Quản lý cước</a>
+                        <ul style="width: 225px;"> 
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/endOfCycleAction.do?_vt=7bebeca6b1e4e8ccc342f809631bbd70" onclick="onChangeTitle();">Khóa sổ cuối tháng</a>
+                                    </li>                                                                                
+                                
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/gachno.do?_vt=6f6a27a07515f9226c657affa8a832b2" onclick="onChangeTitle();">Gạch nợ</a>
+                                    </li>                                                                                
+                                
+                            
+                                
+                                           
+                                    
+                                    <li style="width: 225px;">
+                                        <a href="/KHDN/manualpayment.do?_vt=70c5b5062ec922d5cd34b7a4629ec8f8" onclick="onChangeTitle();">Gach no truc tiep</a>
+                                    </li>                                                                                
+                                
+                            
+                        </ul>
+                    </li>
+                                    
+            </ul>
+        </div>
+        <!-- [END] Menu Bar -->
+        <div class="clr"></div>
+    </div>
+
+
+        
+        <div id="content-box">
+            <div class="border">
+                <div class="padding">
+                    
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+ 
+
+
+<div id="toolbar-box">
+    <div class="t">
+        <div class="t">
+            <div class="t"></div>
+        </div>
+    </div>
+    <div class="m">
+        <div class="toolbar" id="toolbar">
+            <table class="toolbar"><tbody><tr>
+                        
+            </tr></tbody></table>
+        </div>
+        <!-- [BEGIN] Header -->
+                                        
+        <div class="header" id="myHeader">
+            Header
+        </div>
+        <!-- [END] Header-->
+        <div class="clr"></div>
+    </div>
+    <div class="b">
+        <div class="b">
+            <div class="b"></div>
+        </div>
+    </div>
+</div>
+                    <div class="clr"></div>
+                    
+                    <div id="element-box">
+                        <div class="t">
+                            <div class="t">
+                                <div class="t"></div>
+                            </div>
+                        </div>
+                        <div class="m" align="center">
+                            
+
+
+
+
+
+
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body>
+        Chương trình quản lý khách hàng doanh nghiệp
+    </body>
+</html>
+
+                        </div>
+                        <div class="b">
+                            <div class="b">
+                                <div class="b"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <noscript>Must be enable JavaScript</noscript>
+                    <div class="clr"></div>
+                </div>
+                <div class="clr"></div>
+            </div>
+        </div>            
+        
+        <!-- [BEGIN] Footer -->
+        <div id="border-bottom">
+            <div>
+                <div>  
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<p class="copyright">
+    <div align="center">
+        Phát triển bởi Trung tâm Tin học tính cước - Công ty Viễn thông Viettel
+    </div>
+</p>
+        </div>
+        <!-- [END] Footer -->
+    </body>
+    
+</html>

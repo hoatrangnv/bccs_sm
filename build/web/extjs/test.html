@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Untitled Document</title>
+        <script type="text/javascript" src="prototype-1.6.0.2.js"></script>
+        <script type="text/javascript" src="scriptaculous.js"></script>
+        <script type="text/javascript" src="ext-prototype-adapter.js"></script>
+        <script type="text/javascript" src="ext-all.js"></script>
+        <link href="css/ext-all.css" type="text/css" rel="stylesheet"/>                                       
+        <link href="css/my.css" type="text/css" rel="stylesheet"/>       
+    </head>
+    
+    <script type="text/javascript">
+        var currentNode;
+        
+        var PagesUI = function() {  
+            var mainContextMenu = new Ext.menu.Menu('mainContext');
+            
+            mainContextMenu.add(
+                new Ext.menu.Item({text: 'Xóa', icon:'images/delete.png', handler: deleteTask})
+                //new Ext.menu.Separator()
+            );
+            
+            function deleteTask(item, e) {
+                //currentNode.id
+                alert(currentNode.id + " : " + currentNode.text);
+            }
+            
+            
+            function buildTree(config) {
+                if (!config) return null;
+                var c = config.children;
+                config.leaf = c ? false : true;
+                var child, node = new Ext.tree.TreeNode(config);
+                
+                if (node && c && c.length) {
+                    for (var i = 0; i < c.length; i++) {
+                        child = buildTree(c[i]);
+                        if (child) node.appendChild(child);
+                    }
+                }
+                
+                return node;
+            }
+            
+            function findChildOrder(tree) {
+                var cs = tree.childNodes;
+                var it = cs[0].attributes['uuid']
+                for(var i = 1, len = cs.length; i < len; i++) {
+                    it = it + ',' + cs[i].attributes['uuid'];
+                }
+                return it;
+            } 
+            
+            return {
+                init : function(){  
+                    var tree = new Ext.tree.TreePanel({el:'mytree',
+                        animate:false, enableDD:true, containerScroll:true, rootVisible:true,
+                        lines:true 
+                    });
+                    var root = buildTree({
+                        id : "0", 
+                        text: '${MyTree}',
+                        expanded: true,
+                        children: [
+                            {text: 'About Us',
+                                children: [
+                                    {id:"3", text: 'General Info', draggable: false},
+                                    {id:"7", text: 'General df', draggable:false}
+                                ]}
+                            ]
+                        });
+                        
+                        tree.setRootNode(root);
+                        tree.render();
+                        
+                        tree.on('contextmenu', function(node,e) {
+                            PagesUI.menuShow(node);
+                            currentNode = node;
+                        });
+                        tree.on("click", function(node, e) {
+                        });
+                    }, 
+                    
+                    menuShow : function( node ){
+                        mainContextMenu.node = node;
+                        mainContextMenu.show(node.ui.getAnchor());            
+                    }
+                }
+            }();
+            
+            Ext.onReady(PagesUI.init, PagesUI, true);
+            
+    </script>
+    <style>
+        
+        
+    </style>
+    </head>
+    <body onClick="javascript:SetValues();">
+        <div id="mytree" style="margin: 50px;overflow:auto; height:300px;width:550px;border:1px solid #c3daf9;"></div>
+    </body>
+</html>

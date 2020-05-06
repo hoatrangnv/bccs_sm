@@ -1,0 +1,887 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/code/!svn/ver/2500/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean
+END
+LookupSerialBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/LookupSerialBean.java
+END
+CheckSerialBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/CheckSerialBean.java
+END
+ReportReceiptExpenseBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ReportReceiptExpenseBean.java
+END
+SearchStockTransBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/145/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/SearchStockTransBean.java
+END
+AnyPayTransFPTBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/AnyPayTransFPTBean.java
+END
+PackageGoodsListBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/PackageGoodsListBean.java
+END
+InvoiceNoSaleItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/InvoiceNoSaleItem.java
+END
+LookupMaxDebitBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/LookupMaxDebitBean.java
+END
+SimBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/SimBean.java
+END
+LookupItemBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/LookupItemBean.java
+END
+StockKitBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/StockKitBean.java
+END
+PackageGoodsV2Bean.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/PackageGoodsV2Bean.java
+END
+StockKitSaleBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/StockKitSaleBean.java
+END
+ViewDepositGeneralBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ViewDepositGeneralBean.java
+END
+ViewAccountBookBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ViewAccountBookBean.java
+END
+LockUserInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/LockUserInfoBean.java
+END
+ReportStockGTHH.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/548/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ReportStockGTHH.java
+END
+StockBeans.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/147/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/StockBeans.java
+END
+ImObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ImObject.java
+END
+LogAssignIsdnStatusBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/LogAssignIsdnStatusBean.java
+END
+VLookupInvoiceListBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/VLookupInvoiceListBean.java
+END
+AccountAgentBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/AccountAgentBean.java
+END
+ViewAccountSubscriberBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ViewAccountSubscriberBean.java
+END
+DbInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/DbInfo.java
+END
+DebitRequestDetailShopBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/DebitRequestDetailShopBean.java
+END
+CalculateFeeBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/CalculateFeeBean.java
+END
+SaleTransDetailBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/SaleTransDetailBean.java
+END
+ChannelWalletBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ChannelWalletBean.java
+END
+ActionInItemTempTableBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ActionInItemTempTableBean.java
+END
+AppParamsBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/AppParamsBean.java
+END
+NiceNumberBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/NiceNumberBean.java
+END
+ChangeGoodBeanGenaral.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ChangeGoodBeanGenaral.java
+END
+CommItemFeeBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/CommItemFeeBean.java
+END
+StockSimBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/StockSimBean.java
+END
+CommItemsCounterBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/CommItemsCounterBean.java
+END
+SplitRangeToDrawViewHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/SplitRangeToDrawViewHelper.java
+END
+DslamBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/DslamBean.java
+END
+UploadLockViewHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/UploadLockViewHelper.java
+END
+ActionInItemTempTableBeanDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ActionInItemTempTableBeanDetail.java
+END
+ReportInvoiceDailyRemainBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ReportInvoiceDailyRemainBean.java
+END
+AccountInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/AccountInfoBean.java
+END
+CardBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/CardBean.java
+END
+PledgeInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/PledgeInfoBean.java
+END
+StockOwnerTmpBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/StockOwnerTmpBean.java
+END
+StockReportBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/StockReportBean.java
+END
+ChangeGoodBeanDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ChangeGoodBeanDetail.java
+END
+ReceiptExpenseBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ReceiptExpenseBean.java
+END
+DebitRequestDetailBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/DebitRequestDetailBean.java
+END
+ActionInItemTemp.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ActionInItemTemp.java
+END
+InvoiceListReportBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/InvoiceListReportBean.java
+END
+LogAssignIsdnPriceBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/LogAssignIsdnPriceBean.java
+END
+StockTotalBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/147/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/StockTotalBean.java
+END
+DebitBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/DebitBean.java
+END
+FileName.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/FileName.java
+END
+ConvertCurrencyBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ConvertCurrencyBean.java
+END
+CurrentInvoiceListBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/CurrentInvoiceListBean.java
+END
+ImportHistoryBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ImportHistoryBean.java
+END
+ReportAnyPayBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ReportAnyPayBean.java
+END
+StockISDNListBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/StockISDNListBean.java
+END
+ViewStaffBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ViewStaffBean.java
+END
+AddSingleAnyPayDetailBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/AddSingleAnyPayDetailBean.java
+END
+ErrorBankReceiptBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ErrorBankReceiptBean.java
+END
+CalculatorDiscountBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/CalculatorDiscountBean.java
+END
+DepositBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/DepositBean.java
+END
+ActionLogsObj.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ActionLogsObj.java
+END
+SaleTransInvoiceBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/145/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/SaleTransInvoiceBean.java
+END
+StockGoodDrawBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/StockGoodDrawBean.java
+END
+CustInforBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/CustInforBean.java
+END
+DateTimeDB.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/DateTimeDB.java
+END
+SaleTransInvoiceViewHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/SaleTransInvoiceViewHelper.java
+END
+StockCardLostBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/48/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/StockCardLostBean.java
+END
+ReqCardNotSaleErrorBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/48/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ReqCardNotSaleErrorBean.java
+END
+PackageGoodsDetailV2Bean.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/PackageGoodsDetailV2Bean.java
+END
+SaleTransDetailV2Bean.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/145/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/SaleTransDetailV2Bean.java
+END
+InvoiceListManagerViewHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/InvoiceListManagerViewHelper.java
+END
+StockIsdnMobileBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/StockIsdnMobileBean.java
+END
+PortInside.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/PortInside.java
+END
+StockGoodBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/StockGoodBean.java
+END
+LogDistributeIsdnBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/LogDistributeIsdnBean.java
+END
+ViewPackageCheck.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ViewPackageCheck.java
+END
+KitIntegrationViewHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/KitIntegrationViewHelper.java
+END
+StockIsdnBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/StockIsdnBean.java
+END
+ReqCardNotSaleBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/48/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ReqCardNotSaleBean.java
+END
+ReportStockTransBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ReportStockTransBean.java
+END
+AutoCompleteSearchBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/AutoCompleteSearchBean.java
+END
+DiscountBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/DiscountBean.java
+END
+ViewStaffImportBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ViewStaffImportBean.java
+END
+GeneralPosReportBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/GeneralPosReportBean.java
+END
+LookupSerialHistoryBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/LookupSerialHistoryBean.java
+END
+ViewSerialHistoryBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ViewSerialHistoryBean.java
+END
+ChangeGoodSerialBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ChangeGoodSerialBean.java
+END
+InvoiceListDepartmentStaffBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/InvoiceListDepartmentStaffBean.java
+END
+InvoiceUsedDetailBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/InvoiceUsedDetailBean.java
+END
+AnyPayTransBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/AnyPayTransBean.java
+END
+ReportRevenueNiceNumberBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ReportRevenueNiceNumberBean.java
+END
+BlockDetailBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/BlockDetailBean.java
+END
+ReceiptBillDetailBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ReceiptBillDetailBean.java
+END
+CollaboratorBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/CollaboratorBean.java
+END
+BankReceiptBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/BankReceiptBean.java
+END
+RetrieveBillBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/RetrieveBillBean.java
+END
+SwitchesBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/SwitchesBean.java
+END
+PstnDistrictCodeViewHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/PstnDistrictCodeViewHelper.java
+END
+ReportMBBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ReportMBBean.java
+END
+ComboListBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ComboListBean.java
+END
+ImSearchBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ImSearchBean.java
+END
+SaleTransUpdateBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/SaleTransUpdateBean.java
+END
+ManagementEventsBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ManagementEventsBean.java
+END
+TransCVTBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/TransCVTBean.java
+END
+EquipmentBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/EquipmentBean.java
+END
+ShowLogAccountFPTBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ShowLogAccountFPTBean.java
+END
+ShopBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ShopBean.java
+END
+ViewImportCompetitorBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ViewImportCompetitorBean.java
+END
+CommSubscriberBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/CommSubscriberBean.java
+END
+SlotBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/SlotBean.java
+END
+PackageGoodsReplaceBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/PackageGoodsReplaceBean.java
+END
+CalculatorGoodsBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/CalculatorGoodsBean.java
+END
+SearchDebitOfStaffBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/SearchDebitOfStaffBean.java
+END
+ViewStaffOnOffBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ViewStaffOnOffBean.java
+END
+BrasBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/BrasBean.java
+END
+InvoiceListBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/InvoiceListBean.java
+END
+BlockBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/BlockBean.java
+END
+ViewActiveSubscriberBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ViewActiveSubscriberBean.java
+END
+ReportPaymentPosBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ReportPaymentPosBean.java
+END
+StockTransBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/StockTransBean.java
+END
+SaleTransBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/SaleTransBean.java
+END
+InvoiceSaleListBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/InvoiceSaleListBean.java
+END
+IsdnBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/IsdnBean.java
+END
+PortFormatBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/PortFormatBean.java
+END
+ReceiptBillBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ReceiptBillBean.java
+END
+ResMsgBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ResMsgBean.java
+END
+InvoiceTransferLogBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/InvoiceTransferLogBean.java
+END
+StockModelBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/StockModelBean.java
+END
+ObjectBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/321/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ObjectBean.java
+END
+AccountBookBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/AccountBookBean.java
+END
+ChannelBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ChannelBean.java
+END
+ViewChannelConvertImport.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/code/!svn/ver/2500/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ViewChannelConvertImport.java
+END
+ListMapBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ListMapBean.java
+END
+BrasIppoolBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/BrasIppoolBean.java
+END
+InvoiceDailyRptV2Bean.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/InvoiceDailyRptV2Bean.java
+END
+ReportBankReceiptBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ReportBankReceiptBean.java
+END
+DepositDetailBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/DepositDetailBean.java
+END
+KitIntegrationBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/KitIntegrationBean.java
+END
+ReportGeneralStockModelBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ReportGeneralStockModelBean.java
+END
+DebitRequestBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/DebitRequestBean.java
+END
+StockDrawBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/StockDrawBean.java
+END
+ReportActionOfUserMBCCSBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/ReportActionOfUserMBCCSBean.java
+END
+StockCmdBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/client/bean/StockCmdBean.java
+END

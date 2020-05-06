@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/lib/email
+END
+dsn.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/lib/email/dsn.jar
+END
+imap.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/lib/email/imap.jar
+END
+mailapi.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/lib/email/mailapi.jar
+END
+pop3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/lib/email/pop3.jar
+END
+mail.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/lib/email/mail.jar
+END
+smtp.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/lib/email/smtp.jar
+END

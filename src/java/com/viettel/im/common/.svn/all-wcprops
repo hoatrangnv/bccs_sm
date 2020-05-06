@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/code/!svn/ver/2531/BCCS_IM/Source_Web/src/java/com/viettel/im/common
+END
+ReportConstant.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/common/ReportConstant.java
+END
+Provisioning.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/147/BCCS_IM/Source_Web/src/java/com/viettel/im/common/Provisioning.java
+END
+ConfigParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/common/ConfigParam.java
+END
+EditorUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/common/EditorUtils.java
+END
+ImFileUploadAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/common/ImFileUploadAction.java
+END
+ImProgressAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/common/ImProgressAction.java
+END
+Constant.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/src/java/com/viettel/im/common/Constant.java
+END
+ImFileUpload.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/548/BCCS_IM/Source_Web/src/java/com/viettel/im/common/ImFileUpload.java
+END
+ImFileUploadPopupAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/common/ImFileUploadPopupAction.java
+END
+imObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/common/imObject.java
+END
+ImSearchPopupAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/common/ImSearchPopupAction.java
+END
+ImFileUploadDetailsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/common/ImFileUploadDetailsAction.java
+END

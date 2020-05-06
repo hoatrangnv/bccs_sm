@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    
+
+    <package name="debit" extends="default">
+        <result-types>
+            <result-type name="customJSON" class="com.viettel.im.server.action.JSONResult" />
+        </result-types>
+        <action name="PayDepositAction" class="com.viettel.im.database.DAO.PayDepositDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="PayDepositPrepare">PayDeposit.page</result>
+            <result type="tiles" name="PayDepositRecoverPrepare">PayDepositRecover.page</result>
+            <result type="tiles" name="pageNavigator">listPayDeposit.page</result>
+            <result type="tiles" name="pageNavigatorRecover">listPayDepositRecover.page</result>
+        </action>
+        
+        <action name="viewInformationOrderAction" class="com.viettel.im.database.DAO.PayDepositDAO" method="viewInformationOrderDetailAction">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="ViewDepositPrepare">ViewPayDeposit.page</result>
+            <result type="tiles" name="viewFromExpCommand">saleFromExpCommandDetail.page</result>
+            <result type="tiles" name="ViewDepositPrepareRecover">ViewPayDepositRecover.page</result>
+            <result type="json" name="success">
+                <param name="root">mapTotalSingleModel</param>
+            </result>
+        </action>
+
+        <action name="saveInformationOrderAction" class="com.viettel.im.database.DAO.PayDepositDAO" method="saveInformationOrderAction">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    saveInformationOrderAction
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="SaveDepositPrepare">PayDeposit.page</result>
+            <result type="tiles" name="SaveDepositPrepareRecover">PayDepositRecover.page</result>
+            <result type="tiles" name="receiptBillsInfo">receiptBillsInfo.page</result>
+            <result type="tiles" name="receiptBillsInfoRecover">receiptBillsInfoRecover.page</result>
+            <result type="tiles" name="linkDownload">linkDownload.page</result>
+        </action>
+
+        <action name="viewAutoCompleterForStaff" class="com.viettel.im.database.DAO.PayDepositDAO" >
+            <result type="json" >
+                <param name="root">mapStaffs</param>
+            </result>
+        </action>
+
+        <action name="viewAutoCompleterForShop" class="com.viettel.im.database.DAO.PayDepositDAO" >
+            <result type="json" >
+                <param name="root">mapShops</param>
+            </result>
+        </action>
+
+        <action name="approveDepositAction" class="com.viettel.im.database.DAO.ApproveDepositDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    acceptApprove
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="approveBankReceipt">ApproveDeposit.page</result>
+            <result type="tiles" name="pageNavigator">listApproveDeposit.page</result>
+        </action>
+
+        <action name="PayDebitShopAction" class="com.viettel.im.database.DAO.PayDebitShopDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addDocDepositShop
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="PayDebitShopPrepare">PayDebitShop.page</result>
+            <result type="tiles" name="pageNavigator">listPayDebitShop.page</result>
+
+            <result type="tiles" name="createReceiptExpense">createReceiptExpense.page</result>
+            
+        </action>
+
+        <action name="payDepositAtShopAction" class="com.viettel.im.database.DAO.PayDepositAtShopDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addPayDepositAtShop
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="PayDepositAtShopPrepare">payDepositAtShop.page</result>
+            <result type="tiles" name="pageNavigator">listPayDepositAtShop.page</result>
+            <result type="tiles" name="createReceiptExpenseAtShop">createReceiptExpenseAtShop.page</result>
+        </action>
+
+        <action name="createAgentDepositRecieptAction" class="com.viettel.im.database.DAO.CreateAgentDepositReceiptDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    saveDepositExport
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="CreateAgentDepositReceiptPrepare">createAgentDepositReciept.page</result>
+            <result type="tiles" name="AddAgentDepositReceiptPrepare">agentPayDepositInfo.page</result>
+            <result type="tiles" name="returnBillsInfo">returnBillsInfo.page</result>
+            <result type="json" name="success">
+                <param name="root">priceBeans</param>
+            </result>
+        </action>
+
+        <action name="AjaxRetrievePrice" class="com.viettel.im.database.DAO.CreateAgentDepositReceiptDAO" method="getListPrices">
+            <result type="customJSON">prices</result>
+        </action>
+
+        <action name="searchInformationDepositDetailAction" class="com.viettel.im.database.DAO.CreateAgentDepositReceiptDAO" method="searchDepositExport">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="SearchAgentDepositReceiptPrepare">agentDepositInfo.page</result>
+            <result type="tiles" name="CreateAgentDepositReceiptPrepare">createAgentDepositReciept.page</result>
+        </action>
+        <action name="viewInformationDepositDetailAction" class="com.viettel.im.database.DAO.CreateAgentDepositReceiptDAO" method="viewDepositDetailExport">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="ViewAgentDepositReceiptPrepare">informationDepositDetail.page</result>
+        </action>
+        <action name="addDepositDetailAction" class="com.viettel.im.database.DAO.CreateAgentDepositReceiptDAO" method="addDepositDetailExport">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addDepositDetailExport,editDepositDetailExport,cancelDepositDetailExport,deleteDepositDetailExport
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="AddAgentDepositReceiptPrepare">agentPayDepositInfo.page</result>
+            <result type="tiles" name="returnBillsInfo">returnBillsInfo.page</result>
+        </action>
+
+        <action name="viewAutoCompleterForAgent" class="com.viettel.im.database.DAO.CreateAgentDepositReceiptDAO" >
+            <result type="json" >
+                <param name="root">mapAgents</param>
+            </result>
+        </action>
+
+        <action name="getBankAccountNoB" class="com.viettel.im.database.DAO.DocDepositDAO" method="getListBankAccountNoB">
+            <result type="json" name="success">
+                <param name="root">listBankAccountNoComboB</param>
+            </result>
+        </action>
+        <action name="getListShopCodeB" class="com.viettel.im.database.DAO.DocDepositDAO" method="getListShopCodeB">
+            <result type="json" name="success">
+                <param name="root">listShopCodeComboB</param>
+            </result>
+        </action>
+        <action name="getBankNameB" class="com.viettel.im.database.DAO.DocDepositDAO" method="displayBankNameB">
+            <result type="json" name="success">
+                <param name="root">bankNameB</param>
+            </result>
+        </action>
+        <action name="getShopNameB" class="com.viettel.im.database.DAO.DocDepositDAO" method="displayShopNameB">
+            <result type="json" name="success">
+                <param name="root">shopNameB</param>
+            </result>
+        </action>
+
+
+        <action name="getBankAccountNo" class="com.viettel.im.database.DAO.DocDepositDAO" method="getListBankAccountNo">
+            <result type="json" name="success">
+                <param name="root">listBankAccountNoCombo</param>
+            </result>
+        </action>
+        <action name="getListShopCode" class="com.viettel.im.database.DAO.DocDepositDAO" method="getListShopCode">
+            <result type="json" name="success">
+                <param name="root">listShopCodeCombo</param>
+            </result>
+        </action>
+        <action name="getBankName" class="com.viettel.im.database.DAO.DocDepositDAO" method="displayBankName">
+            <result type="json" name="success">
+                <param name="root">bankName</param>
+            </result>
+        </action>
+        <action name="getShopName" class="com.viettel.im.database.DAO.DocDepositDAO" method="displayShopName">
+            <result type="json" name="success">
+                <param name="root">shopName</param>
+            </result>
+        </action>
+
+        <action name="getBankAccountNoBA" class="com.viettel.im.database.DAO.ApproveDepositDAO" method="getListBankAccountNoB">
+            <result type="json" name="success">
+                <param name="root">listBankAccountNoComboB</param>
+            </result>
+        </action>
+        <action name="getListShopCodeBA" class="com.viettel.im.database.DAO.ApproveDepositDAO" method="getListShopCodeB">
+            <result type="json" name="success">
+                <param name="root">listShopCodeComboB</param>
+            </result>
+        </action>
+        <action name="getBankNameBA" class="com.viettel.im.database.DAO.ApproveDepositDAO" method="displayBankNameB">
+            <result type="json" name="success">
+                <param name="root">bankNameB</param>
+            </result>
+        </action>
+        <action name="getShopNameBA" class="com.viettel.im.database.DAO.ApproveDepositDAO" method="displayShopNameB">
+            <result type="json" name="success">
+                <param name="root">shopNameB</param>
+            </result>
+        </action>
+        <!--NamLT add 06/09/2010 !-->
+        <action name="assignDebitAction" class="com.viettel.im.database.DAO.DebitDAO" method="prepareAssignDebit">
+<!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    updateObjName,
+                    assignDebit,
+                    assginDebitByExcel,
+                    actionDeleteDebit,
+                    listDebit,
+                    actionExport2Excel,
+                    resetForm,
+                    pageNavigatorForList,
+                    prepareAssignDebitPage
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="viewAssignDebit">assignDebit.page</result>
+            <result type="tiles" name="pageNavigatorForList">assignDebitResult.page</result>
+            <result type="json" name="getDataForObjAutocompleter">
+                <param name="root">hashMapObjCode</param>
+            </result>
+            <result type="json" name="updateObjName">
+                <param name="root">hashMapObjName</param>
+            </result>
+        </action>
+
+
+
+<!--Doi soat, duyet GNT-->
+        <action name="approveBankReceiptAction" class="com.viettel.im.database.DAO.ApproveBankReceiptDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    approveBankReceipt
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="approveBankReceiptPrepage">approveBankReceiptPrepage.page</result>
+            <result type="tiles" name="approveBankReceipt">approveBankReceipt.page</result>
+            <result type="tiles" name="listBankReceiptForApprove">listBankReceiptForApprove.page</result>
+        </action>
+
+<!--Dieu chinh GNT ngan hang-->
+        <action name="adjustBankReceiptAction" class="com.viettel.im.database.DAO.AdjustBankReceiptDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addBankReceiptAdjustment
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="adjustBankReceiptPrepage">adjustBankReceiptPrepage.page</result>
+            <result type="tiles" name="adjustBankReceipt">adjustBankReceipt.page</result>
+            <result type="tiles" name="listBankReceiptExternal">listBankReceiptExternal.page</result>
+        </action>
+
+<!--Tao GNT ngan hang don le-->
+        <action name="createSingleBankReceiptAction" class="com.viettel.im.database.DAO.BankReceiptExternalDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addOrEditBankReceiptExternal
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="addNewBankReceiptExternal">bankReceiptExternalt.page</result>
+            <result type="tiles" name="listBankReceiptExternal">listBankReceiptExternalt.page</result>
+            <result type="tiles" name="pageNavigator">listBankReceiptExternalt.page</result>
+        </action>
+
+<!--Import GNT ngan hang-->
+        <action name="importBankReceiptAction" class="com.viettel.im.database.DAO.ImportBankReceiptDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    importBankReceipt
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="preparePage">preparePageImportBankReceipt.page</result>
+            <result type="tiles" name="preparePageMv">preparePageImportBankReceiptMv.page</result>
+        </action>
+
+<!--Cua hang confirm dieu chinh GNT ngan hang-->
+         <action name="confirmBankReceiptAction" class="com.viettel.im.database.DAO.ConfirmBankReceiptDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="viewAssignDebit">assignDebit.page</result>
+        </action>
+
+<!--Quan ly giao dich import GNT-->
+        <action name="importBRMAction" class="com.viettel.im.database.DAO.BankReceiptManagementDAO" method="preparePageIBRM">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="preparePageIBRM">preparePageIBRM.page</result>
+            <result type="tiles" name="viewIBRDetail">viewIBRDetail.page</result>
+            <result type="tiles" name="lstIBRM">lstIBRM.page</result>
+        </action>
+
+<!--Tra cuu GNT ngan hang-->
+        <action name="lookupBRMAction" class="com.viettel.im.database.DAO.BankReceiptExternalDAO" method="prepareLookupBRM">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="lookupBRM">lookupBRM.page</result>
+            <result type="tiles" name="listLookupBRM">listLookupBRM.page</result>
+            <result type="tiles" name="pageNavigator">listLookupBRM.page</result>
+        </action>
+
+        <!-- nhap giay nop tien (noi bo) -->
+        <action name="depositSlipInternalAction" class="com.viettel.im.database.DAO.DepositSlipInternalDAO" method="prepareDepositSlipInternal">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addOrEditDepositSlipInternal
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="depositSlipInternal">depositSlipInternal.page</result>
+            <result type="tiles" name="listDepositSlipInternal">listDepositSlipInternal.page</result>
+        </action>
+	<!--   lap yeu cau han muc kho don vi-->
+        <action name="createRequestDebitStockShopAction" class="com.viettel.im.database.DAO.CreateRequestDebitStockShopDAO" method="preparePage">
+            <interceptor-ref name="fkInterceptor">
+                <param name="tokenSession.includeMethods">
+                    editDepositIphone,addDepositIphone,delRequetstDebit
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="preparePage">createRequestDebitShopMain.page</result>
+            <result type="tiles" name="listResult">createRequestDebitShopListResult.page</result>
+            <result type="tiles" name="queryForm">createRequestDebitShopQuery.page</result>
+            <result type="tiles" name="queryFormDetail">createRequestDebitShopDetail.page</result>
+        </action>
+        
+        <!--    tim kiem yeu cau han muc kho don vi-->
+        <action name="searchDateOfPaymentAction" class="com.viettel.im.database.DAO.SearchDateOfPaymentDAO" method="preparePage">
+            <interceptor-ref name="fkInterceptor">
+                <param name="tokenSession.includeMethods">
+                    editDepositIphone,addDepositIphone
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="preparePage">searchDateOfPayment.page</result>
+            <result type="tiles" name="listDateOfPaymentRequest">listDateOfPayment.page</result>
+            <result type="tiles" name="listDateOfPaymentRequestDetail">listDateOfPaymentDetail.page</result>
+            <result type="stream" name="download">
+                <param name="inputName">inputStream</param>
+                <param name="contentDisposition">attachment;filename=%{filename}</param>
+                <param name="bufferSize">4096</param>
+            </result>
+        </action>
+        
+        <!--    duyet han muc kho don vi-->
+        <action name="approvalDebitRequestForShopAction" class="com.viettel.im.database.DAO.ApprovalDebitRequestForShopDAO" method="preparePage">
+            <interceptor-ref name="fkInterceptor">
+                <param name="tokenSession.includeMethods">
+                    editDepositIphone,addDepositIphone
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="preparePage">approvalDebitRequestForShopMain.page</result>
+            <result type="tiles" name="listDebitRequest">approvalDebitRequestForShopListResult.page</result>
+            <result type="tiles" name="listDebitRequestDetail">approvalDebitRequestForShopListDetail.page</result>
+            <result type="stream" name="download">
+                <param name="inputName">inputStream</param>
+                <param name="contentDisposition">attachment;filename=%{filename}</param>
+                <param name="bufferSize">4096</param>
+            </result>
+        </action>
+        
+        <!--tra cuu han muc kho-->
+        <action name="searchDebitOfStaffAction" class="com.viettel.im.database.DAO.SearchDebitOfStaffDAO" method="preparePage">
+            <interceptor-ref name="fkInterceptor">
+                <param name="tokenSession.includeMethods">
+                    editDepositIphone,addDepositIphone
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="preparePage">searchDebitOfStaff.page</result>
+            <result type="tiles" name="listDebitOfStaff">listDebitOfStaff.page</result>
+        </action>
+        
+        <!--map dot khuyen mai cho tung shop-->
+	<action name="mappingDebitDayWithShopAction" class="com.viettel.im.database.DAO.MapDebitDayWithShopDAO" method="preparePage">
+            <interceptor-ref name="fkInterceptor">
+                <param name="tokenSession.includeMethods">
+                    insert, update, delete
+                </param>
+            </interceptor-ref>          
+            <result type="tiles" name="mapDebitDayType">mapDebitDayType.page</result>
+            <result type="tiles" name="mapDebitDayTypeMain">mapDebitDayTypeMain.page</result>
+            <result type="tiles" name="listMapDebitDayResult">listMapDebitDayResult.page</result>
+        </action>
+        
+        <!--        lap yeu cau theo file import-->
+        <action name="importDebitTypeAction" class="com.viettel.im.database.DAO.ImportDebitTypeDAO" method="preparePage">            
+            <interceptor-ref name="fkInterceptor">
+                <param name="tokenSession.includeMethods">
+                    editDepositIphone,addDepositIphone
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="preparePage">importDebitType.page</result>
+            <result type="tiles" name="importFile">importMegReturn.page</result>
+        </action>
+        
+        <!--        lap yeu cau han muc nhan vien-->
+        <action name="dateOfPaymentAction" class="com.viettel.im.database.DAO.CreateDateOfPaymentDAO" method="preparePage">
+            <interceptor-ref name="fkInterceptor">
+                <param name="tokenSession.includeMethods">
+                    editDepositIphone,addDepositIphone
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="preparePage">dateOfPaymentMain.page</result>
+            <result type="tiles" name="listResult">dateOfPaymentListResult.page</result>
+            <result type="tiles" name="queryForm">dateOfPaymentQuery.page</result>
+            <result type="tiles" name="dateOfPaymentForEmp">dateOfPaymentForEmp.page</result>
+            <result type="json" name="success">
+                <param name="root">listDebitDayCombo</param>
+            </result>
+        </action>
+        
+        <!--        Duyet yeu cau han muc nhan vien-->
+        <action name="approvalDateOfPaymentAction" class="com.viettel.im.database.DAO.ApprovalDateOfPaymentDAO" method="preparePage">
+            <interceptor-ref name="fkInterceptor">
+                <param name="tokenSession.includeMethods">
+                    editDepositIphone,addDepositIphone
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="preparePage">approvalDateOfPaymentRequest.page</result>
+            <result type="tiles" name="listAppDOPRequest">listApprovalDateOfPaymentRequest.page</result>
+            <result type="tiles" name="listAppDOPRequestDetail">listApprovalDateOfPaymentRequestDetail.page</result>
+            <result type="stream" name="download">
+                <param name="inputName">inputStream</param>
+                <param name="contentDisposition">attachment;filename=%{filename}</param>
+                <param name="bufferSize">4096</param>
+            </result>
+        </action>
+        
+        <action name="downloadFix" method="download" class="com.viettel.im.database.DAO.DownloadAction">
+            <result name="download" type="stream">
+                <param name="contentType">%{contentType}</param>
+                <param name="inputName">fileInputStream</param>
+                <param name="contentDisposition">attachment;filename=%{filename}
+                </param>
+                <param name="bufferSize">4096</param>
+            </result>
+            <result name="error" type="redirectAction">error</result>
+        </action>
+         <!--        lap yeu cau theo UNIT file import-->
+        <action name="importDebitUnitTypeAction" class="com.viettel.im.database.DAO.ImportQuotasUnitUnderTheFileDAO" method="preparePage">            
+            <result type="tiles" name="importQuotasUnitFile">importQuotasUnitFile.page</result>
+        </action>
+        <!--        lap yeu cau han muc nhan vien-->
+    </package>
+</struts>
+
+

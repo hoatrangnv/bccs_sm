@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 23, 2015 9:36:16 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="com.viettel.im.database.BO.SaleTransVip" table="SALE_TRANS_VIP">
+        <id name="saleTransVipId" type="long">
+            <column name="SALE_TRANS_VIP_ID" precision="10" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <property name="saleTransId" type="long">
+            <column name="SALE_TRANS_ID" precision="10" scale="0" not-null="true" />
+        </property>
+        <property name="msisdn" type="string">
+            <column name="MSISDN" length="25" />
+        </property>
+        <property name="custName" type="string">
+            <column name="CUST_NAME" length="200" />
+        </property>
+        <property name="idNo" type="string">
+            <column name="ID_NO" length="50" />
+        </property>
+        <property name="birthday" type="date">
+            <column name="BIRTHDAY" length="7" />
+        </property>
+        <property name="precinctCode" type="string">
+            <column name="PRECINCT_CODE" length="50" />
+        </property>
+        <property name="districtCode" type="string">
+            <column name="DISTRICT_CODE" length="50" />
+        </property>
+        <property name="provinceCode" type="string">
+            <column name="PROVINCE_CODE" length="50" />
+        </property>
+        <property name="staffId" type="java.lang.Long">
+            <column name="STAFF_ID" precision="10" scale="0" />
+        </property>
+        <property name="shopId" type="java.lang.Long">
+            <column name="SHOP_ID" precision="10" scale="0" />
+        </property>
+        <property name="saleTransDate" type="timestamp">
+            <column name="SALE_TRANS_DATE" length="7" not-null="true">
+                <comment>ngay xuat ban</comment>
+            </column>
+        </property>
+        <property name="saleTransType" type="string">
+            <column name="SALE_TRANS_TYPE" length="2" />
+        </property>
+    </class>
+</hibernate-mapping>

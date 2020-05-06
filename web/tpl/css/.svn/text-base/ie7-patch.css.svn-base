@@ -1,0 +1,12 @@
+
+div#toolbar-box {
+    height: 65px ;
+}
+
+#toolbar-box div.m {
+    height: 50px ;   
+}
+
+div#element-box div.m {
+    padding: 5px 10px ;
+}

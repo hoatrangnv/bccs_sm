@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/code/!svn/ver/322/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/Target
+END
+addNewTarget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/322/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/Target/addNewTarget.jsp
+END
+searchStaff.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/322/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/Target/searchStaff.jsp
+END
+addTargetByFile.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/322/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/Target/addTargetByFile.jsp
+END
+assignTarget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/322/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/Target/assignTarget.jsp
+END
+editTarget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/322/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/Target/editTarget.jsp
+END
+listStaff.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/322/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Infrastructure/Target/listStaff.jsp
+END

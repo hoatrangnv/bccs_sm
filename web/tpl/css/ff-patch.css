@@ -1,0 +1,17 @@
+input:focus,
+select:focus,
+textarea:focus { background-color: #ffd }
+
+button.stylish:hover span {
+        color: #0B55C4;
+}
+button.stylish:active span {
+    color: #000;
+    background:url(../images/button/btn_alt_left.png) left no-repeat; 
+}
+button.stylish:active {
+    background:url(../images/button/btn_alt_right.png) right no-repeat; 
+}
+button.stylish:active span {
+    color: #000;
+}

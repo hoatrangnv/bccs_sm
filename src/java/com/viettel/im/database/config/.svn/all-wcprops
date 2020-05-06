@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/code/!svn/ver/2424/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config
+END
+cm_pos
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config/cm_pos
+END
+sm_log
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config/sm_log
+END
+privilege.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config/privilege.cfg.xml
+END
+default session_346
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config/default%20session_346
+END
+privilege
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/48/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config/privilege
+END
+vsa.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config/vsa.cfg.xml
+END
+default session
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config/default%20session
+END
+ThreadBaseHibernateDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config/ThreadBaseHibernateDAO.java
+END
+vsa
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config/vsa
+END
+connectUrlAnypay
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config/connectUrlAnypay
+END
+anypay.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config/anypay.cfg.xml
+END
+anypay_exchg_url
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config/anypay_exchg_url
+END
+anypay
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config/anypay
+END
+sm_lib.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/2366/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config/sm_lib.cfg.xml
+END
+connectUrlCMPost
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config/connectUrlCMPost
+END
+cm_pre.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/48/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config/cm_pre.cfg.xml
+END
+connectUrlCMPre
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config/connectUrlCMPre
+END
+sm_lib
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config/sm_lib
+END
+cm_pre
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config/cm_pre
+END
+Payment.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/2367/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config/Payment.cfg.xml
+END
+sm.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/2424/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config/sm.cfg.xml
+END
+sm_log.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/1510/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config/sm_log.cfg.xml
+END
+DBCConfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config/DBCConfig.xml
+END
+anypay_exchg_url_bk
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/src/java/com/viettel/im/database/config/anypay_exchg_url_bk
+END

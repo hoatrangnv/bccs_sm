@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : saleManagement.xml
+    Created on : April 7, 2009, 8:21 AM
+    Author     : tamdt1
+    Description:
+        Khai bao cac action lien quan den phan quan ly ban hang
+-->
+
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <package name="Sale" extends="default">
+
+        <!-- Ban hang cho CTV (quan ly ban hang/ ban hang) -->
+        <action name="saleToCollaboratorAction" class="com.viettel.im.database.DAO.SaleToCollaboratorDAO" method="prepareSaleToCollaborator">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    saveSaleToCollaborator,checkExistAccount
+                </param>
+            </interceptor-ref>
+
+
+            <result type="tiles" name="saleToCollaborator">saleToCollaborator.page</result>
+            <result type="tiles" name="saleToCollaboratorDetail">saleToCollaboratorDetail.page</result>
+
+            <result type="tiles" name="addGoodsCollaborator">addGoodsCollaborator.page</result>
+            <result type="tiles" name="editGoodsCollaborator">editGoodsCollaborator.page</result>
+            <result type="tiles" name="affterEditGoodsCollaborator">affterEditGoodsCollaborator.page</result>
+            <result type="tiles" name="delGoodsCollaborator">delGoodsCollaborator.page</result>
+
+            <result type="json" name="getListCollaboratorCode">
+                <param name="root">hashMapResult</param>
+            </result>
+            <result type="json" name="getCollaboratorName">
+                <param name="root">hashMapResult</param>
+            </result>
+
+            <result type="json" name="updateListModelPrice">
+                <param name="root">priceListMap</param>
+            </result>
+            <!--  tannh20180122-->
+            <result name="success" type="stream">
+                <param name="contentType">application/octet-stream</param>
+                <param name="inputName">fileInputStream</param>
+                <param name="contentDisposition">attachment;filename="Order.xls"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+
+        </action>
+        
+        <!-- Ban hang cho Dai Ly (Xuat hang cho dai ly) -->
+        <action name="saleToMasterAgentAction" class="com.viettel.im.database.DAO.SaleToMasterAgentDAO" method="prepareSaleToMasterAgent">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    saveSaleToCollaborator,checkExistAccount
+                </param>
+            </interceptor-ref>
+
+
+            <result type="tiles" name="saleToMasterAgent">saleToMasterAgent.page</result>
+
+            <result type="tiles" name="addGoodsToMasterAgent">addGoodsToMasterAgent.page</result>
+            <result type="tiles" name="editGoodsToMasterAgent">editGoodsToMasterAgent.page</result>
+            <result type="tiles" name="affterEditGoodsToMasterAgent">affterEditGoodsToMasterAgent.page</result>
+            <result type="tiles" name="delGoodsToMasterAgent">delGoodsToMasterAgent.page</result>
+
+            <result type="json" name="getListToMasterAgentCode">
+                <param name="root">hashMapResult</param>
+            </result>
+            <result type="json" name="getToMasterAgentName">
+                <param name="root">hashMapResult</param>
+            </result>
+
+            <result type="json" name="updateListModelPrice">
+                <param name="root">priceListMap</param>
+            </result>
+
+        </action>
+        <!-- Ban hang cho Dai Ly (Xuat hang cho dai ly) -->
+        
+        
+        <action name="getCollaboratorModel" class="com.viettel.im.database.DAO.SaleToCollaboratorDAO" method="getCollaboratorModel">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    saveSaleToCollaborator,updateListModelPrice,updateStockModelPrice
+                </param>
+            </interceptor-ref>
+            <result type="json" name="success">
+                <param name="root">listModelCombo</param>
+            </result>
+        </action>
+        <action name="updateStockModelCollaboratorPrice" class="com.viettel.im.database.DAO.SaleToCollaboratorDAO" method="updateStockModelPrice">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    saveSaleToCollaborator,updateListModelPrice,updateStockModelPrice
+                </param>
+            </interceptor-ref>
+            <result type="json" name="success">
+                <param name="root">priceListMap</param>
+            </result>
+        </action>
+        <action name="updateStockModelCollaboratorName" class="com.viettel.im.database.DAO.SaleToCollaboratorDAO" method="updateStockModelName">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    saveSaleToCollaborator,updateListModelPrice,updateStockModelPrice
+                </param>
+            </interceptor-ref>
+            <result type="json" name="success">
+                <param name="root">stockModelMap</param>
+            </result>
+        </action>
+
+        <!-- Ban hang khuyen mai (quan ly ban hang/ ban hang) -->
+        <action name="SaleToPromotionAction" class="com.viettel.im.database.DAO.SaleToPromotionDAO" method="prepareSaleToPromotion">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    saveSaleTransRetail
+                    <!--addGoods,updateGoods,delGoods -bo do may ham nay ko tac dong vao DB-->
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="SaleToPromotion">SaleToPromotion.page</result>
+            <result type="tiles" name="saleToPromotionDeclare">saleToPromotionDeclare.page</result>
+            <result type="tiles" name="saleToPromotionInputUpdateGoods">saleToPromotionInputUpdateGoods.page</result>
+            <result type="tiles" name="saleToPromotionGoodList">saleToPromotionGoodList.page</result>
+            <result type="json" name="updateListModelPrice">
+                <param name="root">priceListMap</param>
+            </result>
+        </action>
+        <action name="getRetailModelPromotion" class="com.viettel.im.database.DAO.SaleToPromotionDAO" method="getRetailModelPromotion">
+            <result type="json" name="success">
+                <param name="root">listModelCombo</param>
+            </result>
+        </action>
+        <action name="updateStockPromotionPrice" class="com.viettel.im.database.DAO.SaleToPromotionDAO" method="updateStockPromotionPrice">
+            <result type="json" name="success">
+                <param name="root">priceListMap</param>
+            </result>
+        </action>
+
+        <!--Ban le        -->
+        <action name="saleToRetailV2Action" class="com.viettel.im.database.DAO.SaleToRetailV2DAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    saveSaleTransToRetail
+                    <!--addGoods,editGoods,deleteGoods, bo do may ham nay ko tac dong vao DB-->
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="saleToRetail">saleToRetailV2.page</result>
+            <result type="tiles" name="getCustOTP">getCustOTP.page</result>
+            <result type="tiles" name="saleToRetailDetail">saleToRetailDetailV2.page</result>
+
+            <result type="json" name="updateListModelPrice">
+                <param name="root">listElement</param>
+            </result>
+            <!--  tannh20180122-->
+            <result name="success" type="stream">
+                <param name="contentType">application/octet-stream</param>
+                <param name="inputName">fileInputStream</param>
+                <param name="contentDisposition">attachment;filename="Order.xls"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+
+
+        </action>
+        
+        <action name="orderManagementAction" class="com.viettel.im.database.DAO.OrderManagementDAO" method="preparePage">
+
+            <result type="tiles" name="searchOder">searchOrder.page</result>
+            <result type="tiles" name="saleManagmentResultOrder">saleManagmentResultOrder.page</result>
+            <result type="tiles" name="saleManagmentDetailOrder">saleManagmentDetailOrder.page</result>
+            <result type="tiles" name="saleManagmentDetailSerial">saleManagmentDetailSerial.page</result>
+            <result type="tiles" name="saleManagmentPrintInvoice">saleManagmentPrintInvoice.page</result>
+            
+            <result type="json" name="updateListModelPrice">
+                <param name="root">listElement</param>
+            </result>
+
+        </action>
+        
+        
+        <action name="orderManagementAction" class="com.viettel.im.database.DAO.OrderManagementDAO" method="preparePageManagementDocument">
+            <result type="tiles" name="searchOder">searchOrder.page</result>
+            <result type="tiles" name="searchBank">searchBankDocument.page</result>
+            <result type="tiles" name="saleManagmentResultOrder">saleManagmentResultOrder.page</result>
+            <result type="tiles" name="saleBankManagmentResultOrder">saleBankManagmentResultDocument.page</result>
+            <result type="tiles" name="saleManagmentDetailOrder">saleManagmentDetailOrder.page</result>
+            <result type="tiles" name="saleManagmentDetailSerial">saleManagmentDetailSerial.page</result>
+            <result type="tiles" name="saleManagmentPrintInvoice">saleManagmentPrintInvoice.page</result>
+            <result type="tiles" name="popupBank">ViewBankDocumentPopup.page</result>
+            <result type="tiles" name="viewMess">ViewMesslBankDocument.page</result>
+            <result type="tiles" name="popupDetailBank">ViewDetailBankDocumentPopup.page</result>
+            <result type="json" name="updateListModelPrice">
+                <param name="root">listElement</param>
+            </result>
+        </action>
+        
+        <!--Ban noi bo        -->
+        <action name="saleToInternalV2Action" class="com.viettel.im.database.DAO.SaleToInternalV2DAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    save
+                    <!--addGoods,editGoods,deleteGoods, bo do may ham nay ko tac dong vao DB-->
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="saleToRetail">saleToInternalV2.page</result>
+            <result type="tiles" name="saleToRetailDetail">saleToInternalDetailV2.page</result>
+
+            <result type="json" name="updateListModelPrice">
+                <param name="root">listElement</param>
+            </result>
+
+        </action>
+        
+        
+        <action name="saleToPromotionV2Action" class="com.viettel.im.database.DAO.SaleToPromotionV2DAO" method="prepareSaleToPromotion">
+            <result type="tiles" name="saleToPromotion">saleToPromotionV2.page</result>
+            <result type="tiles" name="saleToPromotionDetail">saleToPromotionDetailV2.page</result>
+            <result type="tiles" name="saleToPromotionAddGood">saleToPromotionAddGoodV2.page</result>
+            <result type="tiles" name="saleToPromotionGoodList">saleToPromotionGoodListV2.page</result>
+
+            <result type="json" name="updateListModelPrice">
+                <param name="root">priceListMap</param>
+            </result>
+        </action>
+
+
+        <!-- Ban thay CTV -->
+        <action name="saleCollToRetailAction" class="com.viettel.im.database.DAO.SaleCollToRetailDAO" method="prepareSaleCollToRetail">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    saveSaleCollToRetail
+                    <!--addGoods,editGoods,delGoods, bo do may ham nay ko tac dong vao DB-->
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="saleCollToRetail">saleCollToRetail.page</result>
+            <result type="tiles" name="saleCollToRetailDetail">saleCollToRetailDetail.page</result>
+            <result type="tiles" name="saleCollToRetailInputGood">saleCollToRetailInputGood.page</result>
+            <result type="tiles" name="saleCollToRetailGoodsList">saleCollToRetailGoodsList.page</result>
+
+            <result type="json" name="successGood">
+                <param name="root">listModelCombo</param>
+            </result>
+
+            <result type="json" name="successPrice">
+                <param name="root">priceListMap</param>
+            </result>
+        </action>
+
+        <!-- Ban hang tu lenh xuat (quan ly ban hang/ ban hang) -->
+        <action name="saleFromExpCommandAction" class="com.viettel.im.database.DAO.SaleDAO" method="prepareSaleFromExpCommand">
+            <result type="tiles" name="saleFromExpCommand">saleFromExpCommand.page</result>
+        </action>
+
+        <action name="saveFromExpCommandAction" class="com.viettel.im.database.DAO.SaleDAO" method="saveCommand">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    saveCommand
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles"  name="saveFromExpCommand">saleFromExpCommand.page</result>
+        </action>
+
+        <action name="viewFromExpCommandAction" class="com.viettel.im.database.DAO.SaleDAO" method="viewStockTransDetailAction">
+            <result type="tiles" name="viewFromExpCommand">saleFromExpCommandDetail.page</result>
+        </action>
+
+
+
+        <!--
+        ==========================================================================================================================
+        TrongLV: Begin
+        Cap nhat giao dich tu CM gui sang
+        -->
+
+        <!--Create Invoice-->
+        <action name="searchSaleTransAction" class="com.viettel.im.database.DAO.SaleInvoiceDAO" method="searchSaleTrans">
+            <result type="tiles" name="searchSaleTrans">searchSaleTrans.page</result>
+            <result type="tiles" name="saleTransDetail">saleTransDetail.page</result>
+            <result type="tiles" name="createSaleTransInvoice">createSaleTransInvoice.page</result>
+            <result type="tiles" name="invoiceToWholeSale">invoiceToWholeSale.page</result>
+            <result type="tiles" name="saleTransList">saleTransList.page</result>
+
+            <result type="tiles" name="InvoiceCollaborator">InvoiceCollaborator.page</result>
+            <result type="tiles" name="InvoiceRetail">InvoiceRetail.page</result>
+            <result type="tiles" name="InvoiceAgent">InvoiceAgent.page</result>
+
+            <result type="tiles" name="createInvoiceNoSale">createInvoiceNoSale.page</result>
+            <result type="tiles" name="createInvoiceNoSaleDetail">createInvoiceNoSaleDetail.page</result>
+            <result type="tiles" name="createInvoiceNoSaleDetailInputItem">createInvoiceNoSaleDetailInputItem.page</result>
+            <result type="tiles" name="createInvoiceNoSaleDetailItemList">createInvoiceNoSaleDetailItemList.page</result>
+        </action>
+
+        <!--Refresh Combo-->
+        <action name="changeObjectType" class="com.viettel.im.database.DAO.SaleInvoiceDAO" method="changeObjectType">
+            <result type="json" name="success">
+                <param name="root">listObject</param>
+            </result>
+            <result type="json" name="successReasonSaleList">
+                <param name="root">lstReasonSale</param>
+            </result>
+        </action>
+
+        <!--Quan ly ban hang -->
+        <action name="destroySaleInvoiceAction" class="com.viettel.im.database.DAO.SaleInvoiceDestroyDAO" method="prepareDestroySaleInvoice">
+            <result type="tiles" name="destroySaleInvoice">destroySaleInvoice.page</result>
+            <result type="tiles" name="invoiceUsedDetail">invoiceUsedDetail.page</result>
+            <result type="tiles" name="destroySaleInvoiceSearchResult">destroySaleInvoiceSearchResult.page</result>
+            <result type="tiles" name="saleManagmentPrintInvoice">saleManagmentPrintInvoice.page</result>
+            <result type="tiles" name="invoiceManagementDetail">invoiceManagementDetail.page</result>
+            <result type="tiles" name="invoiceManagementDetailSaleTransDetail">invoiceManagementDetailSaleTransDetail.page</result>
+        </action>
+
+
+        <!--Quan ly hoa don ban hang -->
+        <action name="InvoiceManagementAction" class="com.viettel.im.database.DAO.InvoiceManagementDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    cancelInvoice,recoverInvoice,editInvoice
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="invoiceManagement">invoiceManagement.page</result>
+            <result type="tiles" name="searchSaleTrans">searchSaleTrans.page</result>
+            <result type="tiles" name="invoiceManagementList">invoiceManagementList.page</result>
+            <result type="tiles" name="saleManagmentPrintInvoice">saleManagmentPrintInvoice.page</result>
+
+            <!--<result type="tiles" name="invoiceUsedDetail">createInvoice.page</result>-->
+            <result type="tiles" name="invoiceUsedDetail">invoiceUsedDetail.page</result>
+
+            <result type="tiles" name="invoiceManagementDetail">invoiceManagementDetail.page</result>
+            <result type="tiles" name="invoiceManagementDetailSaleTransDetail">invoiceManagementDetailSaleTransDetail.page</result>
+
+        </action>
+
+        <action name="borrowCashAction" class="com.viettel.im.database.DAO.BorrowCashManagementDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    cancelInvoice,recoverInvoice,editInvoice
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="searchRequest">searchRequest.page</result>
+            <result type="tiles" name="borrowManagementPrintRequest">borrowManagementPrintRequest.page</result>
+            <result type="tiles" name="prepareGetReportDebitByUser">prepareGetReportDebitByUser.page</result>
+            <result type="tiles" name="getReportDebitByUser">getReportDebitByUser.page</result>
+            <result type="tiles" name="prepareGetReportDebitByTrans">prepareGetReportDebitByTrans.page</result>
+            <result type="tiles" name="getReportDebitByTrans">getReportDebitByTrans.page</result>
+        </action>
+        
+        <!-- Lap yeu cau tao hoa don dieu chinh-->
+        <action name="InvoiceCreditManagementAction" class="com.viettel.im.database.DAO.InvoiceCreditManagementDAO" method="preparePage">
+            <result type="tiles" name="invoiceCreditManagement">invoiceCreditManagement.page</result>
+            <result type="tiles" name="saleManagmentCreditInvoice">saleManagmentCreditInvoice.page</result>
+            <result type="tiles" name="invoiceUsedDetail">invoiceUsedDetail.page</result>
+            <result type="tiles" name="invoiceCreditManagementList">invoiceCreditManagementList.page</result>
+        </action>
+        <!--end -->
+
+        <!-- Duyet yeu cau hoa don dieu chinh-->
+        <action name="ApproveInvoiceCreditManagementAction" class="com.viettel.im.database.DAO.ApproveInvoiceCreditManagementDAO" method="preparePage">
+            <result type="tiles" name="approveInvoiceCreditManagement">approveInvoiceCreditManagement.page</result>
+            <result type="tiles" name="saleManagmentCreditInvoice">saleManagmentCreditInvoice.page</result>
+            <result type="tiles" name="invoiceUsedDetail">invoiceUsedDetail.page</result>
+            <result type="tiles" name="approveInvoiceCreditManagementList">approveInvoiceCreditManagementList.page</result>
+        </action>
+        <!--end -->
+        <!-- Doi hang hong (quan ly ban hang) -->
+        <action name="changeDamagedGoodsAction" class="com.viettel.im.database.DAO.SaleDAO" method="prepareChangeDamagedGoods">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    saveChangeDamagedGoods
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="changeDamagedGoods">changeDamagedGoods.page</result>
+            <result type="json" name="success">
+                <param name="root">listItemsSelectBox</param>
+            </result>
+        </action>
+
+        <action name="SaleTransInvoiceAction" class="com.viettel.im.database.DAO.SaleTransInvoiceDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    cancelInvoice,recoverInvoice,createInvoice
+                </param>
+            </interceptor-ref>
+            
+            <result type="tiles" name="searchSaleTrans">searchSaleTrans.page</result>
+            <result type="tiles" name="invoiceSaleTrans">invoiceSaleTrans.page</result>
+            <result type="tiles" name="invoiceSaleTransList">saleTransList.page</result>
+            <result type="tiles" name="invoiceSaleTransDetailList">invoiceSaleTransDetail.page</result>
+            <result type="tiles" name="createInvoice">createInvoice.page</result>
+            <result type="tiles" name="createInvoiceSerialNo">createInvoiceSerialNo.page</result>
+
+            <result type="tiles" name="createInvoiceNotSale">createInvoiceNotSale.page</result>
+            <result type="tiles" name="createInvoiceNotSaleDetail">createInvoiceNotSaleDetail.page</result>
+            <result type="tiles" name="createInvoiceNotSaleInputGood">createInvoiceNotSaleInputGood.page</result>
+            <result type="tiles" name="createInvoiceNotSaleGoodsList">createInvoiceNotSaleGoodsList.page</result>
+
+            <result type="tiles" name="returnMsg">returnMsg.page</result>
+
+
+            <!-- Popup xem chi tiet hoa don ban hang -->
+            <result type="tiles" name="invoiceUsedDetail">invoiceUsedDetail.page</result>
+
+            <result type="json" name="success_listObject">
+                <param name="root">listObject</param>
+            </result>
+
+            <result type="json" name="success_listModelCombo">
+                <param name="root">listModelCombo</param>
+            </result>
+            <result type="json" name="success_priceListMap">
+                <param name="root">priceListMap</param>
+            </result>
+        </action>
+        <!--
+        ==========================================================================================================================
+        TrongLV: Finish
+        -->
+
+
+
+        <!-- tamdt1 - end -->
+        
+        <!--ThanhNC start cập nhập giao dịch bán hàng từ CM đẩy sang-->
+        <action name="updateSaleAction" class="com.viettel.im.database.DAO.UpdateSaleDAO" method="preparePage">
+            <result type="tiles" name="updateSale">updateSale.page</result>
+            <result type="tiles" name="updateSaleResult">updateSaleResult.page</result>
+            <result type="tiles" name="saleTransDetail">saleTransDetail.page</result>
+            <result type="tiles" name="saleTransDetailSerial">saleTransDetailSerial.page</result>
+
+        </action>
+        <!--Quan ly giao dich ban hang-->
+        <action name="saleManagmentAction" class="com.viettel.im.database.DAO.SaleManagmentDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    cancelTrans
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="saleManagment">saleManagment.page</result>
+            <result type="tiles" name="saleManagmentResult">saleManagmentResult.page</result>
+            <result type="tiles" name="saleManagmentDetail">saleManagmentDetail.page</result>
+            <result type="tiles" name="saleManagmentDetailSerial">saleManagmentDetailSerial.page</result>
+            <result type="tiles" name="saleManagmentPrintInvoice">saleManagmentPrintInvoice.page</result>
+        </action>
+        <!--End ThanhNC-->
+
+        <!--Ban the cao DT-->
+        <action name="SaleAnyPayToAgentOrStaffAction" class="com.viettel.im.database.DAO.SaleAnyPayToAgentOrStaffDAO" method="preparePage">
+            <!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    sumAmount,
+                    saleToAccountAnyPay,
+                    cancelAnyPayTrans,
+                    updateCheckVAT
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="saleToAnyPay">saleAnyPayToAgentOrStaff.page</result>
+            <result type="tiles" name="saleAnyPayTransManagement">saleAnyPayTransManagement.page</result>
+            <result type="tiles" name="lstSaleToAnyPay">saleAnyPayTransList.page</result>
+            <result type="tiles" name="saleErrorAnyPay">repairErrorSaleAnyPay.page</result>
+            <result type="tiles" name="updateCheckVAT">updateCheckVAT.page</result>
+        </action>
+        
+        <action name="saleRetailAnypayAction" class="com.viettel.im.database.DAO.SaleRetailAnypayDAO" method="preparePage">
+            <result type="tiles" name="saleAnypayToRetail">saleRetailAnypay.page</result>
+            <result type="tiles" name="showIsdnDetailInfo">showIsdnDetailInfo.page</result>
+        </action>
+        
+        
+        <!--    120802 : TrongLV : Ban phat-->
+        <action name="saleToPunishAction" class="com.viettel.im.database.DAO.SaleToPunishDAO" method="prepareSaleToPunish">
+            <result type="tiles" name="saleToPunish">saleToPunish.page</result>
+            <result type="tiles" name="saleToPunishGoodList">saleToPunishGoodsList.page</result>
+            <result type="tiles" name="saleToPunishDetail">saleToPunishDetail.page</result>
+            <result type="tiles" name="saleToPunishInputGood">saleToPunishInputGood.page</result>
+            <result type="tiles" name="saleToPunishGoodsList">saleToPunishGoodsList.page</result>
+
+            <result type="json" name="updateListModelPrice">
+                <param name="root">priceListMap</param>
+            </result>
+            <result type="json" name="changeObjectType">
+                <param name="root">listObjectType</param>
+            </result>
+        </action>        
+        <action name="getPunishModelAction" class="com.viettel.im.database.DAO.SaleToPunishDAO" method="getPunishModel">
+            <result type="json" name="success">
+                <param name="root">listModelCombo</param>
+            </result>
+        </action>
+        <!--        trung dh3: ban phat nhan vien-->
+        <action name="saleToPunishStaffAction" class="com.viettel.im.database.DAO.SaleToPunishStaffDAO" method="prepareSaleToPunishStaff">
+            <result type="tiles" name="saleToPunishStaff">saleToPunishStaff.page</result>
+            <result type="tiles" name="saleToPunishStaffDetail">saleToPunishStaffDetail.page</result>
+            <result type="json" name="updateListModelPrice">
+                <param name="root">priceListMap</param>
+            </result>
+        </action>
+        <!--        trung dh3: ban le V3-->
+        <action name="saleToRetailV3Action" class="com.viettel.im.database.DAO.SaleToRetailV3DAO" method="preparePage">
+            <!--              <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    saveSaleTransToRetail
+                    addGoods,editGoods,deleteGoods, bo do may ham nay ko tac dong vao DB
+                </param>
+            </interceptor-ref>-->
+
+            <result type="tiles" name="saleToRetailV3">saleToRetailV3.page</result>
+            <result type="tiles" name="saleToRetailDetailV3">saleToRetailDetailV3.page</result>
+            <result type="json" name="updateListModelPrice">
+                <param name="root">priceListMap</param>
+            </result>
+        </action>
+        <action name="saleToPackageAction" class="com.viettel.im.database.DAO.SaleToPackageDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    saveSaleTransToRetail
+                    <!--addGoods,editGoods,deleteGoods, bo do may ham nay ko tac dong vao DB-->
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="saleToPackage">saleToPackage.page</result>
+            <result type="tiles" name="getCustOTP">getCustOTPPackage.page</result>
+            <result type="tiles" name="saleToPackageDetail">saleToPackageDetail.page</result>
+            <result type="json" name="updateListModelPrice">
+                <param name="root">listElement</param>
+            </result>
+        </action>
+        
+        <!--Tra cuu thong tin ban hang thanh toan bang Emola-->
+        <action name="saleTransPayMethodEMolaAction" class="com.viettel.im.database.DAO.SaleTransPayMethodEMolaDAO" method="preparePage">            
+            <result type="tiles" name="saleTransPayMethodEmola">saleTransPayMethodEmola.page</result>
+            <result type="tiles" name="pageNavigator">listSaleTransPayMethodEmola.page</result>
+            <result type="tiles" name="errorPage">errorPage.page</result>
+        </action>
+        
+        <!--Tra cuu thong tin ban hang thanh toan bang Emola-->
+        <!--Them phan quan ly hang cua CTV va NV Diem Ban sau khi dut
+        <action name="ViewStockCTVAndPointAction" class="com.viettel.im.database.DAO.ViewStockCTVAndPointDAO" method="preparePage">
+            <result type="tiles" name="viewStockCTVAndPoint">viewStockCTVAndPoint.page</result>
+        </action>
+        -->
+    </package>
+</struts>

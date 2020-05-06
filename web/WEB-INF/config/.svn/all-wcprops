@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/code/!svn/ver/2743/BCCS_IM/Source_Web/web/WEB-INF/config
+END
+tiles.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/code/!svn/ver/2743/BCCS_IM/Source_Web/web/WEB-INF/config/tiles.xml
+END
+sun-web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/config/sun-web.xml
+END
+tiles_token.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/config/tiles_token.xml
+END
+jax-ws-catalog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/config/jax-ws-catalog.xml
+END
+im-def.tld
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/config/im-def.tld
+END
+validation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/config/validation.xml
+END
+vsa-defs.tld
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/config/vsa-defs.tld
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/config/web.xml
+END
+Role.properties
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/config/Role.properties
+END
+validator-rules.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/config/validator-rules.xml
+END
+sun-jaxws.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/config/sun-jaxws.xml
+END

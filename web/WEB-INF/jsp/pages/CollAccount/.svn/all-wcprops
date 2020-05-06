@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/CollAccount
+END
+addSubAnyPay.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/CollAccount/addSubAnyPay.jsp
+END
+PageNoInfo.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/CollAccount/PageNoInfo.jsp
+END
+ShowLogDetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/CollAccount/ShowLogDetail.jsp
+END
+anyPayTransManagement.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/CollAccount/anyPayTransManagement.jsp
+END
+searchResetLimit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/CollAccount/searchResetLimit.jsp
+END
+searchAreaShop.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/CollAccount/searchAreaShop.jsp
+END
+anyPayAgentInfo.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/CollAccount/anyPayAgentInfo.jsp
+END
+StaffAccountCollDetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/CollAccount/StaffAccountCollDetail.jsp
+END
+addCreditBorrow.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/CollAccount/addCreditBorrow.jsp
+END
+showLogChangeAccountFPT.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/CollAccount/showLogChangeAccountFPT.jsp
+END
+addSubAnyPayList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/CollAccount/addSubAnyPayList.jsp
+END
+ResetLimitActiveSubscriber.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/code/!svn/ver/1909/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/CollAccount/ResetLimitActiveSubscriber.jsp
+END
+ListSearchResetLimit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/CollAccount/ListSearchResetLimit.jsp
+END

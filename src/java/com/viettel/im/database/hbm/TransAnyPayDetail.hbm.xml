@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="com.viettel.im.database.BO.TransAnyPayDetail" table="TRANS_ANYPAY_DETAIL">
+    <id name="transDetailId" type="java.lang.Long">
+      <column name="TRANS_DETAIL_ID" not-null="true" precision="10" scale="0"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="transId" type="java.lang.Long">
+      <column name="TRANS_ID" precision="10" scale="0"/>
+    </property>
+    <property name="transDate" type="java.util.Date">
+      <column length="7" name="TRANS_DATE"/>
+    </property>
+    <property name="agentId" type="java.lang.Long">
+      <column name="AGENT_ID" precision="10" scale="0"/>
+    </property>
+    <property name="amount" type="java.lang.Double">
+      <column name="AMOUNT" precision="22" scale="5"/>
+    </property>
+    <property name="openingBalance" type="java.lang.Double">
+      <column name="OPENING_BALANCE" precision="22" scale="5"/>
+    </property>
+    <property name="closingBalance" type="java.lang.Double">
+      <column name="CLOSING_BALANCE" precision="22" scale="5"/>
+    </property>
+    <property name="anyPayTransId" type="java.lang.Long">
+      <column name="ANYPAY_TRANS_ID" precision="10" scale="0"/>
+    </property>
+    <property name="message" type="java.lang.String">
+      <column length="200" name="MESSAGE"/>
+    </property>
+    <property name="params" type="java.lang.String">
+      <column length="50" name="PARAMS"/>
+    </property>
+  </class>
+</hibernate-mapping>

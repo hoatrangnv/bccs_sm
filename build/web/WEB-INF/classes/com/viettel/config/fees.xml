@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="Fees" extends="default">
+        <result-types>
+            <result-type name="customJSON" class="com.viettel.im.server.action.JSONResult" />
+        </result-types>
+        
+        <action name="commPayFeesAction" class="com.viettel.im.database.DAO.PayFeesDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    payCOMM
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="payFees">payFees.page</result>
+            <result type="tiles" name="payFeesResult">payFeesResult.page</result>
+            <result type="json" name="getShopCode">
+                <param name="root">hashMapResult</param>
+            </result>
+        </action>
+      
+        <action name="commApproveFeesAction" class="com.viettel.im.database.DAO.ApproveFeesDAO" method="preparePage">
+<!--CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    appCOMM,
+                    unAppCOMM
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="approveFees">approveFees.page</result>
+            <result type="tiles" name="approveFeesResult">approveFeesResult.page</result>
+            <result type="json" name="getShopCode">
+                <param name="root">hashMapResult</param>
+            </result>
+        </action>
+       
+        <action name="commAdjustFeesAction" class="com.viettel.im.database.DAO.AdjustFeesDAO" method="preparePage">
+            <result type="tiles" name="adjustFeesPrepare">adjustFeesPrepare.page</result>
+            <result type="tiles" name="pageNavigator">adjustFeesPreparePageNavigator.page</result>
+        </action>
+        
+        <action name="commContractFeesAction" class="com.viettel.im.database.DAO.ContractFeesDAO" method="preparePage">
+<!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    contractCOMM
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="contractFees">contractFees.page</result>
+            <result type="tiles" name="contractFeesResult">contractFeesResult.page</result>
+            <result type="json" name="getShopCode">
+                <param name="root">hashMapResult</param>
+            </result>
+        </action>
+        
+        <action name="commCalculateAction" class="com.viettel.im.database.DAO.CalculateFeesDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    updateCOMM
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="calculatePrepare">calculatePrepare.page</result>
+            <result type="tiles" name="pageNavigator">calculatePreparePageNavigator.page</result>
+        </action>
+
+        <action name="commTableFeesAction" class="com.viettel.im.database.DAO.TableFeesDAO" method="preparePage">
+<!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="tableFees">tableFees.page</result>
+            <result type="json" name="getShopCode">
+                <param name="root">hashMapResult</param>
+            </result>
+        </action>
+       
+        <action name="commUpdFeesAction" class="com.viettel.im.database.DAO.UpdFeesDAO" method="preparePage">
+<!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    deleteCOMM,
+                    addCOMM,
+                    updateCOMM,
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="updFees">updFees.page</result>
+            <result type="tiles" name="updFeesResult">updFeesResult.page</result>
+            <result type="json" name="updateListItem">
+                <param name="root">hashMapResult</param>
+            </result>
+            <result type="json" name="getShopCode">
+                <param name="root">hashMapResult</param>
+            </result>
+        </action>
+        
+        <action name="AjaxGetInputType" class="com.viettel.im.database.DAO.UpdFeesDAO" method="getInputTypeLong">
+            <result type="customJSON">inputType</result>
+        </action>
+        <action name="AjaxGetFee" class="com.viettel.im.database.DAO.UpdFeesDAO" method="getFeeItem">
+            <result type="customJSON">fee</result>
+        </action>
+
+        <action name="CommCountersAction" class="com.viettel.im.database.DAO.CommCountersDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    deleteCommCountersParam,deleteCommCounters,addCommCounters,editCommCounters
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="addNewCommCounters">addNewCommCounters.page</result>
+            <result type="tiles" name="addNewCommCountersResult">addNewCommCountersResult.page</result>
+            <result type="tiles" name="countersParam">countersParam.page</result>
+            <result type="tiles" name="countersParamResult">countersParamResult.page</result>
+        </action>
+        
+        <action name="commItemGroupsAction" class="com.viettel.im.database.DAO.CommItemGroupsDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addOrEditCommItemGroups,deleteCommItemGroups
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="addNewCommItemGroups">addNewCommItemGroups.page</result>
+            <result type="tiles" name="listGroupCommItem">listGroupCommItem.page</result>
+            <result type="tiles" name="detailCommItemsGroups">detailCommItemsGroups.page</result>
+            <result type="json" name="getCommItemGroupsTree">
+                <param name="root">listItems</param>
+            </result>
+        </action>
+
+        <action name="commItemsAction" class="com.viettel.im.database.DAO.CommItemsDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addOrEditCommItems,deleteCommItems,deleteCommFees,addOrEditItemFeeChannel,addOrEditItemFeeChannelAdvance
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="addCommItems">addCommItems.page</result>
+            <result type="tiles" name="listCommItems">listCommItems.page</result>
+            <result type="redirectAction" name="displayCommItemGroups">commItemGroupsAction!displayCommItemGroups.do</result>
+            <result type="tiles" name="declareCommPriceItems">declareCommPriceItems.page</result>
+            <result type="tiles" name="declareCommPriceItemsAdvance">declareCommPriceItemsAdvance.page</result>
+            <result type="tiles" name="listCommFees">listCommFees.page</result>
+            <result type="redirectAction" name="detailCommItemsGroups">commItemGroupsAction!displayCommItemGroups.do</result>
+        </action>
+
+        <action name="collectFeesAction" class="com.viettel.im.database.DAO.CollectFeesDAO" method="preparePage">
+<!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    collectFees,
+                    collectByType
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="collectFeesChannel">collectFeesChannel.page </result>
+            <result type="tiles" name="treeChannel">treeChannel.page </result>
+            <result type="tiles" name="collectFeesResult">collectFeesResult.page </result>
+            <result type="tiles" name="listItemFees">listItemFees.page </result>
+            <result type="tiles" name="listChannelCollect">listChannelCollect.page </result>
+            <result type="json" name="success">
+                <param name="root">listItems</param>
+            </result>
+        </action>
+
+        <action name="getShopTree" class="com.viettel.im.database.DAO.CollectFeesDAO" method="getShopTree">
+            <result type="json" name="success">
+                <param name="root">listItems</param>
+            </result>
+        </action>
+
+        <action name="getShopCode" class="com.viettel.im.database.DAO.CommonDAO" method="getShopCode">
+            <result type="json" name="success">
+                <param name="root">listShopID</param>
+            </result>
+        </action>
+
+        <action name="getShopNameTextUpd" class="com.viettel.im.database.DAO.UpdFeesDAO" method="getShopNameText">
+            <result type="json" name="success">
+                <param name="root">shopName</param>
+            </result>
+        </action>
+
+        <action name="getShopNameTextCal" class="com.viettel.im.database.DAO.UpdFeesDAO" method="getShopNameText">
+            <result type="json" name="success">
+                <param name="root">shopName</param>
+            </result>
+        </action>
+
+        <action name="getShopNameTextApp" class="com.viettel.im.database.DAO.ApproveFeesDAO" method="getShopNameText">
+            <result type="json" name="success">
+                <param name="root">shopName</param>
+            </result>
+        </action>
+
+        <action name="getShopNameTextTable" class="com.viettel.im.database.DAO.TableFeesDAO" method="getShopNameText">
+            <result type="json" name="success">
+                <param name="root">shopName</param>
+            </result>
+        </action>
+
+        <action name="getShopNameTextContract" class="com.viettel.im.database.DAO.ContractFeesDAO" method="getShopNameText">
+            <result type="json" name="success">
+                <param name="root">shopName</param>
+            </result>
+        </action>
+
+        <action name="getShopNameTextPay" class="com.viettel.im.database.DAO.PayFeesDAO" method="getShopNameText">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    payCOMM
+                </param>
+            </interceptor-ref>
+            <result type="json" name="success">
+                <param name="root">shopName</param>
+            </result>
+        </action>
+    </package>
+</struts>
+

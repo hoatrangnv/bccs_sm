@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Export/ToPartner
+END
+ExportStockToPartner.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Export/ToPartner/ExportStockToPartner.jsp
+END
+ProcessStockExport.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Export/ToPartner/ProcessStockExport.jsp
+END
+createExpNoteToPartner.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Export/ToPartner/createExpNoteToPartner.jsp
+END
+expToPartnerFinal.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Export/ToPartner/expToPartnerFinal.jsp
+END
+listExpCmdToPartner.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Export/ToPartner/listExpCmdToPartner.jsp
+END
+expToPartner.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Export/ToPartner/expToPartner.jsp
+END
+listExpNoteToPartner.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Export/ToPartner/listExpNoteToPartner.jsp
+END
+listGoodsInExpCmdToPartner.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Export/ToPartner/listGoodsInExpCmdToPartner.jsp
+END
+ProcessStockExp.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Export/ToPartner/ProcessStockExp.jsp
+END
+expNoteToPartner.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Export/ToPartner/expNoteToPartner.jsp
+END
+createExpCmdToPartner.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Export/ToPartner/createExpCmdToPartner.jsp
+END

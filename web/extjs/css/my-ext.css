@@ -1,0 +1,17 @@
+/* 
+Document   : my-ext
+Created on : Aug 5, 2008, 11:32:06 AM
+Author     : Nebula Nova
+Description:
+Purpose of the stylesheet follows.
+*/
+
+/* 
+TODO customize this sample style
+Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.bmenu .x-btn-text {
+    /*background-image: url(../images/default/tree/leaf.gif) ;*/
+    font-weight:bold;
+}

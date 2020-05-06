@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/server/action
+END
+AjaxVtType.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/server/action/AjaxVtType.java
+END
+ScheduleContextListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/server/action/ScheduleContextListener.java
+END
+CharsetInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/server/action/CharsetInterceptor.java
+END
+JSONResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/server/action/JSONResult.java
+END
+SessionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/src/java/com/viettel/im/server/action/SessionManager.java
+END

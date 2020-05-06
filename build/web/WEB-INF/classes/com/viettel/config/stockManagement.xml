@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <package name="Stock" extends="default">
+
+        <!-- Thu hoi hang hong dai ly -->
+        <action name="RecoverStockModelFromAgentAction" class="com.viettel.im.database.DAO.RecoverStockModelFromAgentDAO" method="prepareRecoverStock">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    createRecoverNote,expStock
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="RecoverStockModelFromAgent">RecoverStockModelFromAgent.page</result>
+            <result type="tiles" name="editGoods">editGoods.page </result>
+            <result type="tiles" name="stockGoodsRecover">stockGoodsRecover.page </result>
+
+        </action>
+
+        <!-- Xuat kho cho CTV -->
+        <action name="exportStockToCollaboratorAction" class="com.viettel.im.database.DAO.StockCollaboratorDAO" method="prepareExportStock">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    expStock
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="exportStockToCollaborator">exportStockToCollaborator.page</result>
+            <result type="tiles" name="editGoods">editGoods.page</result>
+            <result type="tiles" name="viewAccountAgent">viewAccountAgent.page</result>
+        </action>
+
+        <!-- Xuat kho tra hang cho doi tac - NamNX 24/02/2010 -->
+
+        <action name="exportStockToPartnerAction" class="com.viettel.im.database.DAO.ExportStockToPartnerDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    exportToPartner
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="exportStockToPartner">exportStockToPartner.page</result>
+            <result type="tiles" name="listSerialRange">listSerialRange.page</result>
+            <result type="json" name="success">
+                <param name="root">listProfilePattern</param>
+            </result>
+            <result type="json" name="getComboboxSource">
+                <param name="root">listItemsCombo</param>
+            </result>
+            <result type="json" name="updateProgressBar">
+                <param name="root">listItemsCombo</param>
+            </result>
+        </action>
+
+        <!-- Xuat hang can kho -->
+        <action name="processStockExpAction" class="com.viettel.im.database.DAO.ProcessStockExpDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    exportToPartner
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="processStockExp">processStockExp.page</result>
+            <result type="tiles" name="listSerialRange">listSerialRange.page</result>
+            <result type="json" name="success">
+                <param name="root">listProfilePattern</param>
+            </result>
+            <result type="json" name="getComboboxSource">
+                <param name="root">listItemsCombo</param>
+            </result>
+            <result type="json" name="updateProgressBar">
+                <param name="root">listItemsCombo</param>
+            </result>
+        </action>
+
+
+        <!-- tamdt1, 04/04/2009 - start -->
+<!--         lap lenh xuat kho tu file
+-->        <action name="createExpCmdFromFileAction" class="com.viettel.im.database.DAO.CreateExpCmdFromFileDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    createExpCmdFromFile
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="createExpCmdFromFile">createExpCmdFromFile.page</result>
+        </action>
+
+        <!-- Xuat kho cho nhan vien (xuat nhap voi nhan vien) -->
+        <action name="StockTransManagmentAction" class="com.viettel.im.database.DAO.StockCommonDAO" method="prepareStockManagment">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    <!--fix CSRF-->
+                    balanceStockGoods,exportStockDetail,deleteSerialRange,addSerial,changeMethodInputSerial
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="stockManagment">stockManagment.page</result>
+            <result type="tiles" name="stockManagmentSearchResult">stockManagmentSearchResult.page</result>
+            <result type="tiles" name="stockManagmentViewDetail">stockManagmentViewDetail.page</result>
+            <result type="json" name="selectOwner" >
+                <param name="root">listItemsSelectBox</param>
+            </result>
+        </action>
+        <action name="exportStockToStaffAction" class="com.viettel.im.database.DAO.StockStaffDAO" method="prepareExportStock">
+            <!-- tutm1 Review CSRF thieu ham cancelExpTrans-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    createExpCmdToStaff,createExpNote,expStock,cancelExpTrans
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="exportStockToStaff">exportStockToStaff.page</result>
+            <result type="tiles" name="createExpCmdToStaff">createExpCmdToStaff.page</result>
+            <result type="tiles" name="createExpNoteToStaff">createExpNoteToStaff.page</result>
+            <result type="tiles" name="searchExpCmd">searchExpCmd.page</result>
+            <result type="tiles" name="createExpNoteToStaffFromCmd">createExpNoteToStaffFromCmd.page</result>
+            <result type="tiles" name="searchExpNote">searchExpNote.page</result>
+            <result type="tiles" name="prepareExportStockToStaffFromNote">prepareExportStockToStaffFromNote.page</result>
+
+        </action>
+        <action name="StaffExportStockToShop" class="com.viettel.im.database.DAO.StockStaffDAO" method="prepareStaffExportStock">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    staffExpStock
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="staffExportStockToShop">staffExportStockToShop.page</result>
+        </action>
+
+        <action name="StaffImportStockFromShop" class="com.viettel.im.database.DAO.StockStaffDAO" method="prepareImportStock">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    impStock
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="importStockFromShop">importStockFromShop.page</result>
+            <result type="tiles" name="searchExpNoteFromShop">searchExpNoteFromShop.page</result>
+            <result type="tiles" name="prepareImportStockFromShop">prepareImportStockFromShop.page</result>
+            <result type="redirectAction" name="importStockFromShopSuccess">StaffImportStockFromShop!prepareImportStock.do</result>
+        </action>
+
+
+        <!-- Thu hoi kho tu nhan vien (xuat nhap voi nhan vien) -->
+        <action name="importStockFromStaffAction" class="com.viettel.im.database.DAO.StockStaffDAO" method="prepareImportStockFromStaff">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    createImpCmd_1,createReceiveNote_1,impStock_1
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="importStockFromStaffCmd">importStockFromStaffCmd.page</result>
+            <result type="tiles" name="searchExpNoteMoreResult">searchExpNoteMoreResult.page</result>
+            <result type="tiles" name="searchImpCmdMoreResult">searchImpCmdFromUnderlyingMoreResult.page</result>
+            <result type="tiles" name="searchImpNoteMoreResult">searchImpNoteMoreResult.page</result>
+            <result type="tiles" name="prepareCreateImpCmd">prepareCreateImpCmd.page</result>
+            <result type="tiles" name="createImpNote">createImpFromUnderlyingNote.page</result>
+            <result type="tiles" name="impStockFromUnderlying">impStockFromUnderlying.page</result>
+            <result type="tiles" name="impStockFromRecover">impStockFromRecover.page</result>
+            <result type="redirectAction" name="createImpCmdSuccess">importStockFromStaffAction!prepareCreateReceiveCmd.do</result>
+            <result type="redirectAction" name="createImpNoteSuccess">importStockFromStaffAction!prepareCreateReceiveNote.do</result>
+            <result type="redirectAction" name="impStockSuccess">importStockFromStaffAction!prepareImportStock.do</result>
+            <result type="tiles" name="createReceiveNoteFromStaff">createReceiveNoteFromStaff.page</result>
+            <result type="tiles" name="importStockFromStaff">importStockFromStaff_1.page</result>
+            <result type="tiles" name="importStockFromRecover">importStockFromRecover.page</result>
+            <result type="json" name="selectReason">
+                <param name="root">listReason</param>
+            </result>
+
+
+            <!--result type="tiles" name="importStockFromStaff">importStockFromStaff.page</result-->
+            <result type="tiles" name="searchExpNoteFromStaff">searchExpNoteFromStaff.page</result>
+            <result type="tiles" name="prepareImportStockFromStaff">prepareImportStockFromStaff.page</result>
+            <result type="redirectAction" name="importStockFromStaffSuccess">importStockFromStaffAction!prepareImportStockFromStaff.do</result>
+
+        </action>
+        <!-- Xac nhan nhap kho tu cap tren (xuat nhap voi cap tren) -->
+        <action name="ImportStockFromSenior" class="com.viettel.im.database.DAO.StockSeniorDAO" method="prepareImportStock">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    createImpNote,impStock
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="importStockFromSenior">importStockFromSenior.page</result>
+
+            <result type="tiles" name="searchExpNoteFromSenior">searchExpNoteFromSenior.page</result>
+            <result type="tiles" name="prepareImportStockFromSenior">prepareImportStockFromSenior.page</result>
+            <result type="redirectAction" name="importStockSuccess">ImportStockFromSenior!prepareImportStock.do</result>
+
+            <result type="tiles" name="realImportStockFromSenior">realImportStockFromSenior.page</result>
+            <result type="tiles" name="searchImpNoteFromSenior">searchImpNoteFromSenior.page</result>
+            <result type="tiles" name="prepareRelImpFromSenior">prepareRelImpFromSenior.page</result>
+        </action>
+
+
+        <!-- Nhap hang tu doi tac -->
+        <action name="importFromPartnerAction" class="com.viettel.im.database.DAO.StockPartnerDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    importFromPartner
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="importStockFromPartner">importStockFromPartner.page</result>
+            <result type="tiles" name="listSerialRange">listSerialRange.page</result>
+            <result type="json" name="success">
+                <param name="root">listProfilePattern</param>
+            </result>
+            <result type="json" name="getComboboxSource">
+                <param name="root">listItemsCombo</param>
+            </result>
+            <result type="json" name="updateProgressBar">
+                <param name="root">listItemsCombo</param>
+            </result>
+            <result type="json" name="updateProgressDiv">
+                <param name="root">listItems</param>
+            </result>
+        </action>
+
+        <!-- Nhap hang, xu ly kho hang cho PKH -->
+        <action name="processStockImpAction" class="com.viettel.im.database.DAO.ProcessStockImpDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="processStockImp">processStockImp.page</result>
+            <result type="tiles" name="listSerialRange">listSerialRange.page</result>
+            <result type="json" name="success">
+                <param name="root">listProfilePattern</param>
+            </result>
+            <result type="json" name="getComboboxSource">
+                <param name="root">listItemsCombo</param>
+            </result>
+            <result type="json" name="updateProgressBar">
+                <param name="root">listItemsCombo</param>
+            </result>
+            <result type="json" name="updateProgressDiv">
+                <param name="root">listItems</param>
+            </result>
+        </action>
+
+        <!-- tamdt1, 04/04/2009 - end -->
+
+
+        <!--THANHNC SUA NGAY 03/04/2009 -->
+        <action name="ExportStockSeniorAction" class="com.viettel.im.database.DAO.StockSeniorDAO" method="prepareExportStock">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    <!--createDeliverNote,cancelExpTrans,expStock-->
+                    createDeliverNote,expStock
+                </param>
+                
+            </interceptor-ref>
+            <result type="tiles" name="createDeliverNoteToSenior">createDeliverNoteToSenior.page</result>
+            <result type="tiles" name="searchExpNoteMoreResult">exportStockToSeniorNoteMore.page</result>
+
+            <result type="tiles" name="exportStockToUnderlyingCmd">exportStockToUnderlyingCmd.page</result>
+            <result type="tiles" name="createDeliverNoteToUnderlying">createDeliverNoteToUnderlying.page</result>
+            <result type="tiles" name="createExpNote">createExpNote.page</result>
+            <result type="tiles" name="prepareExportStock">prepareExportStock.page</result>
+            <result type="tiles" name="exportStock">exportStockToSenior.page</result>
+            <result type="tiles" name="prepareExportStockRecover">prepareExportStockRecover.page</result>
+            <result type="redirectAction" name="expStockSuccess">ExportStockSeniorAction!prepareExportStock.do</result>
+        </action>
+
+        <action name="ExportStockUnderlyingAction" class="com.viettel.im.database.DAO.StockUnderlyingDAO" method="prepareCreateDeliverCmd">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    createDeliverCmdAgentSale,createDeliverCmdAgentDeposit,expStock,cancelExpTrans,createDeliverNote,
+                    createDeliverCmd
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="searchExpCmdMoreResult">exportStockToUnderlyingCmdMore.page</result>
+            <result type="tiles" name="searchExpNoteMoreResult">exportStockToUnderlyingNoteMore.page</result>
+
+            <result type="tiles" name="exportStockToUnderlyingCmd">exportStockToUnderlyingCmd.page</result>
+            <result type="tiles" name="createDeliverNoteToUnderlying">createDeliverNoteToUnderlying.page</result>
+            <result type="tiles" name="createExpNote">createExpNoteToUnderlying.page</result>
+
+            <result type="tiles" name="prepareExportStockFromNote">prepareExportStockFromNote.page</result>
+            <result type="redirectAction" name="expStockSuccess">ExportStockUnderlyingAction!prepareExportStock.do</result>
+            <result type="redirectAction" name="createExpNoteSuccess">ExportStockUnderlyingAction!prepareCreateDeliverNote</result>
+            <result type="tiles" name="exportStockToUnderlying">exportStockToUnderlying.page</result>
+            
+            <!-- tutm1 29/11/2011 Man hinh phan xuat nhap voi kenh dai ly-->
+            <result type="tiles" name="exportStockToUnderlyingCmdAgentSale">exportStockToUnderlyingCmdAgentSale.page</result>
+            <result type="tiles" name="exportStockToUnderlyingCmdAgentDeposit">exportStockToUnderlyingCmdAgentDeposit.page</result>
+            <result type="tiles" name="createDeliverNoteToUnderlyingAgent">createDeliverNoteToUnderlyingAgent.page</result>
+            <result type="tiles" name="createExpNoteAgent">createExpNoteToUnderlyingAgent.page</result>
+            <result type="tiles" name="exportStockToUnderlyingAgent">exportStockToUnderlyingAgent.page</result>
+            <result type="tiles" name="prepareExportStockFromNoteAgent">prepareExportStockFromNote.page</result>
+
+            <!-- hieptd -->
+            <result type="tiles" name="popupSearchShopAgent">popupSearchShopAgent.page</result>
+            <!-- end hieptd -->
+        </action>
+
+        <action name="ImportStockUnderlyingAction" class="com.viettel.im.database.DAO.StockUnderlyingDAO" method="prepareCreateReceiveCmd">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    rejectExpTrans,createImpCmd,createReceiveNote,impStock,createReceiveNoteCTV
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="importStockFromUnderlyingCmd">importStockFromUnderlyingCmd.page</result>
+            <result type="tiles" name="searchExpNoteMoreResult">searchExpNoteMoreResult.page</result>
+            <result type="tiles" name="searchImpCmdMoreResult">searchImpCmdFromUnderlyingMoreResult.page</result>
+            <result type="tiles" name="searchImpNoteMoreResult">searchImpNoteMoreResult.page</result>
+            <result type="tiles" name="prepareCreateImpCmd">prepareCreateImpCmd.page</result>
+            <result type="tiles" name="createImpNote">createImpFromUnderlyingNote.page</result>
+            <result type="tiles" name="impStockFromUnderlying">impStockFromUnderlying.page</result>
+            <result type="tiles" name="impStockFromRecover">impStockFromRecover.page</result>
+            <result type="tiles" name="rejectStockFromUnderlying">rejectStockFromUnderlying.page</result>
+            <result type="redirectAction" name="createImpCmdSuccess">ImportStockUnderlyingAction!prepareCreateReceiveCmd.do</result>
+            <result type="redirectAction" name="createImpNoteSuccess">ImportStockUnderlyingAction!prepareCreateReceiveNote.do</result>
+            <result type="redirectAction" name="impStockSuccess">ImportStockUnderlyingAction!prepareImportStock.do</result>
+            <result type="tiles" name="createReceiveNoteFromUnderlying">createReceiveNoteFromUnderlying.page</result>
+            <result type="tiles" name="importStockFromUnderlying">importStockFromUnderlying.page</result>
+            <result type="tiles" name="importStockFromRecover">importStockFromRecover.page</result>
+            <result type="json" name="selectReason">
+                <param name="root">listReason</param>
+            </result>
+
+            <!-- LamNV ADD START -->
+            <result type="tiles" name="selectStockTypeFromOwnerId">selectStockTypeFromOwnerId.page</result>
+            <result type="tiles" name="prepareGetGoodFromCTV">prepareRevokeGoodFromCol.page</result>
+            <result type="tiles" name="createReceiveNoteFromCTV">createReceiveNoteFromCol.page</result>
+            <!-- LamNV ADD STOP -->
+        </action>
+
+
+
+        <action name="CommonStockAction" class="com.viettel.im.database.DAO.StockCommonDAO">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    <!--fix CSRF-->
+                    balanceStockGoods,exportStockDetail,deleteSerialRange,addSerial,changeMethodInputSerial
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="addGoods">addGoods.page </result>
+            <result type="tiles" name="editGoods">editGoods.page </result>
+            <result type="tiles" name="listGoods">listGoods.page </result>
+            <result type="tiles" name="stockGoods">stockGoods.page </result>
+            <result type="tiles" name="addGoodsReconver">addGoodsRecover.page </result>
+            <result type="tiles" name="editGoodsRecover">editGoodsRecover.page </result>
+            <result type="tiles" name="editGoodsRecoverCTV">editGoodsRecoverCTV.page </result>
+            <result type="tiles" name="listGoodsRecover">listGoodsRecover.page </result>
+            <result type="tiles" name="stockGoodsRecover">stockGoodsRecover.page </result>
+            <result type="json" name="success">
+                <param name="root">listItemsSelectBox</param>
+            </result>
+            <result type="json" name="autoSelectOwner" >
+                <param name="root">autoSelectOnwer</param>
+            </result>
+            <result type="json" name="selectOwnerName" >
+                <param name="root">ownerName</param>
+            </result>
+
+            <result type="json" name="autoSelectShop">
+                <param name="root">listShop</param>
+            </result>
+            <result type="json" name="autoSelectStaff">
+                <param name="root">listStaff</param>
+            </result>
+            <result type="tiles" name="popupSearchShop">popupSearch.page</result>
+            <result type="tiles" name="popupSearchShopNoAgent">popupSearchShopNoAgent.page</result>
+            <!-- hieptd -->
+            <result type="tiles" name="popupSearchShopAgent">popupSearchShopAgent.page</result>
+            <!-- end hieptd -->
+            <!-- tutm1 trien khai kenh dai ly -->
+            <result type="tiles" name="stockGoodsAgentSale">stockGoodsAgentSale.page </result>
+            <result type="tiles" name="stockGoodsAgentDeposit">stockGoodsAgentDeposit.page </result>
+            <result type="tiles" name="editGoodsAgentSale">editGoodsAgentSale.page </result>
+            <result type="tiles" name="editGoodsAgentDeposit">editGoodsAgentDeposit.page </result>
+            <result type="tiles" name="listGoodsAgentSale">listGoodsAgentSale.page </result>
+            <result type="tiles" name="listGoodsAgentDeposit">listGoodsAgentDeposit.page </result>
+            <!-- !tutm1 -->
+        </action>
+        <!-- tutm1 Review CSRF -->
+        <action name="InputSerialAction" class="com.viettel.im.database.DAO.StockCommonDAO">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    balanceStockGoods,exportStockDetail,deleteSerialRange,addSerial,changeMethodInputSerial
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="inputSerial">inputSerial.page </result>
+            <result type="tiles" name="addSerial">addSerial.page </result>
+            <result type="tiles" name="saleManagmentDetailOrder">saleManagmentDetailOrder.page</result>
+            <result type="tiles" name="listGoods">listGoods.page</result>
+            <result type="tiles" name="addGoodsReconver">addGoodsRecover.page </result>
+            <result type="tiles" name="editGoodsRecover">editGoodsRecover.page </result>
+            <result type="tiles" name="listGoodsRecover">listGoodsRecover.page </result>
+            <result type="tiles" name="stockGoodsRecover">stockGoodsRecover.page </result>
+        </action>
+
+        <action name="ViewStockDetailAction" class="com.viettel.im.database.DAO.StockCommonDAO">
+            <!-- tutm1 Review CSRF xuat hang can kho, tac dong DB--> 
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    balanceStockGoods,exportStockDetail,deleteSerialRange,addSerial,changeMethodInputSerial
+                </param>
+            </interceptor-ref>
+            
+            <result type="tiles" name="viewStockDetail">viewStockDetail.page </result>
+            <result type="tiles" name="viewStockStaffDetail">viewStockStaffDetail.page </result>
+            <result type="tiles" name="viewStockDetailNormal">viewStockDetailNormal.page </result>
+            <result type="tiles" name="exportStockDetailNormal">exportStockDetailNormal.page </result>
+            <result type="tiles" name="viewDetailQuantity">viewDetailQuantity.page </result>
+            <result type="tiles" name="viewDetailSerial">viewDetailSerial.page </result>
+            <result type="tiles" name="viewSerialGroupByChannelType">viewSerialGroupByChannelType.page</result>
+            <result type="tiles" name="processStockGoods">processStockGoods.page </result>
+            <result type="tiles" name="viewSerialProcess">viewSerialProcess.page </result>
+            <result type="tiles" name="balanceStockGoods">balanceStockGoods.page </result>
+
+        </action>
+
+        <!--action name="getStockM" class="com.viettel.im.database.DAO.AjaxDAO" method="getResource">
+            <result type="json" name="success">
+                <param name="root">listItemsSelectBox</param>
+            </result>
+        </action-->
+        <!--END THANHNC SUA NGAY 03/04/2009 -->
+
+
+        <action name="getItem" class="com.viettel.im.database.DAO.AjaxDAO" method="getChild">
+            <result type="json" name="success">
+                <param name="root">listItems</param>
+            </result>
+        </action>
+
+        <!-- tamdt1, phan xuat nhap voi doi tac theo quy trinh 3 buoc cua Haiti -->
+        <action name="createExpCmdToPartnerAction" class="com.viettel.im.database.DAO.ExpToPartnerDAO" method="prepareCreateExpCmdToPartner">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    createExpCmdToPartner,destroyExpCmd,createExpNoteToPartner,destroyExpNote,expToPartner
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="createExpCmdToPartner">createExpCmdToPartner.page</result>
+            <result type="tiles" name="listGoodsInExpCmdToPartner">listGoodsInExpCmdToPartner.page</result>
+        </action>
+
+        <action name="createExpNoteToPartnerAction" class="com.viettel.im.database.DAO.ExpToPartnerDAO" method="prepareCreateExpNoteToPartner">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    createExpCmdToPartner,destroyExpCmd,createExpNoteToPartner,destroyExpNote,expToPartner
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="createExpNoteToPartner">createExpNoteToPartner.page</result>
+            <result type="tiles" name="listExpCmdToPartner">listExpCmdToPartner.page</result>
+            <result type="tiles" name="expNoteToPartner">expNoteToPartner.page</result>
+        </action>
+
+        <action name="expToPartnerAction" class="com.viettel.im.database.DAO.ExpToPartnerDAO" method="prepareExpToPartner">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    createExpCmdToPartner,destroyExpCmd,createExpNoteToPartner,destroyExpNote,expToPartner
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="expToPartner">expToPartner.page</result>
+            <result type="tiles" name="listExpNoteToPartner">listExpNoteToPartner.page</result>
+            <result type="tiles" name="expToPartnerFinal">expToPartnerFinal.page</result>
+        </action>
+
+        <!-- gan kenh cho serial hang hoa -->
+        <action name="assignChannelTypeForSerialAction" class="com.viettel.im.database.DAO.AssignChannelTypeForSerialDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    assignChannelTypeForSerial
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="assignChannelTypeForSerial">assignChannelTypeForSerial.page</result>
+            <result type="tiles" name="assignChannelTypeForSerialList">assignChannelTypeForSerialList.page</result>
+        </action>
+        
+        <!-- TuTM1 : 09/08/2013 nhap Anypay tu doi tac -->
+        <action name="anypayPartnerAction" class="com.viettel.im.database.DAO.StockPartnerAnypayDAO" >
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    createCmdAnypayPartner,createNotes,importStock
+                </param>
+            </interceptor-ref>
+            
+            <result type="tiles" name="createCmdAnypayPartner">createCmdAnypayPartner.page</result>
+            <result type="tiles" name="popupCreateCmdAnypayPartner">popupCreateCmdAnypayPartner.page</result>
+            <result type="tiles" name="listGoodsInCmdAnypayPartner">listGoodsInCmdAnypayPartner.page</result>
+            <result type="tiles" name="listCmdAnypayPartner">listCmdAnypayPartner.page</result>
+            <result type="tiles" name="listCmdAnypayPartnerForNotes">listCmdAnypayPartnerForNotes.page</result>
+            <result type="tiles" name="createNoteAnypayPartner">createNoteAnypayPartner.page</result>
+            <result type="tiles" name="importStock">importStock.page</result>
+            <result type="tiles" name="createNoteFromCmd">createNoteFromCmd.page</result>
+            <result type="tiles" name="detailCommand">detailCommand.page</result>
+            <result type="tiles" name="impFromPartnerFinal">impFromPartnerFinal.page</result>
+            <result type="tiles" name="listNoteAnypayPartner">listNoteAnypayPartner.page</result>
+            <!-- man hinh huy lenh -->
+            <result type="tiles" name="destroyAnypayPartner">destroyAnypayPartner.page</result>
+            <result type="tiles" name="destroyPopupAnypayPartner">destroyPopupAnypayPartner.page</result>
+            <result type="tiles" name="destroyListCmdAnypayPartner">destroyListCmdAnypayPartner.page</result>
+            <result type="tiles" name="destroyListGoodsAnypayPartner">destroyListGoodsAnypayPartner.page</result>
+            <result type="tiles" name="destroyDetailCommand">destroyDetailCommand.page</result>
+        </action>
+        <!-- end tutm1 -->
+        <!--TruongNQ5 26/06/2014 Lap lenh nhap kho tu doi tac-->
+        <action name="CreateImpCmdStockFromPartnerAction" class="com.viettel.im.database.DAO.CreateImpCmdStockFromPartnerDAO" method="preparePage">
+            <result type="tiles" name="CreateImpCmdStockFromPartner">CreateImpCmdStockFromPartner.page</result>
+            <result type="json" name="selectStockType">
+                <param name="root">listStockModel</param>
+            </result>
+        </action>
+        <!--TruongNQ5 27/06/2014 Lap phieu nhap kho tu doi tac-->
+        <action name="CreateImpNoteStockFromPartnerAction" class="com.viettel.im.database.DAO.CreateImpNoteStockFromPartnerDAO" method="preparePage">
+            <result type="tiles" name="CreateImpNoteStockFromPartner">CreateImpNoteStockFromPartner.page</result>
+            <result type="tiles" name="listImpCmdToPartner">listImpCmdToPartner.page</result>
+            <result type="tiles" name="expImpNoteToPartner">expImpNoteToPartner.page</result>
+            <result type="tiles" name="KetQuaVaNut">KetQuaVaNut.page</result>
+            <result type="tiles" name="notePrintPath">notePrintPath.page</result>
+            <result type="json" name="selectStockType">
+                <param name="root">listStockModel</param>
+            </result>
+        </action>
+        <!--TruongNQ5 27/06/2014 Nhap kho tu do tac-->
+        <action name="ImpStockFromPartner" class="com.viettel.im.database.DAO.ImpStockFromPartnerDAO" method="preparePage">
+            <result type="tiles" name="ImpStockFromPartner">ImpStockFromPartner.page</result>
+            <result type="tiles" name="listImpNoteToPartner">listImpNoteToPartner.page</result>
+            <result type="tiles" name="ImpStockFromPartnerFinal">ImpStockFromPartnerFinal.page</result>
+            <result type="tiles" name="listSerialRange">listSerialRange.page</result>
+            <result type="json" name="selectStockType">
+                <param name="root">listStockModel</param>
+            </result>
+        </action>
+	<!-- ThinDM xuat hang can kho -->
+	<action name="processStockExportAction" class="com.viettel.im.database.DAO.ProcessStockExportDAO" method="preparePage">
+            <result type="tiles" name="processStockExport">processStockExport.page</result>
+	</action>
+        <!-- End -->
+        
+        <!--phe duyet phieu xuat cho dai ly(Master Agent)-->
+        <action name="StockTransMasterAgentAction" class="com.viettel.im.database.DAO.StockTransMasterAgentDAO">            
+            <result type="tiles" name="acceptExportNoteToMasterAgent">acceptExportNoteToMasterAgent.page</result>
+            <result type="tiles" name="listExportNoteToMasterAgent">listExportNoteToMasterAgent.page</result>
+            <result type="tiles" name="pageNavigator">listExportNoteToMasterAgent.page</result>
+            <result type="tiles" name="lookDetailStockTrans">lookDetailStockTrans.page</result>
+            <result type="tiles" name="errorPage">errorPage.page</result>
+            <!--xuat hang tu phieu xuat da phe duyet cho dai ly(Master Agent)-->
+            <result type="tiles" name="createExportNoteConfirmToMasterAgent">createExportNoteConfirmToMasterAgent.page</result>
+            <result type="tiles" name="searchExpNoteConfirm">searchExpNoteConfirm.page</result>
+            <result type="tiles" name="prepareExportToMasterAgentFromNoteConfirm">prepareExportToMasterAgentFromNoteConfirm.page</result>
+            <!--xac nhan xuat hang cho dai ly(Master Agent)-->
+            <result type="tiles" name="confirmExportedNoteToMasterAgent">confirmExportedNoteToMasterAgent.page</result>
+            <result type="tiles" name="listExportedNoteToMasterAgent">listExportedNoteToMasterAgent.page</result>
+        </action>
+        <!-- End -->
+    </package>
+</struts>
+

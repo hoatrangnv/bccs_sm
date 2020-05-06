@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="Bill" extends="default">
+        <action name="confirmReceivedBillsAction" class="com.viettel.im.database.DAO.ConfirmReceivedBillsDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    confirmReceived
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="confirmReceivedBills">confirmReceivedBills.page</result>
+            <result type="tiles" name="pageNavigator">confirmReceivedBillsResult.page</result>
+            
+        </action>
+        
+        <action name="recoverBillsAction" class="com.viettel.im.database.DAO.RecoverBillsDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    recoverBillComplete
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="recoverBills">recoverBills.page</result>
+            <result type="tiles" name="searchBills">recoverBills.page</result>
+            <result type="tiles" name="confirmRecoverCompleted">recoverBills.page</result>
+            <result type="tiles" name="pageNavigator">recoverBillsResult.page</result>
+            <!--result type="tiles" name="recoverBillsSearchResult">recoverBillsSearchResult.page</result-->
+        </action>
+
+        
+        <action name="retrieveBillsAction" class="com.viettel.im.database.DAO.RetrieveBillsDAO" method="preparePage">
+<!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    retrieveBillComplete
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="retrieveBills">retrieveBills.page</result>
+            <result type="tiles" name="searchBills">retrieveBills.page</result>
+            <result type="tiles" name="retrieveBillComplete">retrieveBills.page</result>
+            <result type="tiles" name="pageNavigator">retrieveBillsResult.page
+            </result>
+        </action>
+        
+        <action name="splitBillAction" class="com.viettel.im.database.DAO.SplitBillDAO" method="preparePage">
+            <result type="tiles" name="splitBillInfo">splitBillInfo.page</result>
+        </action>
+
+        <action name="splitBillInfoAction" class="com.viettel.im.database.DAO.SplitBillDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <!-- tutm1 10/03/2012 Review CSRF add token -->
+                <param name="tokenSession.includeMethods">
+                    splitBillComplete
+                </param>
+            </interceptor-ref>                
+            <result type="tiles" name="splitBillComplete">updateAndClose.page</result>
+            <result type="tiles" name="splitBillInfo">splitBillInfo.page</result>
+        </action>
+
+
+        <action name="getBillDeparmentCode" class="com.viettel.im.database.DAO.AjaxDAO" method="getBillDeparmentCode">
+            <result type="json" name="success">
+                <param name="root">listItemsCombo</param>
+            </result>
+        </action>
+
+        <action name="getListShopChildCode" class="com.viettel.im.database.DAO.ConfirmDestroyBillsDAO" method="getListShopChildCode">
+            <result type="json" name="success">
+                <param name="root">shopListCombo</param>
+            </result>
+        </action>
+
+        <action name="getBillDeparmentName" class="com.viettel.im.database.DAO.AjaxDAO" method="getBillDeparmentName">
+            <result type="json" name="success">
+                <param name="root">billDepartmentName</param>
+            </result>
+        </action>
+
+        <action name="listShopChild" class="com.viettel.im.database.DAO.ConfirmDestroyBillsDAO" method="listShopChild">
+            <result type="json" name="success">
+                <param name="root">shopListCombo</param>
+            </result>
+        </action>
+
+        <action name="getShopChildCode" class="com.viettel.im.database.DAO.AjaxDAO" method="getShopChildCode">
+            <result type="json" name="success">
+                <param name="root">listItemsCombo</param>
+            </result>
+        </action>
+
+
+        <action name="confirmDestroyBillsAction" class="com.viettel.im.database.DAO.ConfirmDestroyBillsDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    confirmDestroyed
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="confirmDestroyBills">confirmDestroyBills.page</result>
+            <result type="tiles" name="confirmDestroyBillsSearchResult">confirmDestroyBillsSearchResult.page</result>
+            <result type="tiles" name="pageNavigator">confirmDestroyBillsSearchResult.page</result>
+            <result type="json" name="success">
+                <param name="root">shopListCombo</param>
+            </result>
+            
+            <result type="json" name="successShopName">
+                <param name="root">lstItems</param>
+            </result>
+
+        </action>
+
+        <action name="assignBillAction" class="com.viettel.im.database.DAO.AssignBillsDAO" method="preparePage">
+<!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    assignBill
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="assignBills">assignBills.page</result>
+            <result type="tiles" name="searchBills">assignBills.page</result>
+            <result type="tiles" name="assignBillsSearchResult">assignBillsSearchResult.page</result>
+            
+        </action>
+        
+        <action name="createNewBillsAction" class="com.viettel.im.database.DAO.CreateNewBillsDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    deleteBills,createNewBill
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="preparePage">createNewBills.page</result>
+            <result type="tiles" name="createNewBills">createNewBills.page</result>
+            <result type="tiles" name="searchBills">createNewBills.page</result>
+            <result type="tiles" name="pageNavigator">createNewBillsResult.page</result>
+        </action>
+
+        <action name="getBillCategoryName" class="com.viettel.im.database.DAO.AjaxDAO" method="getBillCategory">
+            <result type="json" name="success">
+                <param name="root">billCategoryName</param>
+            </result>
+        </action>
+        <action name="getListBillSerial" class="com.viettel.im.database.DAO.AjaxDAO" method="getListBillSerials">
+            <result type="json" name="success">
+                <param name="root">listBillSerial</param>
+            </result>
+        </action>
+        <action name="cancelNotUsedBillsAction" class="com.viettel.im.database.DAO.CancelNotUsedBillsDAO" method="preparePage">
+<!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                cancelNotUsedBills
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="cancelNotUsedBills">cancelNotUsedBills.page</result>
+            <result type="tiles" name="searchBills">cancelNotUsedBills.page</result>
+            <result type="tiles" name="cancelNotUsedBillsReason">cancelNotUsedBillsReason.page</result>
+            <result type="tiles" name="pageNavigator">cancelNotUsedBillsResult.page</result>
+        </action>
+
+        <action name="cancelNotUsedBillsReasonAction" class="com.viettel.im.database.DAO.CancelNotUsedBillsDAO" method="preparePage">
+            <!-- tutm1 10/03/2012 Review CSRF add token -->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                cancelNotUsedBillsComplete
+                </param>
+            </interceptor-ref>            
+            <result type="tiles" name="cancelNotUsedBillsComplete">updateAndClose.page</result>
+            <result type="tiles" name="cancelNotUsedBillsError">cancelNotUsedBillsReason.page</result>
+        </action>
+        
+        <action name="reportBillsAction" class="com.viettel.im.database.DAO.InvoiceListReportDAO" method="preparePage">
+            <result type="tiles" name="preparePage">reportBills.page</result>
+            <result type="tiles" name="searchBills">reportBillsSearchList.page</result>
+            <result type="tiles" name="pageNavigator">reportBillsResult.page</result>
+            <result type="tiles" name="reportBillsSearchList">reportBillsSearchList.page</result>
+            <result type="tiles" name="lookUpInvoiceHistory">lookUpInvoiceHistory.page</result>
+            <result type="tiles" name="reportBillExcel">reportBillExcel.page</result>
+
+            <result type="json" name="getShopCode">
+                <param name="root">lstItems</param>
+            </result>
+            <result type="json" name="getShopName">
+                <param name="root">lstItems</param>
+            </result>
+
+            <result type="json" name="listItemsCombo_success">
+                <param name="root">listItemsCombo</param>
+            </result>
+        </action>
+
+        <action name="retrieveInvoiceCouponAction" class="com.viettel.im.database.DAO.RetrieveInvoiceCouponDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    retrieveInvoiceCoupon
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="preparePage">preparePageRetrieveIC.page</result>
+            <result type="tiles" name="pageNavigator">pageListRetrieveIC.page</result>
+        </action>
+
+        <action name="lookupInvoiceCouponAction" class="com.viettel.im.database.DAO.LookupInvoiceCouponDAO" method="preparePage">
+            <result type="tiles" name="preparePage">preparePageLookupIC.page</result>
+            <result type="tiles" name="pageNavigator">pageListLookupIC.page</result>
+        </action>
+
+
+<!--Giao & thu hoi hoa don cho IM_VN-->
+        <action name="assignInvoiceListAction" class="com.viettel.im.database.DAO.AssignInvoiceListDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    assignBill
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="assignBills">assignInvoiceList.page</result>
+            <result type="tiles" name="searchBills">assignInvoiceList.page</result>
+            <result type="tiles" name="assignBillsSearchResult">assignInvoiceListResult.page</result>
+
+        </action>
+
+        <action name="retrieveInvoiceListAction" class="com.viettel.im.database.DAO.RetrieveInvoiceListDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    retrieveBillComplete
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="retrieveBills">retrieveInvoiceList.page</result>
+            <result type="tiles" name="searchBills">retrieveInvoiceList.page</result>
+            <result type="tiles" name="retrieveBillComplete">retrieveInvoiceList.page</result>
+            <result type="tiles" name="pageNavigator">retrieveInvoiceListResult.page
+            </result>
+        </action>
+<!--Giao & thu hoi hoa don cho IM_VN-->
+
+    </package>
+</struts>
+

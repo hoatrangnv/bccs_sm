@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportStock
+END
+reportStockTrans.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportStock/reportStockTrans.jsp
+END
+ReportMaxDebit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportStock/ReportMaxDebit.jsp
+END
+ReportStockImpExpVersion2.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportStock/ReportStockImpExpVersion2.jsp
+END
+lstTransRevokeGoodCol.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportStock/lstTransRevokeGoodCol.jsp
+END
+ReportStockSenior.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportStock/ReportStockSenior.jsp
+END
+ReportStockImpExp.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportStock/ReportStockImpExp.jsp
+END
+ReportStockUnsold.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportStock/ReportStockUnsold.jsp
+END
+ReportRemainSerial.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportStock/ReportRemainSerial.jsp
+END
+ReportStockImpExpV2.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportStock/ReportStockImpExpV2.jsp
+END
+ReportDetailStockTrans.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportStock/ReportDetailStockTrans.jsp
+END
+reportStockUnImport.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportStock/reportStockUnImport.jsp
+END
+ReportMaxDebitCatalogue.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportStock/ReportMaxDebitCatalogue.jsp
+END
+ReportRemainSerialV2.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportStock/ReportRemainSerialV2.jsp
+END
+ReportImportStockPending.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportStock/ReportImportStockPending.jsp
+END
+ReportRevokeGoodFromCol.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportStock/ReportRevokeGoodFromCol.jsp
+END
+ReportGoodsBetwenTheBranches.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/code/!svn/ver/93/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/Report/ReportStock/ReportGoodsBetwenTheBranches.jsp
+END

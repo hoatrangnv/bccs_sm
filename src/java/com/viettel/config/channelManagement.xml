@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : channelManagement.xml
+    Created on : April 19, 2009, 3:18 PM
+    Author     : tamdt1
+    Description:
+        Khai bao cac action lien quan den phan quan ly kenh
+-->
+
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <package name="Channel" extends="default">
+        <!-- tamdt1, 19/04/2009 - start -->
+
+        <action name="channelAction" class="com.viettel.im.database.DAO.ChannelDAO" method="preparePage">
+        
+            <!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addOrEditShop,
+                    deleteShop,
+                    deleteStaff,
+                    addOrEditCollaborator,
+                    prepareAddCollaborator,
+                    searchCollByStaffCode,
+                    deleteCollaborator
+
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="shopOverview">shopOverview.page</result>
+            <result type="tiles" name="shop">shop.page</result>
+            <result type="tiles" name="listShops">listShops.page</result>
+            <result type="tiles" name="shopResult">shopResult.page</result>
+            <result type="tiles" name="staff">staff.page</result>
+            <result type="tiles" name="editLimitStaff">editLimitStaff.page</result>
+            <result type="tiles" name="listStaffs">listStaffs.page</result>
+            <result type="tiles" name="detailsdebit">detailsdebit.page</result>
+            <result type="tiles" name="collaborator">collaborator.page</result>
+            <result type="tiles" name="listCollaborator">listCollaborators.page</result>
+            <!--toadv12 bo sung chuc nang xem chi tiet userVSA-->
+            <result type="tiles" name="informationUserVsa">informationUserVsa.page</result> 
+            <result type="tiles" name="ListInformationUserVsa">ListInformationUserVsa.page</result> 
+            <result type="json" name="getShopTree">
+                <param name="root">listItems</param>
+            </result>
+
+            <!--ANHTT làm chức năng thay đổi Staff trong Shop -->
+            <result type="tiles" name="prepareChangeStaff">prepareChangeStaffInShop.page</result>
+        </action>
+
+        <action name="channelChangeStaffAction" class="com.viettel.im.database.DAO.ChannelDAO" method="prapareChangeStaffInShop">
+            <!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addShopByFile,
+                    addStaffByFile,
+                    addStaffByFileAP,
+                    changeCTVDBIinShop,
+                    changeParentShop,
+                    changeParentShopByFile,
+                    changeStaffInShop,
+                    changeStaffManagement,
+                    offStaff,
+                    onOffShopByFile,
+                    onOffStaffByFile,
+                    onStaff
+                </param>
+            </interceptor-ref>
+
+
+            <result type="tiles" name="prepareChangeStaff">prepareChangeStaffInShop.page</result>
+            <result type="tiles" name="prepareChangeManagement">prepareChangeManagement.page</result>
+            <result type="tiles" name="prepareChangeCTVDBInShop">prepareChangeCTVDBInShop.page</result>
+            <result type="tiles" name="prepareChangeParentShop">prepareChangeParentShop.page</result>
+            <result type="tiles" name="prepareAddStaffByFile">prepareAddStaffByFile.page</result>
+            <result type="tiles" name="prepareAddShopByFile">prepareAddShopByFile.page</result>
+            <result type="tiles" name="prepareAddStaffAPByFile">prepareAddStaffAPByFile.page</result>
+            <result type="tiles" name="prepareOffStaff">prepareOffStaff.page</result>
+            <result type="tiles" name="prepareOnStaff">prepareOnStaff.page</result>
+            <result type="tiles" name="prepareOnOffStaffByFile">prepareOnOffStaffByFile.page</result>
+            <result type="tiles" name="prepareOffShopByFile">prepareOnOffShopByFile.page</result>
+            <result type="tiles" name="prepareConvertChannelByFile">prepareConvertChannelByFile.page</result>
+            <result type="tiles" name="prepareAssignPermisisonSaleHandset">prepareAssignPermisisonSaleHandset.page</result>
+            <result type="tiles" name="prepareRemovePermisisonSaleHandset">prepareRemovePermisisonSaleHandset.page</result>
+            <result type="tiles" name="prepareReportConfigHandset">prepareReportConfigHandset.page</result>
+        </action>
+        
+        <action name="addStaffCodeCTVDBAction" class="com.viettel.im.database.DAO.addStaffCodeCVTDBDAO" method="preparePage">
+            <!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addStaffCode,
+                    addStaffCodeAP
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="addStaffCodeCTVDB">addStaffCodeCTVDB.page</result>
+            <result type="tiles" name="addStaffCodeAP">addStaffCodeAP.page</result>
+            <result type="tiles" name="getDataForUnitCode">getDataForUnitCode.page</result>
+        </action>
+
+        <action name="changeInformationStaffAction" class="com.viettel.im.database.DAO.ChangeInformationStaffDAO" method="preparePage">
+
+            <!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    updateAddress,
+                    updateInfo,
+                    updateInfoAP
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="changeInformationStaff">changeInformationStaff.page</result>
+            <result type="tiles" name="changeInformationStaffAP">changeInformationStaffAP.page</result>
+            <result type="tiles" name="listChangeInfoStaff">listChangeInfoStaff.page</result>
+            <result type="tiles" name="listChangeInfoStaffAP">listChangeInfoStaffAP.page</result>
+            <result type="tiles" name="showLogAccount">showLogChangeAccountFPT.page</result>
+            <result type="tiles" name="showLogDetail">ShowLogDetail.page</result>
+            
+            <result type="json" name="updateAddress">
+                <param name="root">hashMapResult</param>
+            </result>
+
+            <!--Ductm_Add_20120313-->
+            <result type="tiles" name="prepareAddNewStaff">prepareAddNewStaff.page</result>
+            <result type="tiles" name="addStaffSuccess">addStaff.page</result>
+        </action>
+
+
+        <!-- tutm1 : gan han muc theo tung loai kho -->
+        <action name="staffStockTypeLimitAction" class="com.viettel.im.database.DAO.StaffStockTypeLimitDAO" method="preparePage">
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    editChannelType
+                </param>
+            </interceptor-ref>
+            <result type="tiles" name="preStaffStockTypeLimit">preStaffStockTypeLimit.page</result>
+            <result type="tiles" name="searchStaffStockTypeLimit">searchStaffStockTypeLimit.page</result>
+            <result type="tiles" name="pageNavigator">searchStaffStockTypeLimit.page</result>
+        </action>
+        <!-- haint41 21/11/2011: Import thong tin dai ly theo file -->
+        <action name="addAgentByFile" class="com.viettel.im.database.DAO.AddAgentDAO" method="prapareAddAgentByFile">
+            <!--CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addAgentByFile
+                </param>
+            </interceptor-ref>
+
+            <!--CSRF Hieptd-->
+            <result type="tiles" name="addAgentByFile">addAgentByFile.page</result>
+            <result type="tiles" name="listAgentImport">listAgentImport.page</result>
+        </action>
+        <action name="changeInformationAgentAction" class="com.viettel.im.database.DAO.ChangeInformationAgentDAO" method="preparePage">
+            <!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    updateInfo,
+                    updateAddress,
+                    updateInfoAP,
+                    addStaff,
+                    destroy
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="changeInformationAgent">changeInformationAgent.page</result>
+            <result type="tiles" name="listChangeInfoAgent">listChangeInfoAgent.page</result>
+            
+            <result type="json" name="updateAddress">
+                <param name="root">hashMapResult</param>
+            </result>
+        </action>
+        <!-- end haint41 -->
+        
+        <action name="myDownloadChangInfoStaff" class="com.viettel.im.database.DAO.ChangeInformationStaffDAO" method="myDownload">
+            <result name="success" type="stream">
+                <param name="contentType">application/octet-stream</param>
+                <param name="inputName">fileInputStream</param>
+                <param name="contentDisposition">attachment;filename="Doc.rar"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+        
+        <!--tannh20180120-->
+        <action name="myDownload" class="com.viettel.im.database.DAO.SaleToCollaboratorDAO" method="myDownload">
+            <result name="success" type="stream">
+                <param name="contentType">application/octet-stream</param>
+                <param name="inputName">fileInputStream</param>
+                <param name="contentDisposition">attachment;filename="Doc.rar"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+        
+        <!--tannh20180112-->
+        <action name="accounrTransDownload" class="com.viettel.im.database.DAO.OrderManagementDAO" method="myDownload">
+            <result type="tiles" name="saleManagmentDetailOrder">saleManagmentDetailOrder.page</result>
+            <result name="success" type="stream">
+                <param name="contentType">application/octet-stream</param>
+                <param name="inputName">fileInputStream</param>
+                <param name="contentDisposition">attachment;filename=%{fileName}</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+        
+        <action name="form02Download" class="com.viettel.im.database.DAO.OrderManagementDAO" method="form02Download">
+            <result type="tiles" name="saleManagmentDetailOrder">saleManagmentDetailOrder.page</result>
+            <result name="success" type="stream">
+                <param name="contentType">application/octet-stream</param>
+                <param name="inputName">fileInputStream</param>
+                <param name="contentDisposition">attachment;filename="Form02.xls"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+        
+        
+    </package>
+</struts>

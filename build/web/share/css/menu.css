@@ -1,0 +1,163 @@
+/* Menu
+---------------------------------------------------------------------------------------- */
+#menu {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: #F2F8FF;
+	border-top: 1px solid #1262C4;
+	border-right: 1px solid #1262C4;
+	border-bottom: 1px solid #1262C4;
+	font-size: smaller;
+        font-family: arial;
+}
+/* Clearfix */
+#menu:after {
+	content: "&nbsp;";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+#menu li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#menu a {
+	float: left;
+	display: block;
+	padding: 7px 16px;
+	text-decoration: none;
+	color: #000000;
+	font-weight: none;
+	border-right: 0px solid #FAFBF7;
+	border-left: 1px solid #1262C4;
+}
+#menu a:hover {background: #92BBEE;}
+/* The Drop Down: */
+#menu .parent a {background: url(../images/bullet_arrow_down.png) no-repeat right center;}
+#menu .activeParent a {
+	color: #333300;
+	background: #92BBEE url(../images/bullet_arrow_down.png) no-repeat right center;
+}
+#menu .parent ul {display: none;} /* Hides the dropdown */
+#menu .activeParent ul {
+	float: left;
+	width: 12em; /* The width of the dropdown */
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 2.1em; /* You may need to change this if you change font-size or padding on the menu */
+	left: 0;
+	list-style: none;
+	z-index: 1000;
+}
+#menu .activeParent li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#menu .activeParent li a {
+	float: left;
+	width: 12em; /* The width of the dropdown */
+	margin: 0;
+	padding: 3px 8px;
+	color: #000000;
+	display: block;
+	background: #FFFFFF;
+	font-size: 90%;
+	border-bottom: 1px solid #1262C4;
+	border-right: 1px solid #1262C4;
+	border-left: 1px solid #1262C4;
+}
+#menu .activeParent li a:hover {
+	background: #92BBEE;
+	color: #333300;
+}
+/*
+Description: Add style for main menu
+Date create: 14/01/2008
+Author ThanhNC */
+#TopMenu
+
+{
+background-color: #5A7798
+}
+/*xác định độ rộng của menu, k0 phụ thuộc vào block*/
+.buttonscontainer {
+    background-color: #FFFFFF;
+     width: 114px;
+     height: 33px;
+}
+
+.buttons a {
+    color: #006666;
+    padding:2.5px;
+    padding-left: 3.5px;
+    font-size: 12px;
+    font-weight: bold;   
+    font-family: tahoma;
+    text-decoration: none;
+    /*border-color: #6699FF #333399 #333399 #6699FF;*/
+    display: block;    
+    width: 108px;
+    height: 24px;
+    background-image: url(Menu.gif);    
+    vertical-align: middle;
+    text-align: center;
+}
+.buttons a:link {
+    color: #006666;
+    padding:2.5px;
+    padding-left: 3.5px;
+    font-size: 12px;
+    font-weight: bold;   
+    font-family: tahoma;
+    text-decoration: none;    
+    display: block;    
+    width: 108px;
+    height: 24px;
+    background-image: url(Menu.gif);    
+    vertical-align: middle;
+    text-align: center;
+}
+
+.buttons a:visited {
+    color: #006666;
+    padding:2.5px;
+    padding-left: 3.5px;
+    font-size: 12px;
+    font-weight: bold;   
+    font-family: tahoma;
+    text-decoration: none;    
+    display: block;    
+    width: 108px;
+    height: 24px;
+    background-image: url(Menu.gif);    
+    vertical-align: middle;
+    text-align: center;
+}
+/*thay đổi hiệu ứng khi di chuyển chuột qua*/
+.buttons a:hover {
+    background-image: url(MenuOver.gif);
+    color: #FFFFFF;
+}
+.buttons a:active  {
+    background-image: url(MenuActivate.gif);
+    color: #FFFFFF;    
+}
+.bg_menu{    
+    background-color: #FFFFEC; 
+}
+.line_bottom{    
+    background-image: url(line_bottom.gif);
+    
+    height: 22px;
+    color: #006633;
+    border-top-style: none;
+}
+
+/*End add ThanhNC*/

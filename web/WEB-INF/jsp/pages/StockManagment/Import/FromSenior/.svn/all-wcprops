@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Import/FromSenior
+END
+ListSearchExpNote.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Import/FromSenior/ListSearchExpNote.jsp
+END
+ImpStock.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Import/FromSenior/ImpStock.jsp
+END
+ListSearchImpNote.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Import/FromSenior/ListSearchImpNote.jsp
+END
+CreateImpNote.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Import/FromSenior/CreateImpNote.jsp
+END
+ImportStockFromSenior.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Import/FromSenior/ImportStockFromSenior.jsp
+END
+CreateImpNoteFromSenior.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/code/!svn/ver/6/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/StockManagment/Import/FromSenior/CreateImpNoteFromSenior.jsp
+END

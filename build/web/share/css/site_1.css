@@ -1,0 +1,154 @@
+/* --- SITEWIDE CSS --- */
+body {
+	margin: 0;
+	font: normal 11pt Verdana, Arial;
+}
+
+a,a:visited {
+	color: #00f;
+}
+
+a:hover {
+	color: #f00;
+}
+
+#header {
+	background-color: #369;
+	padding: 5px;
+	color: #fff;
+	font-weight: bold;
+}
+
+#subheader {
+	font-weight: normal;
+	font-size: 8pt;
+	color: #900;
+	border-bottom: 1px solid #ccc;
+	padding: 1px 5px 2px 5px;
+}
+
+#subheader a,#subheader a:visited {
+	text-decoration: none;
+	color: #900;
+}
+
+#subheader a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+#buildVersion {
+	font-weight: normal;
+	font-size: 8pt;
+	color: #999;
+	padding: 1px 5px 1px 5px;
+}
+
+#content {
+	padding: 10px;
+}
+
+h1 {
+	font-size: 1.2em
+}
+
+h2 {
+	font-size: 1.1em
+}
+
+h3 {
+	font-size: 1.0em
+}
+
+h4 {
+	font-size: 0.9em
+}
+
+/*
+tamdt1, 24/06/2009, cmt de sua style cua the <s:radio />
+label {
+	font: bold 1em Verdana;
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 0.25em;
+}
+*/
+
+
+/*
+tamdt1, 24/06/2009, cmt de sua style cua the <s:radio />
+label {
+	font-size: 0.8em;
+}
+*/
+
+label {
+    margin-left: 5px;
+	margin-right: 25px;
+}
+
+input [type="text"] {
+	background-color: #ffd;
+	border-width: 1px;
+}
+
+input [type="button"] {
+	border: 1px solid #999;
+	background-color: #eee;
+	cursor: pointer;
+	color: #000;
+}
+
+#homepageTable {
+	border: 1px solid #ccc;
+	width: 650px;
+}
+
+#homepageTable THEAD TR TH {
+	border-bottom: 2px solid #999;
+	background-color: #eee;
+}
+
+#homepageTable TBODY TR TD:first-child {
+	font-weight: bold;
+}
+
+#homepageTable TBODY TR.description TD {
+	font-size: 90%;
+	font-weight: normal;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+}
+
+FORM.basicForm FIELDSET {
+	width: 80%;
+	border: 1px solid #ccc;
+	padding: 1em;
+}
+
+FORM.basicForm LEGEND {
+	font-size: 0.8em;
+	color: #999;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	padding: 4px 2px;
+}
+
+FORM.basicForm LABEL {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 0.25em;
+}
+
+FORM.basicForm INPUT {
+	font: normal 12px Verdana, Arial;
+	padding: 3px;
+}
+
+FORM.basicForm INPUT[type="text"] {
+	border: 1px solid #ccc;
+}
+
+FORM.basicForm INPUT[type="text"]:focus {
+	border-color: #000;
+}

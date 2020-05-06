@@ -1,0 +1,374 @@
+.divHasBorder {
+    border: 1px #99BBE8 solid;
+    font-size:15px;
+    font-family:Arial,Helvetica,sans-serif;
+    text-align:left;
+}
+
+/*style phuc vu cho tag imPanel*/
+.im-panel {
+    border-color: #99BBE8;
+    border-style: solid;
+    border-width: 0;
+}
+
+/*
+.im-panel-tl {
+    background:transparent url(../images/default/panel/corners-sprite.gif) no-repeat scroll 0 0;
+    border-bottom:1px solid #99BBE8;
+    padding-left:6px;
+}
+*/
+
+.im-panel-tr {
+    background:transparent url(../img/im/corners-sprite.gif) no-repeat scroll right 0;
+    padding-right:6px;
+}
+
+.im-panel-tc {
+        background:transparent url(../img/im/top-bottom.gif) repeat-x scroll 0 0;
+        overflow:hidden;
+}
+
+.im-panel-tl .x-panel-header{
+        color:#15428b;
+        font:bold 14px tahoma,arial,verdana,sans-serif;
+        padding:5px 0 4px 0;
+        border:0 none;
+        background:transparent;
+}
+
+.im-panel-tl .x-panel-icon,.x-window-tl .x-panel-icon {
+        padding-left:20px!important;
+        background-repeat:no-repeat;
+        background-position:0 4px;zoom:1;
+}
+
+.im-panel-tl{
+        background:transparent url(../img/im/corners-sprite.gif) no-repeat 0 0;
+        padding-left:6px;
+        zoom:1;
+        border-bottom:1px solid #99bbe8;
+}
+
+.im-panel-bwrap {
+    left:0;
+    overflow:hidden;
+    top:0;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*style cho fieldset*/
+fieldset.imFieldset {
+    border: 1px solid #99BBE8;
+    background: #DFE8F6;
+    padding: 3px;
+}
+
+fieldset.imFieldset legend {
+    color: #15428B;
+    padding: 3px;
+    border:none;
+}
+
+/*style cho fieldset khong co legend*/
+fieldset.imFieldsetNoLegend {
+    border: 1px solid #99BBE8;
+    background: #DFE8F6;
+    padding: 3px;
+}
+
+/*Style cho bang 2 column*/
+.inputTbl2Col {
+    /*background-color: #F5F5F5;*/
+    background-color: #DFE8F6;
+    width:100%;
+    padding:0;
+    border-spacing:5px;
+    border-style:dashed;
+    border-width:inherit;
+    border:green;
+}
+
+.inputTbl2Col td.label{
+    width:20%;
+    font-size:13px;
+    font-family:Tahoma;
+    font-style:normal;
+    font-weight:normal;
+}
+.inputTbl2Col td.text{
+    width:80%;
+    font-size:13px;
+    font-family:Tahoma;
+    font-style:normal;
+    font-weight:normal;
+}
+/*Style cho bang 3 column*/
+.inputTbl3Col {
+    background-color: #DFE8F6;
+    width:100%;
+    padding:0;
+    border-spacing:5px;
+    border-style:dashed;
+    border-width:inherit;
+    border:green;
+}
+
+.inputTbl3Col td.label{
+    width:15%;
+    font-size:13px;
+    font-family:Tahoma;
+    font-style:normal;
+    font-weight:normal;
+}
+.inputTbl3Col td.text{
+    width:35%;
+    font-size:13px;
+    font-family:Tahoma;
+    font-style:normal;
+    font-weight:normal;
+}
+/*Style cho bang 4 column*/
+.inputTbl4Col {
+    background-color: #DFE8F6;
+    width:100%;
+    padding:0;
+    border-spacing:5px;
+    border-style:dashed;
+    border-width:inherit;
+    border:green;
+}
+
+.inputTbl4Col td.label{
+    width:10%;
+    font-size:13px;
+    font-family:Tahoma;
+    font-style:normal;
+    font-weight:normal;
+}
+.inputTbl4Col td.text{
+    width:40%;
+    font-size:13px;
+    font-family:Tahoma;
+    font-style:normal;
+    font-weight:normal;
+}
+
+/*Style cho bang 5 column*/
+.inputTbl5Col {
+    background-color: #DFE8F6;
+    width:100%;
+    padding:0;
+    border-spacing:5px;
+    border-style:dashed;
+    border-width:inherit;
+    border:green;
+}
+
+.inputTbl5Col td.label{
+    width:10%;
+    font-size:13px;
+    font-family:Tahoma;
+    font-style:normal;
+    font-weight:normal;
+}
+.inputTbl5Col td.text{
+    width:40%;
+    font-size:13px;
+    font-family:Tahoma;
+    font-style:normal;
+    font-weight:normal;
+}
+
+/*Style cho bang 6 column*/
+.inputTbl6Col {
+    background-color: #DFE8F6;
+    width:100%;
+    padding:0;
+    border-spacing:5px;
+    border-style:dashed;
+    border-width:inherit;
+    border:green;
+}
+
+.inputTbl6Col td.label{
+    width:10%;
+    font-size:13px;
+    font-family:Tahoma;
+    font-style:normal;
+    font-weight:normal;
+    padding-left:5px;
+}
+.inputTbl6Col td.text{
+    width:23%;
+    font-size:13px;
+    font-family:Tahoma;
+    font-style:normal;
+    font-weight:normal;
+    
+}
+
+/*Style cho bang 7 column*/
+.inputTbl7Col {
+    background-color: #DFE8F6;
+    width:100%;
+    padding:0;
+    border-spacing:5px;
+    border-style:dashed;
+    border-width:inherit;
+    border:green;
+}
+
+.inputTbl7Col td.label{
+    width:10%;
+    font-size:13px;
+    font-family:Tahoma;
+    font-style:normal;
+    font-weight:normal;
+}
+.inputTbl7Col td.text{
+    width:40%;
+    font-size:13px;
+    font-family:Tahoma;
+    font-style:normal;
+    font-weight:normal;
+}
+
+/*Style cho bang 8 column*/
+.inputTbl8Col {
+    background-color: #DFE8F6;
+    width:100%;
+    padding:0;
+    border-spacing:5px;
+    border-style:dashed;
+    border-width:inherit;
+    border:green;
+}
+
+.inputTbl8Col td.label{
+    width:4%;
+    font-size:13px;
+    font-family:Tahoma;
+    font-style:normal;
+    font-weight:normal;
+}
+.inputTbl8Col td.text{
+    width:8%;
+    font-size:13px;
+    font-family:Tahoma;
+    font-style:normal;
+    font-weight:normal;
+}
+
+/*End*/
+
+.inputTbl {
+   
+    background-color: #DFE8F6;
+    width:98%;
+    padding:0;
+    border-spacing:5px;
+    border-style:dashed;
+    border-width:inherit;
+    border:green;
+}
+.inputTbl tr{
+
+}
+.inputTbl th{
+    
+}
+
+.inputTbl td{
+    width:10%;
+    font-size:13px;
+    font-family:Tahoma;
+}
+.inputTbl td.label{
+    width:10%;
+    font-size:13px;
+    font-family:Tahoma;
+}
+.inputTbl td.text{
+    width:10%;
+    font-size:13px;
+    font-family:Tahoma;
+}
+.txtInput{
+    text-align:left;
+    width:90%;
+    font-family:Tahoma;
+    font-size:13px;
+}
+.txtInputFull{
+    width:100%;
+    font-family:Tahoma;
+    font-size:13px;
+}
+
+.txtInput2Col{
+    width:96%;
+    font-family:Tahoma;
+    font-size:13px;
+}
+
+.txtError{
+    font-family:Tahoma;
+    font-size:12px;
+    font-weight:normal;
+    color:red;
+}
+.cursorHand {
+    cursor:pointer;
+    cursor:hand; /*Using for IE*/
+}
+
+.oddColumn {
+    padding-right:25px;
+}
+
+.sb-preloader-table
+
+{
+
+    width: 321px;
+
+    height: 55px;
+
+    background-image: url('/SM/share/img/loading_bg.gif');
+
+    background-repeat: no-repeat;
+
+}
+
+.sb-preloader-text
+
+{
+
+    padding-left:10px;
+    
+    font-size: 12px;
+
+    color:#000;
+
+}
+
+.sb-preloader-table td span br { display: none; }
+.mask{
+    display:none;
+    z-index:120;
+    top:0px;left:0px;
+    width:0px;
+    height:0px;
+    position:absolute;
+    background-color:#000000;
+    opacity: 0.3;
+    filter:alpha(opacity: 30);
+    -moz-opacity: 0.3;
+    -khtml-opacity: 0.3;
+}
+
+

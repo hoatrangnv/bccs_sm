@@ -1,0 +1,63 @@
+#VSA TEST
+#loginUrl= http://10.58.4.43:8803/passportv3/login
+#logoutUrl= http://10.58.4.43:8803/passportv3/logout
+#validateUrl= http://10.58.4.43:8803/passportv3/validate
+#passportServiceUrl=http://10.58.4.43:8803/passportv3/passportWS?wsdl
+#vsaServiceUrl=http://10.58.4.43:8805/vsaadminv3/vsaadminWS?wsdl
+
+
+loginUrl= http://10.60.34.8:8127/passportv3/login
+logoutUrl= http://10.60.34.8:8127/passportv3/logout
+validateUrl= http://10.60.34.8:8127/passportv3/validate
+passportServiceUrl=http://10.60.34.8:8127/passportv3/passportWS?wsdl
+vsaServiceUrl=http://10.60.34.8:7969/vsaadminv3/vsaadminWS?wsdl
+
+
+##REAL VSA1
+#loginUrl= http://10.229.42.36:8807/passportv3/login
+#logoutUrl= http://10.229.42.36:8807/passportv3/logout
+#validateUrl= http://10.229.42.36:8807/passportv3/validate
+#passportServiceUrl=http://10.229.42.36:8807/passportv3/passportWS?wsdl
+#vsaServiceUrl=http://10.229.42.36:8806/vsaadminv3/vsaadminWS?wsdl
+
+#REAL VSA2
+#loginUrl= http://10.229.42.39:8807/passportv3/login
+#logoutUrl= http://10.229.42.39:8807/passportv3/logout
+#validateUrl= http://10.229.42.39:8807/passportv3/validate
+#passportServiceUrl=http://10.229.42.39:8807/passportv3/passportWS?wsdl
+#vsaServiceUrl=http://10.229.42.39:8806/vsaadminv3/vsaadminWS?wsdl
+
+
+#
+#loginUrl= http://10.228.33.80:8288/passportv3/login
+#logoutUrl= http://10.228.33.80:8288/passportv3/logout
+#validateUrl= http://10.228.33.80:8288/passportv3/validate
+#passportServiceUrl=http://10.228.33.80:8288/passportv3/passportWS?wsdl
+#vsaServiceUrl=http://10.228.33.80:8288/vsaadminv3/vsaadminWS?wsdl
+
+
+#service=http://10.58.4.43:8811/SM_APP_MV
+#errorUrl=http://10.58.4.43:8811/SM_APP_MV/error.do
+
+#LOCAL
+service=http://localhost:8084/MV_SM
+errorUrl=http://localhost:8084/MV_SM/error.do
+
+#REAL APP1
+#service=http://10.229.42.36:8801/SM
+#errorUrl=http://10.229.42.36:8801/SM/error.do
+#REAL APP2
+#service=http://10.229.42.39:8802/SM
+#errorUrl=http://10.229.42.39:8802/SM/error.do
+
+#TEST
+#service=http://10.229.40.36:8808/DEPLOY_MV_SM
+#errorUrl=http://10.229.40.36:8808/DEPLOY_MV_SM/error.do
+
+
+
+
+domainCode=sm_app
+
+AllowUrl=/vsaadminv2/pages/user/changePass.jsp,/vsaadminv2/changePass.do,/SM/error.do,/SM/share/logout.jsp
+

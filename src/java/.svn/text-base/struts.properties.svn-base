@@ -1,0 +1,10 @@
+# To change this template, choose Tools | Templates
+# and open the template in the editor.
+# struts.multipart.saveDir=c:/temp
+struts.action.extension=do
+
+struts.custom.i18n.resources=com.viettel.resource.menu,com.viettel.resource.tiles,com.viettel.resource.label,com.viettel.resource.message,com.viettel.resource.confirm,com.viettel.resource.warning,com.viettel.resource.error,com.viettel.resource.sms,com.viettel.resource.slog,com.viettel.resource.lib
+
+
+
+

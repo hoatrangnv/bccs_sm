@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 26, 2009 10:17:19 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class name="com.viettel.im.database.BO.ReasonGroup" table="REASON_GROUP">
+    <id name="reasonGroupId" type="java.lang.Long">
+      <column name="REASON_GROUP_ID" precision="10" scale="0"/>
+      <generator class="sequence">
+        <param name="sequence">REASON_GROUP_SEQ</param>
+      </generator>
+    </id>
+    <property name="reasonGroupCode" type="java.lang.String">
+      <column length="20" name="REASON_GROUP_CODE" not-null="true">
+        <comment>MA NHOM LI DO</comment>
+      </column>
+    </property>
+    <property name="reasonGroupName" type="java.lang.String">
+      <column length="100" name="REASON_GROUP_NAME" not-null="true"/>
+    </property>
+    <property name="status" type="java.lang.Long">
+      <column name="STATUS" not-null="true" precision="2" scale="0">
+        <comment>1: HIEU LUC; 0: HET HIEU LUC</comment>
+      </column>
+    </property>
+    <property name="description" type="java.lang.String">
+      <column length="200" name="DESCRIPTION"/>
+    </property>
+  </class>
+</hibernate-mapping>

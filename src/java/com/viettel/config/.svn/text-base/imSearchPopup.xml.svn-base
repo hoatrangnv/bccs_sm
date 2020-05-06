@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : imSearchPopup.xml
+    Created on : November 17, 2009, 10:11 AM
+    Author     : Doan Thanh 8
+    Description:
+        khai bao cac action lien quan den popup tim kiem
+-->
+
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <package name="imsearchpopup" extends="default">
+        <action name="ImSearchPopupAction" class="com.viettel.im.common.ImSearchPopupAction" method="preparePage">
+            <result type="tiles" name="imSearchPopup">imSearchPopup.page</result>
+            <result type="json" name="getName">
+                <param name="root">listItem</param>
+            </result>
+        </action>
+        <action name="imProgressAction" class="com.viettel.im.common.ImProgressAction" method="updateProgressDiv">
+            <result type="json" name="updateProgressDiv">
+                <param name="root">listItem</param>
+            </result>
+        </action>
+    </package>
+</struts>

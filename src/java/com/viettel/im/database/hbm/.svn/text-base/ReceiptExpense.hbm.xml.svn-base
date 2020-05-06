@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 18, 2009 4:44:15 AM by Hibernate Tools 3.2.4.GA -->
+<hibernate-mapping>
+  <class name="com.viettel.im.database.BO.ReceiptExpense" table="RECEIPT_EXPENSE">
+    <id name="receiptId" type="long">
+      <column name="RECEIPT_ID" precision="10" scale="0"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="receiptType" type="long">
+      <column name="RECEIPT_TYPE_ID" not-null="true" precision="10" scale="0"/>
+    </property>
+    <property name="receiptNo" type="string">
+      <column length="20" name="RECEIPT_NO" not-null="true"/>
+    </property>
+    <property name="shopId" type="long">
+      <column name="SHOP_ID" not-null="true" precision="10" scale="0"/>
+    </property>
+    <property name="staffId" type="long">
+      <column name="STAFF_ID" not-null="true" precision="10" scale="0"/>
+    </property>
+    <property name="delivererStaffId" type="java.lang.Long">
+      <column name="DELIVERER_STAFF_ID" precision="10" scale="0"/>
+    </property>
+    <property name="delivererShopId" type="java.lang.Long">
+      <column name="DELIVERER_SHOP_ID" precision="10" scale="0"/>
+    </property>
+    <property name="type" type="string">
+      <column length="1" name="TYPE" not-null="true"/>
+    </property>
+    <property name="receiptDate" type="date">
+      <column length="7" name="RECEIPT_DATE" not-null="true"/>
+    </property>
+    <property name="reasonId" type="java.lang.Long">
+      <column name="REASON_ID" precision="10" scale="0"/>
+    </property>
+    <property name="payMethod" type="string">
+      <column length="2" name="PAY_METHOD" not-null="true"/>
+    </property>
+    <property name="amount" type="java.lang.Double">
+      <column name="AMOUNT" not-null="true" precision="22" scale="5"/>
+    </property>
+    <property name="status" type="string">
+      <column length="1" name="STATUS" not-null="true"/>
+    </property>
+    <property name="username" type="string">
+      <column length="50" name="USERNAME" not-null="true"/>
+    </property>
+    <property name="createDatetime" type="date">
+      <column length="7" name="CREATE_DATETIME" not-null="true"/>
+    </property>
+    <property name="approverDate" type="date">
+      <column length="7" name="APPROVER_DATE"/>
+    </property>
+    <property name="deliverer" type="string">
+      <column length="255" name="DELIVERER"/>
+    </property>
+    <property name="address" type="string">
+      <column length="150" name="ADDRESS"/>
+    </property>
+    <property name="notes" type="string">
+      <column length="200" name="NOTES"/>
+    </property>
+    <property name="destroyStaffId" type="java.lang.Long">
+      <column name="DESTROY_STAFF_ID" precision="10" scale="0"/>
+    </property>
+    <property name="destroyDate" type="date">
+      <column length="7" name="DESTROY_DATE"/>
+    </property>
+    <property name="approverStaffId" type="java.lang.Long">
+      <column name="APPROVER_STAFF_ID" precision="10" scale="0"/>
+    </property>
+    <property name="own" type="string">
+      <column length="10" name="OWN"/>
+    </property>
+    <property name="debt" type="string">
+      <column length="10" name="DEBT"/>
+    </property>
+    <property name="telecomServiceId" type="big_decimal">
+      <column name="TELECOM_SERVICE_ID" precision="22" scale="0"/>
+    </property>
+    <property name="serialCode" type="string">
+      <column length="10" name="SERIAL_CODE"/>
+    </property>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,272 @@
+.dialog {
+    position:absolute;
+
+    top:-3000px;
+    left:-3000px;
+
+    cursor:default;
+}
+
+#dialogVCL,
+#dialogVCL-confirm
+{
+    width:330px;
+}
+
+.dialog .div {
+
+}
+
+.dynamic-dialog-body-middle-hack {
+    height:4px;
+}
+* html .dynamic-dialog-body-middle-hack {
+    display:none;
+}
+
+.dialog div.dialog-label,
+.dialog div.dialog-label {
+    margin:0px;
+    padding:0px;
+    float:left;
+
+    padding-left:20px;
+    font-style:normal;
+
+    height:24px;
+    background:url( ../images/dialog/dialog-icon.gif ) no-repeat 0px 0px;
+}
+
+.dialog div.close,
+.dialog div.minimize {
+    margin:0px;
+    padding:0px;
+    float:right;
+
+    width:15px;
+    height:15px;
+}
+
+.dialog div.close {
+    background:url( ../images/buttons/type3/tool-sprites.gif ) no-repeat 0px 0px;
+}
+
+.dialog div.minimize {
+    background:url( ../images/buttons/type3/tool-sprites.gif ) no-repeat 0px -45px;
+}
+
+.dialog div.button {
+    text-align:center;
+    padding-top:0px;
+}
+
+* html .dialog div.button {
+    padding-bottom:3px;
+}
+
+/*-- [ DialogText icons --*/
+.dialog .messageIcon,
+.dialog .noticeIcon,
+.dialog .alertIcon,
+.dialog .warningIcon,
+.dialog .questionIcon
+{
+    margin:0px;
+    padding:8px;
+    padding-left:50px;
+
+    font-size:11px;
+    color:#000;
+
+    min-height:40px;
+}
+
+* html .dialog .messageIcon,
+* html .dialog .noticeIcon,
+* html .dialog .alertIcon,
+* html .dialog .warningIcon,
+* html .dialog .questionIcon
+{
+    height:53px;
+}
+
+
+
+.dialog .messageIcon {
+    background:url( ../images/message.png ) no-repeat 5px 8px;
+}
+
+.dialog .noticeIcon {
+    background:url( ../images/notice.png ) no-repeat 5px 8px;
+}
+
+.dialog .alertIcon {
+    background:url( ../images/alert.png ) no-repeat 0px 4px;
+}
+
+.dialog .warningIcon {
+    background:url( ../images/warning.png ) no-repeat 2px 6px;
+}
+
+.dialog .questionIcon {
+    background:url( ../images/question.png ) no-repeat 0px 4px;
+}
+/*-- ] DialogText icons --*/
+
+
+/*-- [ Header --*/
+.dialog .top-left {
+    margin:0px;
+    padding:0px;
+
+    width:100%;
+    height:24px;
+
+    background:url( ../images/dialog/type2/corners-sprite.gif ) no-repeat left top;
+    border-bottom:1px solid #99bbe8;
+}
+.dialog .top-right {
+    margin:0px;
+    padding:0px;
+
+    width:100%;
+    height:24px;
+
+    background:url( ../images/dialog/type2/corners-sprite.gif ) no-repeat right top;
+}
+.dialog .top-middle {
+    margin:0px 6px 0px 6px;
+    padding:0px;
+    padding-top:4px;
+
+    height:20px;
+
+    background:url( ../images/dialog/type2/top-bottom.gif ) repeat-x top;
+
+    color:#15428b;
+    font-family:Tahoma,helvetica,arial;
+    font-weight:bold;
+    font-size:12px;
+    font-style:normal;
+}
+* html .dialog .top-middle {
+    padding-top:4px;
+    margin-bottom:-4px;
+    height:24px;
+}
+/*-- ] Header --*/
+
+/*-- [ Center --*/
+
+.dialog .body-left {
+    margin:0px;
+    padding:0px;
+
+    width:100%;
+
+    background:url( ../images/dialog/type2/left-right.gif ) repeat-y left;
+}
+.dialog .body-right {
+    margin:0px;
+    padding:0px;
+
+    width:100%;
+
+    background:url( ../images/dialog/type2/left-right.gif ) repeat-y right;
+}
+.dialog .body-middle {
+    margin:0px 6px 0px 6px;
+    padding:0px;
+
+    background:#dfe8f6;
+}
+
+/*-- ] Header --*/
+
+/*-- [ Footer --*/
+
+.dialog .bottom-left {
+    margin:0px;
+    padding:0px;
+
+    width:100%;
+    height:6px;
+
+    background:url( ../images/dialog/type2/corners-sprite.gif ) no-repeat left bottom;
+}
+.dialog .bottom-right {
+    margin:0px;
+    padding:0px;
+
+    width:100%;
+    height:6px;
+
+    background:url( ../images/dialog/type2/corners-sprite.gif ) no-repeat right bottom;
+}
+.dialog .bottom-middle {
+    margin:0px 6px 0px 6px;
+    padding:0px;
+
+    height:6px;
+
+    background:url( ../images/dialog/type2/top-bottom.gif ) repeat-x bottom;
+}
+* html .dialog .body-left,
+* html .dialog .body-right,
+* html .dialog .body-middle {
+    margin-bottom:1px;
+}
+* html .dialog .bottom-left,
+* html .dialog .bottom-right,
+* html .dialog .bottom-middle {
+    height:4px;
+    margin-top:-5px;
+}
+/*-- ] Footer --*/
+
+
+/*-- [ Loading dialog --*/
+#dialogVCL-loading {
+    margin:0px;
+    padding:0px;
+
+    position:absolute;
+    background:url( ../images/loading/loading_bg.gif ) no-repeat top left;
+    
+    width: 321px;
+    height: 55px;
+
+    top:-3000px;
+    left:-3000px;
+}
+
+#dialogVCL-loading div.inner {
+    position:relative;
+
+    margin:0px;
+    padding:0px;
+    padding-top:3px;
+    padding-left:30px;
+
+    height:20px;
+
+    top:17px;
+    left:118px;
+
+    background:url( ../images/loading/loading.gif ) no-repeat top left;
+}
+/*-- ] Loading dialog --*/
+
+
+/*-- [ Locking Divs --*/
+div.modalDialogLockingDiv {
+    position:absolute;
+    background:url('../images/dot_1a1a1a.png') repeat;
+}
+
+div.loadingDialogLockingDiv {
+    position:absolute;
+    background:#000 url('../images/dot_ffffff.gif') repeat;
+}
+/*-- ] Locking Divs --*/
+

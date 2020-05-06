@@ -1,0 +1,18 @@
+slog4j.rootLogger= INFO,stdout, logToImport
+
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+log4j.appender.stdout.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss} [%C:%L] - %m%n
+
+log4j.appender.logToImport=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.logToImport.File=D:\\svn\\IM_WEB\\Web\\log\\full.txt
+log4j.appender.logToImport.layout=org.apache.log4j.PatternLayout
+log4j.appender.logToImport.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss} %5p [%t] %c{1}: %m%n
+#log4j.appender.logToImport.ImmediateFlush=true
+log4j.appender.logToImport.Threshold=INFO
+#log4j.appender.logToImport.Append=true
+log4j.appender.logToImport.DatePattern='.'yyyy-MM-dd
+#log4j.logger.LogImport=INFO,logToImport
+
+#log4j.category.LogImport=INFO, logToImport
+#log4j.additivty.LogImport=false

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/code/!svn/ver/146/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/ExportStockToMasterAgent
+END
+AcceptExportNoteToMasterAgent.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/code/!svn/ver/146/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/ExportStockToMasterAgent/AcceptExportNoteToMasterAgent.jsp
+END
+ListSearchExportNoteConfirm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/code/!svn/ver/146/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/ExportStockToMasterAgent/ListSearchExportNoteConfirm.jsp
+END
+ListExportedNoteMasterAgent.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/code/!svn/ver/146/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/ExportStockToMasterAgent/ListExportedNoteMasterAgent.jsp
+END
+CreateExportNoteConfirmToMasterAgent.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/code/!svn/ver/146/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/ExportStockToMasterAgent/CreateExportNoteConfirmToMasterAgent.jsp
+END
+MakeSaleTransToMasterAgent.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/code/!svn/ver/146/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/ExportStockToMasterAgent/MakeSaleTransToMasterAgent.jsp
+END
+ComfirmExportedStockToMasterAgent.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/code/!svn/ver/146/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/ExportStockToMasterAgent/ComfirmExportedStockToMasterAgent.jsp
+END
+ListExpNoteMasterAgentDetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/code/!svn/ver/146/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/ExportStockToMasterAgent/ListExpNoteMasterAgentDetail.jsp
+END
+ListSaleToMasterAgentModelResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/code/!svn/ver/146/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/ExportStockToMasterAgent/ListSaleToMasterAgentModelResult.jsp
+END
+StockGoodsSaleMasterAgent.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/code/!svn/ver/146/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/ExportStockToMasterAgent/StockGoodsSaleMasterAgent.jsp
+END
+ListSearchExpNoteMasterAgent.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/code/!svn/ver/146/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/ExportStockToMasterAgent/ListSearchExpNoteMasterAgent.jsp
+END
+ExportNoteConfirmToMasterAgent.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/code/!svn/ver/146/BCCS_IM/Source_Web/web/WEB-INF/jsp/pages/ExportStockToMasterAgent/ExportNoteConfirmToMasterAgent.jsp
+END

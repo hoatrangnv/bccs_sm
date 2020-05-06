@@ -1,0 +1,200 @@
+.maintitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:larger;
+    color: #1262C4;
+    text-transform: uppercase;
+}
+
+input.nb{
+    color:#CCCCCC;
+}
+.listtitle{
+    background-color: #FFFFFF;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2;
+    font-weight: bold;
+    color: #1262C4;
+}
+
+tr.title{
+    background-color: #999;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2;
+    font-weight: bold;
+    color: WHITE;
+}
+
+tr.subtitle{
+    background-color: #CCC;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1;
+    font-weight: bold;
+    color: BLACK;
+}
+
+td.subtitle{
+    background-color: #92BBEE;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1;
+    font-weight: bold;
+    color: #000000;
+}
+
+.subtitlenew{
+    background-color: #92BBEE;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1;
+    font-weight: bold;
+    color: #000000;
+}
+.label{
+    /**background-color: #f6f6f6 ;**/
+    /*background-color: #F0F8FF;*/
+    text-align: left ;
+    width: 14%;
+    font-weight: bold ;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+
+.label8col{
+    /**background-color: #f6f6f6 ;**/
+    /*background-color: #F0F8FF;*/
+    text-align: left ;
+    width: 9%;
+    font-weight: bold ;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.row8col{
+    /*background-color: #F7F7F7;*/
+    padding: 2px;
+    width: 12.5% !important;
+}
+
+.row{
+    /*background-color: #F7F7F7;*/
+    padding: 2px;
+    width: 25% !important;
+}
+
+.labelView{
+    /**background-color: #f6f6f6 ;**/
+    background-color: #F0F8FF;
+    text-align: left ;
+    width: 12%;
+    font-weight: bold ;
+    padding: 2px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.rowView{
+    background-color: #F7F7F7;
+    width: 28%;
+    padding: 2px;
+}
+
+.delete{
+    background-color: #92BBEE;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1;
+    font-weight: bold;
+    color: blue;
+}
+
+tr.headernew{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: smaller;
+    background-color: #92BBEE;
+}
+hr {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+    height: 1px;
+}
+
+.formal{
+    font-size: smaller;
+    font-family: arial;
+}
+
+.menuTable{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F2F8FF;
+    border: 1px solid #1262C4;
+    margin:	5px;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.menuTD{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F2F8FF;
+    border: 1px solid #1262C4;
+    margin-left: 5px;
+    height: 20px;
+}
+
+.a1{
+    text-decoration: none;
+    color: black;
+    font-size: smaller;
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+fieldset {
+    margin-bottom: 10px ;
+    border: 1px #ccc solid ;
+    padding: 15px ;
+    text-align: left ;
+}
+
+fieldset p {  margin: 10px 0px ;  }
+
+legend    {
+    /*color: #0B55C4 ;*/
+    font-family:Tahoma;
+    font-size: 13px ;
+    border: 1px #ccc solid ;
+    font-weight: bold ;
+}
+legend.transparent
+{
+    /*background-color: #F5F5F5;*/
+    border: 0;
+    /*color:  #F5F555; #666666;*/
+    border: 1px #ccc solid ;
+    font-family: Tahoma;
+    font-size: 14px;
+    padding-left:2px;
+}
+.btnmain {
+
+}
+.treeCheckBox {
+		height: 14px;
+		margin: 0px;
+		padding: 0px;
+		border: 1px;
+		vertical-align: middle;
+	}
+
+

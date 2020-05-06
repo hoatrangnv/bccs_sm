@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="Kit" extends="default">
+        <action name="linkSimSoAction" class="com.viettel.im.database.DAO.KitIntegrationDAO" method="preparePage">
+            <result type="tiles" name="linkSimSoPrepare">kitIntegration.page
+            </result>
+        </action>
+        <action name="kitIntegrationAction" class="com.viettel.im.database.DAO.KitIntegrationDAO" method="download">
+<!--            CSRF Hieptd-->
+            <interceptor-ref name="requestTokenRdwfInterceptorStack">
+                <param name="tokenSession.includeMethods">
+                    addIsdnRange,
+                    delIsdnRange,
+                    delSimRange
+                </param>
+            </interceptor-ref>
+
+            <result type="tiles" name="linkSimSoPrepare">kitIntegration.page</result>
+            <result type="tiles" name="searchSimComplete">searchSimComplete.page</result>
+            <result type="tiles" name="searchIsdnComplete">searchIsdnComplete.page</result>
+            <result type="tiles" name="pageSimNavigator">searchSimComplete.page</result>
+            <result type="tiles" name="pageIsdnNavigator">searchIsdnComplete.page</result>
+            <result type="stream" name="download">
+                <param name="contentType">text/plain</param>
+                <param name="inputName">inputStream</param>
+                <param name="contentDisposition">filename="kit.txt"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+    </package>
+</struts>
+

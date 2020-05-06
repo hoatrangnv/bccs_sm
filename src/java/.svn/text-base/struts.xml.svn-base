@@ -1,0 +1,127 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <include file="com/viettel/config/SimtkManagment.xml"/>
+    <include file="com/viettel/config/token.xml"/>
+    <include file="com/viettel/config/collAccountManagment.xml"/>
+    <include file="com/viettel/config/stockManagement.xml"/>
+    <include file="com/viettel/config/imFileUpload.xml"/>
+    <include file="com/viettel/config/imAdmin.xml"/>
+    <include file="com/viettel/config/imSearchPopup.xml"/>
+    <include file="com/viettel/config/isdnManagement.xml"/>
+
+    <include file="com/viettel/config/goodsManagement.xml"/>
+    <include file="com/viettel/config/saleManagement.xml"/>
+    <include file="com/viettel/config/fees.xml"/>
+    <include file="com/viettel/config/Commissions.xml"/>
+    <include file="com/viettel/config/discount.xml"/>
+    <include file="com/viettel/config/debit.xml"/>
+
+    <include file="com/viettel/config/bills.xml"/>
+    <include file="com/viettel/config/pstn.xml"/>
+    <include file="com/viettel/config/kit.xml"/>
+    <include file="com/viettel/config/infrastructure.xml"/>
+
+    <include file="com/viettel/config/listManagement.xml"/>
+    <include file="com/viettel/config/channelManagement.xml"/>
+
+    <include file="com/viettel/config/facility.xml"/>
+    <include file="com/viettel/config/report.xml"/>
+    <include file="com/viettel/config/reportMB.xml"/>
+
+    <!--include file="com/viettel/config/imsmUpdateSaleTrans.xml"/-->
+
+    <include file="com/viettel/config/Book.xml"/>
+    
+    <include file="com/viettel/config/DebitType.xml"/>
+    <!-- DINHDC ADD -->
+    <include file="com/viettel/config/CardNotSale.xml"/>
+    <!-- DINHDC END -->
+    <!-- Configuration for the default package. -->
+    <package name="default" extends="struts-default">
+        <result-types>
+            <!--<result-type class="org.apache.struts2.views.tiles.TilesResult" default="false" name="tiles"/>
+            <result-type class="com.googlecode.jsonplugin.JSONResult" default="false" name="json"/>-->
+
+            <result-type class="org.apache.struts2.views.tiles.TilesResult" default="false" name="tiles"/>
+            <result-type class="org.apache.struts2.json.JSONResult" default="false" name="json"/>
+
+            <result-type name="vtAjaxResult" class="com.viettel.im.server.action.AjaxVtType" />
+        </result-types>
+        
+        
+        <interceptors>
+            <interceptor name="exception" class="com.viettel.framework.interceptor.VtExceptionInterceptor" />
+            <!--Filter
+            <interceptor class="com.viettel.framework.interceptorMDB.PermissionCheckInterceptor" name="permissionCheckInterceptor"/>
+            Filter-->
+            <interceptor name="baseInterceptor" class="com.viettel.framework.interceptorMDB.ActionMDBInterceptor"/>
+            <interceptor-stack name="fkInterceptor" >
+                <interceptor-ref name="defaultStack"/>
+                <interceptor-ref name="exception"/>
+                <!--Filter
+                <interceptor-ref name="permissionCheckInterceptor">
+                    <param name="checkPermission">true</param>
+                </interceptor-ref>
+                Filter-->
+                <interceptor-ref name="baseInterceptor"/>
+                <interceptor-ref name="tokenSession">
+                    <param name="excludeMethods">*</param>
+                 </interceptor-ref>
+            </interceptor-stack>
+            <interceptor-stack name="requestTokenRdwfInterceptorStack">
+                <interceptor-ref name="fkInterceptor"/>
+                <interceptor-ref name="tokenSession">
+                    <param name="excludeMethods">*</param>
+                </interceptor-ref>
+            </interceptor-stack>
+        </interceptors>
+        
+        <default-interceptor-ref name="fkInterceptor"/>
+             
+        <!-- main Error -->
+        
+        <global-results>
+            <result name="notAllowedURL"  type="tiles">
+                loginError.page
+            </result>
+            <result name="error"  type="tiles">
+                loginError.page
+            </result>
+            <result name="Exception" type="tiles">
+                loginError.page
+            </result>
+            <result name="sessionTimeout">
+                /WEB-INF/jsp/pages/layout/sessionTimeout.jsp
+            </result>
+            <result name="invalid.token">
+                loginError.page
+            </result>
+        </global-results>
+        <!--
+        <global-exception-mappings>
+            <exception-mapping exception="java.lang.Exception" result="Exception" />
+        </global-exception-mappings>
+        -->
+        <action name="error" class="com.viettel.im.database.DAO.AuthenticateDAO" method="errorPage">
+            <result type="tiles" name="loginError">loginError.page</result>
+        </action>
+        <action name="Authentication" class="com.viettel.im.database.DAO.AuthenticateDAO" method="actionLogin">
+            <result type="tiles" name="loginSuccess">
+                home.page
+            </result>
+            <result type="tiles" name="loginError">
+                loginError.page
+            </result>
+        </action>
+        <!--TruongNQ5 20140910 Khai bao them action Download-->
+        <action name="download" class="com.viettel.im.database.DAO.DownloadDAO" method="downloadFile">
+            <result type="stream" name="download">
+                <param name="contentType">application/octet-tream</param>
+                <param name="inputName">inputStream</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+    </package>
+</struts>
